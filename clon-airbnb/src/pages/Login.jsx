@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { login } from '@/utils/auth'
+import { Link } from 'react-router-dom';
 
 // Componente login recibe setUser como prop para actualizar la sesión
 const Login = ({ setUser }) => {
@@ -39,26 +40,26 @@ const Login = ({ setUser }) => {
     }
 
     return (
-        <div className="max-w-md mx-auto mt-12 p-8 border rounded shadow-lg bg-white">
-            <h2 className="text-2xl font-bold mb-6 text-center">Iniciar Sesión</h2>
+        <div className="max-w-md w-full mx-auto p-8 rounded-xl shadow-xl bg-white mt-10 mb-10 md:mt-20 md:mb-20">
+            <h2 className="text-3xl font-extrabold mb-8 text-center text-gray-900">Iniciar Sesión</h2>
 
             {/* Muestra mensaje de error en caso de existir */}
             {error && (
-                <p className="mb-4 text-red-600 font-semibold text-center">{error}</p>
+                <p className="mb-6 text-red-500 font-semibold text-center text-sm">{error}</p>
             )}
 
             {/* Formulario de login */}
             <form className="space-y-6" onSubmit={handleSubmit}>
                 {/* campo de correo */}
                 <div>
-                    <label htmlFor="email" className="block mb-2 font-medium">
+                    <label htmlFor="email" className="block mb-2 font-medium text-gray-700">
                         Correo Electrónico
                     </label>
                     <input
                         id="email"
                         type="email"
                         placeholder="usuario@ejemplo.com"
-                        className="w-full p-3 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition duration-200"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
                         autoComplete="username"
@@ -68,14 +69,14 @@ const Login = ({ setUser }) => {
 
                 {/* campo de contraseña */}
                 <div>
-                    <label htmlFor="password" className="block mb-2 font-medium">
+                    <label htmlFor="password" className="block mb-2 font-medium text-gray-700">
                         Contraseña
                     </label>
                     <input
                         id="password"
                         type="password"
                         placeholder="Ingresa tu contraseña"
-                        className="w-full p-3 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition duration-200"
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
                         autoComplete="current-password"
@@ -86,11 +87,18 @@ const Login = ({ setUser }) => {
                 {/* Botón para enviar el formulario */}
                 <button
                     type="submit"
-                    className="w-full py-3 bg-blue-600 text-white rounded font-semibold hover:bg-blue-700 transition"
+                    className="w-full py-3 bg-red-500 text-white rounded-lg font-semibold hover:bg-red-600 transition-colors duration-300 shadow-md transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50"
                 >
                     Iniciar Sesión
                 </button>
             </form>
+            {/* Enlace a registro */}
+                <p className="mt-8 text-center text-gray-600 text-sm">
+                    ¿No tienes una cuenta?{' '}
+                    <Link to="/signup" className="text-red-500 hover:text-red-600 font-semibold hover:underline">
+                    Regístrate aquí
+                    </Link>
+                </p>
         </div>
     )
 }
