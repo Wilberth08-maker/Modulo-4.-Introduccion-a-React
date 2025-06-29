@@ -32,15 +32,17 @@ const Login = ({ setUser }) => {
         }
 
         // Simulación de inicio de sesión exitoso
-        const fakeUser = { email }
-        //Guardar el usuario en un estado global
-        login(fakeUser);        // <-- Usamos función de auth.js
-        setUser(fakeUser);      // <-- Estado en componente padre
-        navigate("/");
+        try {
+            const user = login(email, password); // Validación 
+            setUser(user);                       // Guardar en estado global
+            navigate("/");
+        } catch (err) {
+            setError(err.message);              // muestra el mensaje de error
+        }
     }
 
     return (
-        <div className="max-w-md w-full mx-auto p-8 rounded-xl shadow-xl bg-white mt-10 mb-10 md:mt-20 md:mb-20">
+        <div className="max-w-md w-full mx-auto p-8 rounded-xl shadow-lg bg-white mt-10 mb-10 md:mt-20 md:mb-20">
             <h2 className="text-3xl font-extrabold mb-8 text-center text-gray-900">Iniciar Sesión</h2>
 
             {/* Muestra mensaje de error en caso de existir */}

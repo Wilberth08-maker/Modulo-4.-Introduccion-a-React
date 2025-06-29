@@ -4,24 +4,19 @@ import { Link } from 'react-router-dom'; // Asumiendo que usas react-router-dom 
 // Puedes reemplazar esta URL con la ruta a tu propia imagen o una URL de CDN
 const heroImageUrl = 'https://a0.muscache.com/im/pictures/dec2bf99-0d90-48b9-a905-23b8bee08995.jpg?im_w=1200';
 
-const HomePage = ({ user }) => { // Asegúrate de pasar la prop 'user' a este componente
+const Landing = () => { 
     return (
         <div className="min-h-screen flex flex-col md:flex-row bg-gray-50">
             {/* Contenido de texto y botones */}
             <div className="flex-1 flex flex-col items-center justify-center p-8 md:p-12 lg:p-20 text-center">
-                {user ? (
-                    <h1 className="text-4xl md:text-5xl font-extrabold text-gray-800 mb-4">
-                        Bienvenido, <span className="text-gray-900">{user.email}</span>
-                    </h1>
-                ) : (
-                    <>
-                        <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-4 ">
+                <div className="flex-1 flex flex-col items-center justify-center p-8 md:p-12 lg:p-20 text-center">   
+                        <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 mb-4 animate-fadeInUp">
                             Encuentra tu próximo hogar
                         </h1>
-                        <p className="mb-8 text-lg md:text-xl text-gray-600">
+                        <p className="mb-8 text-lg md:text-xl text-gray-600 animate-fadeInUp delay-200">
                             Inicia sesión o regístrate para descubrir experiencias únicas.
                         </p>
-                        <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6 w-full max-w-sm ">
+                        <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6 w-full max-w-sm animate-fadeInUp delay-400">
                             <Link
                                 to="/login"
                                 className="w-full sm:w-auto px-8 py-3 bg-red-500 text-white font-semibold rounded-lg shadow-lg hover:bg-red-600 transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50"
@@ -35,8 +30,7 @@ const HomePage = ({ user }) => { // Asegúrate de pasar la prop 'user' a este co
                                 Registrarse
                             </Link>
                         </div>
-                    </>
-                )}
+                    </div> 
             </div>
 
             {/* Imagen lateral */}
@@ -55,4 +49,4 @@ const HomePage = ({ user }) => { // Asegúrate de pasar la prop 'user' a este co
     );
 };
 
-export default HomePage;
+export default Landing;

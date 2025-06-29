@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { registerUser } from "../utils/auth";
 
 // Componente signup (registro)
 const Signup = () => {
@@ -42,6 +43,8 @@ const Signup = () => {
 
         // si pasa todas las validaciones, limpia el error
         setError("");
+
+        registerUser(email, password);
 
         // simula un registro exitoso con un alert
         alert("Registro exitoso, ahora puedes iniciar sesión.")
