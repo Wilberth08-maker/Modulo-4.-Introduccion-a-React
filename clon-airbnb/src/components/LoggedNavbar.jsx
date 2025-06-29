@@ -119,6 +119,9 @@ const LandingNavbar = ({ user, setUser }) => {
                 >
                 <VideoIcon src="https://a0.muscache.com/videos/search-bar-icons/webm/balloon-selected.webm" isPlaying={location.pathname === '/experiencias' || activeVideo === 'experiencias'} />
                 Experiencias
+                <span className="absolute -top-2 left-1/2 transform -translate-x-1/2 bg-blue-900 text-white text-xs font-semibold px-2 py-0.5 rounded-full shadow-md z-10 whitespace-nowrap">
+                    NUEVO
+                </span>
                 {(location.pathname === '/experiencias' || activeVideo === 'experiencias') && (
                     <span className="absolute bottom-0 left-0 w-full h-0.5 bg-gray-900 transform scale-x-120 transition-transform duration-300"></span>
                 )}
@@ -135,12 +138,15 @@ const LandingNavbar = ({ user, setUser }) => {
                 >
                 <VideoIcon src="https://a0.muscache.com/videos/search-bar-icons/webm/consierge-selected.webm" isPlaying={location.pathname === '/servicios' || activeVideo === 'servicios'} />
                 Servicios
+                <span className="absolute -top-2 left-1/2 transform -translate-x-1/2 bg-blue-900 text-white text-xs font-semibold px-2 py-0.5 rounded-full shadow-md z-10 whitespace-nowrap">
+                    NUEVO
+                </span>
                 {(location.pathname === '/servicios' || activeVideo === 'servicios') && (
                     <span className="absolute bottom-0 left-0 w-full h-0.5 bg-gray-900 transform scale-x-120 transition-transform duration-300"></span>
                 )}
                 </Link>
             </div>  
-            
+
             {/* Apartados a la derecha */} 
             <div className="flex items-center space-x-2">
                 <button
