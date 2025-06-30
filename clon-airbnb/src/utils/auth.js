@@ -39,3 +39,4 @@ export function registerUser(email, password) {
     export const isAuthenticated = () => {
         return !!localStorage.getItem('user');
     };
+    

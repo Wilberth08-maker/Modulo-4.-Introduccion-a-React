@@ -1,0 +1,502 @@
+[
+    {
+        "id": 1,
+        "titulo": "Siente la vibra tropicoqueta con Karol G",
+        "ubicacion": "Medellín",
+        "precio": 1580,
+        "imagen": "https://revistamomentos.co/wp-content/uploads/2021/05/unnamed-1-1.jpg",
+        "descripcion": "Un día exclusivo en el estudio con la Bichota, aprendiendo sus mejores pasos y disfrutando de un ambiente único de reguetón.",
+        "calificacion": 4.9,
+        "estado": "Populares"
+    },
+    {
+        "id": 2,
+        "titulo": "Almuerzo con el icono de la moda Juan",
+        "ubicacion": "París",
+        "precio": 1779,
+        "imagen": "https://news.airbnb.com/wp-content/uploads/sites/4/2018/06/YVR_SE-27129_For-You_LEADING-IMAGE_0022_R1-min.jpg?w=1000",
+        "descripcion": "Disfruta de un brunch en un café parisino mientras Juan comparte sus secretos de estilo y las últimas tendencias de la pasarela.",
+        "calificacion": 4.8,
+        "estado": "Originals"
+    },
+    {
+        "id": 3,
+        "titulo": "Taller de cócteles molecular con el 'mixólogo maestro'",
+        "ubicacion": "Ciudad de México",
+        "precio": 2007,
+        "imagen": "https://images.contentstack.io/v3/assets/bltb428ce5d46f8efd8/blt7bdf58785edcb5c6/60ae1a01cc7ff369bd793577/CA_SE-193734_08_8.jpg",
+        "descripcion": "Aprende a crear bebidas futuristas con técnicas de vanguardia, esferificaciones y espumas en un ambiente exclusivo.",
+        "calificacion": 4.7,
+        "estado": "Originals"
+    },
+    {
+        "id": 4,
+        "titulo": "Noche de observación de estrellas en el desierto con un astrónomo",
+        "ubicacion": "San Luis Potosí",
+        "precio": 2951,
+        "imagen": "https://tse4.mm.bing.net/th/id/OIP.-By9FAukuUOPXqMwMEHMdgHaDt?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "descripcion": "Escápate de la ciudad y déjate guiar por un experto para explorar constelaciones y galaxias bajo un cielo oscuro y mágico.",
+        "calificacion": 4.9,
+        "estado": "Populares"
+    },
+    {
+        "id": 5,
+        "titulo": "Clase de cocina ancestral con chef Maya",
+        "ubicacion": "Mérida",
+        "precio": 1768,
+        "imagen": "https://a0.muscache.com/im/pictures/INTERNAL/INTERNAL-ImageByPlaceId-ChIJn0AAnpX7wIkRjW0_-Ad70iw-large_background/original/17426bf8-b84f-45f2-baa9-4daa8c8093d8.jpeg",
+        "descripcion": "Descubre los secretos de la gastronomía yucateca, utilizando ingredientes locales y técnicas milenarias transmitidas por generaciones.",
+        "calificacion": 5.0,
+        "estado": "Originals"
+    },
+    {
+        "id": 6,
+        "titulo": "Aventura en kayak al amanecer por manglares secretos",
+        "ubicacion": "Cancún",
+        "precio": 1585,
+        "imagen": "https://tse4.mm.bing.net/th/id/OIP.dhwE44jGNB3cp6v3DpTZ4gAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "descripcion": "Explora la belleza natural de la costa caribeña mientras el sol pinta el cielo de colores vibrantes sobre los manglares.",
+        "calificacion": 4.6,
+        "estado": "Populares"
+    },
+    {
+        "id": 7,
+        "titulo": "Sesión de fotografía callejera con un fotógrafo local",
+        "ubicacion": "Nueva York",
+        "precio": 1221,
+        "imagen": "https://www.exprimeviajes.com/wp-content/uploads/2019/07/brooklyin-nueva-york-experiencias-airbnb.jpg",
+        "descripcion": "Captura la esencia de la ciudad desde una perspectiva única, guiado por un profesional que conoce los mejores rincones.",
+        "calificacion": 4.7,
+        "estado": "Populares"
+    },
+    {
+        "id": 8,
+        "titulo": "Cata de mezcal y leyendas oaxaqueñas",
+        "ubicacion": "Oaxaca",
+        "precio": 2027,
+        "imagen": "https://th.bing.com/th/id/R.b4d2db11640c15e083c05907c8d0a6c6?rik=E6FXr091d006wQ&pid=ImgRaw&r=0",
+        "descripcion": "Degusta los mejores mezcales mientras te sumerges en las historias y mitos ancestrales de la región de Oaxaca.",
+        "calificacion": 4.5,
+        "estado": "Originals"
+    },
+    {
+        "id": 9,
+        "titulo": "Clase de danza folclórica tradicional en un rancho",
+        "ubicacion": "Jalisco",
+        "precio": 2586,
+        "imagen": "https://news.airbnb.com/wp-content/uploads/sites/4/2018/06/YVR_SE-27129_For-You_LEADING-IMAGE_0022_R1-min.jpg?w=1000",
+        "descripcion": "Aprende los pasos y la historia detrás de las danzas más representativas de México en un entorno rural auténtico.",
+        "calificacion": 4.2,
+        "estado": "Populares"
+    },
+    {
+        "id": 10,
+        "titulo": "Tour de street art y grafitis ocultos en la CDMX",
+        "ubicacion": "Ciudad de México",
+        "precio": 1251,
+        "imagen": "https://revistamomentos.co/wp-content/uploads/2021/05/unnamed-1-1.jpg",
+        "descripcion": "Explora los murales y expresiones urbanas más impresionantes de la capital con un guía local apasionado por el arte.",
+        "calificacion": 4.6,
+        "estado": "Originals"
+    },
+    {
+        "id": 11,
+        "titulo": "Preparación de ceviche fresco en la playa con un pescador",
+        "ubicacion": "Puerto Vallarta",
+        "precio": 2105,
+        "imagen": "https://a0.muscache.com/im/pictures/INTERNAL/INTERNAL-ImageByPlaceId-ChIJn0AAnpX7wIkRjW0_-Ad70iw-large_background/original/17426bf8-b84f-45f2-baa9-4daa8c8093d8.jpeg",
+        "descripcion": "Aprende a preparar el ceviche perfecto con pescado recién capturado, directamente en la orilla del mar.",
+        "calificacion": 4.9,
+        "estado": "Populares"
+    },
+    {
+        "id": 12,
+        "titulo": "Senderismo y picnic en la Sierra Gorda de Querétaro",
+        "ubicacion": "Querétaro",
+        "precio": 2128,
+        "imagen": "https://tse4.mm.bing.net/th/id/OIP.dhwE44jGNB3cp6v3DpTZ4gAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "descripcion": "Recorre paisajes impresionantes y disfruta de un almuerzo al aire libre con vistas panorámicas.",
+        "calificacion": 4.7,
+        "estado": "Originals"
+    },
+    {
+        "id": 13,
+        "titulo": "Clase de cerámica artesanal con un maestro alfarero",
+        "ubicacion": "Tlaquepaque, Jalisco",
+        "precio": 1838,
+        "imagen": "https://images.contentstack.io/v3/assets/bltb428ce5d46f8efd8/blt7bdf58785edcb5c6/60ae1a01cc7ff369bd793577/CA_SE-193734_08_8.jpg",
+        "descripcion": "Crea tu propia pieza de barro, aprendiendo técnicas tradicionales de uno de los pueblos mágicos de México.",
+        "calificacion": 4.8,
+        "estado": "Populares"
+    },
+    {
+        "id": 14,
+        "titulo": "Tour de leyendas y misterios coloniales en Guanajuato",
+        "ubicacion": "Guanajuato",
+        "precio": 2814,
+        "imagen": "https://th.bing.com/th/id/R.b4d2db11640c15e083c05907c8d0a6c6?rik=E6FXr091d006wQ&pid=ImgRaw&r=0",
+        "descripcion": "Pasea por las calles adoquinadas y descubre los secretos y fantasmas que habitan esta ciudad histórica.",
+        "calificacion": 4.7,
+        "estado": "Originals"
+    },
+    {
+        "id": 15,
+        "titulo": "Experiencia de buceo en cenote con exploración de cuevas",
+        "ubicacion": "Riviera Maya",
+        "precio": 2439,
+        "imagen": "https://tse4.mm.bing.net/th/id/OIP.-By9FAukuUOPXqMwMEHMdgHaDt?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "descripcion": "Sumérgete en las aguas cristalinas de un cenote milenario y explora sus fascinantes formaciones subterráneas.",
+        "calificacion": 4.9,
+        "estado": "Populares"
+    },
+    {
+        "id": 16,
+        "titulo": "Mañana de yoga y meditación en un jardín botánico",
+        "ubicacion": "San Miguel de Allende",
+        "precio": 950,
+        "imagen": "https://www.exprimeviajes.com/wp-content/uploads/2019/07/brooklyin-nueva-york-experiencias-airbnb.jpg",
+        "descripcion": "Encuentra la paz interior en un entorno natural exuberante, guiado por un instructor experto.",
+        "calificacion": 4.5,
+        "estado": "Originals"
+    },
+    {
+        "id": 17,
+        "titulo": "Taller de fotografía nocturna en paisaje desértico",
+        "ubicacion": "Valle de Guadalupe",
+        "precio": 2300,
+        "imagen": "https://revistamomentos.co/wp-content/uploads/2021/05/unnamed-1-1.jpg",
+        "descripcion": "Captura la magia de la noche estrellada y los viñedos bajo la luna en una experiencia única.",
+        "calificacion": 4.8,
+        "estado": "Populares"
+    },
+    {
+        "id": 18,
+        "titulo": "Clase de surf para principiantes en las playas de Oaxaca",
+        "ubicacion": "Puerto Escondido, Oaxaca",
+        "precio": 1400,
+        "imagen": "https://a0.muscache.com/im/pictures/INTERNAL/INTERNAL-ImageByPlaceId-ChIJn0AAnpX7wIkRjW0_-Ad70iw-large_background/original/17426bf8-b84f-45f2-baa9-4daa8c8093d8.jpeg",
+        "descripcion": "Aprende a dominar las olas del Pacífico en un ambiente seguro y divertido con instructores certificados.",
+        "calificacion": 4.7,
+        "estado": "Populares"
+    },
+    {
+        "id": 19,
+        "titulo": "Degustación de quesos artesanales y vinos en la Ruta del Queso y Vino",
+        "ubicacion": "Querétaro",
+        "precio": 1900,
+        "imagen": "https://news.airbnb.com/wp-content/uploads/sites/4/2018/06/YVR_SE-27129_For-You_LEADING-IMAGE_0022_R1-min.jpg?w=1000",
+        "descripcion": "Un recorrido por fincas queseras y viñedos, probando delicias locales y aprendiendo sobre su producción.",
+        "calificacion": 4.6,
+        "estado": "Originals"
+    },
+    {
+        "id": 20,
+        "titulo": "Exploración de la ciudad colonial en bicicleta con guía",
+        "ubicacion": "San Cristóbal de las Casas",
+        "precio": 850,
+        "imagen": "https://images.contentstack.io/v3/assets/bltb428ce5d46f8efd8/blt7bdf58785edcb5c6/60ae1a01cc7ff369bd793577/CA_SE-193734_08_8.jpg",
+        "descripcion": "Descubre los secretos y la arquitectura de esta joya colonial mientras pedaleas por sus calles empedradas.",
+        "calificacion": 4.4,
+        "estado": "Populares"
+    },
+    {
+        "id": 21,
+        "titulo": "Clase de elaboración de tortillas de maíz tradicionales",
+        "ubicacion": "Puebla",
+        "precio": 700,
+        "imagen": "https://tse4.mm.bing.net/th/id/OIP.dhwE44jGNB3cp6v3DpTZ4gAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "descripcion": "Aprende el arte de la tortilla perfecta, desde la nixtamalización hasta el comal, en una casa local.",
+        "calificacion": 4.7,
+        "estado": "Originals"
+    },
+    {
+        "id": 22,
+        "titulo": "Avistamiento de aves en la reserva natural de Calakmul",
+        "ubicacion": "Campeche",
+        "precio": 3200,
+        "imagen": "https://th.bing.com/th/id/R.b4d2db11640c15e083c05907c8d0a6c6?rik=E6FXr091d006wQ&pid=ImgRaw&r=0",
+        "descripcion": "Observa la rica biodiversidad aviar de la selva maya, un paraíso para los amantes de la naturaleza.",
+        "calificacion": 4.9,
+        "estado": "Originals"
+    },
+    {
+        "id": 23,
+        "titulo": "Taller de creación de alebrijes oaxaqueños",
+        "ubicacion": "Oaxaca",
+        "precio": 1650,
+        "imagen": "https://tse4.mm.bing.net/th/id/OIP.-By9FAukuUOPXqMwMEHMdgHaDt?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "descripcion": "Diseña y pinta tu propio alebrije, aprendiendo de artesanos locales el significado de estas coloridas criaturas.",
+        "calificacion": 4.8,
+        "estado": "Populares"
+    },
+    {
+        "id": 24,
+        "titulo": "Paseo a caballo por los viñedos al atardecer",
+        "ubicacion": "Valle de Guadalupe",
+        "precio": 2500,
+        "imagen": "https://revistamomentos.co/wp-content/uploads/2021/05/unnamed-1-1.jpg",
+        "descripcion": "Disfruta de un romántico paseo a caballo mientras el sol se oculta sobre los extensos viñedos de Baja California.",
+        "calificacion": 4.7,
+        "estado": "Populares"
+    },
+    {
+        "id": 25,
+        "titulo": "Clase de muralismo y arte urbano en Guadalajara",
+        "ubicacion": "Guadalajara",
+        "precio": 1300,
+        "imagen": "https://www.exprimeviajes.com/wp-content/uploads/2019/07/brooklyin-nueva-york-experiencias-airbnb.jpg",
+        "descripcion": "Sumérgete en el mundo del muralismo mexicano y crea tu propia obra de arte urbano bajo la guía de un artista local.",
+        "calificacion": 4.5,
+        "estado": "Originals"
+    },
+    {
+        "id": 26,
+        "titulo": "Exploración de la gastronomía callejera de CDMX",
+        "ubicacion": "Ciudad de México",
+        "precio": 1100,
+        "imagen": "https://a0.muscache.com/im/pictures/INTERNAL/INTERNAL-ImageByPlaceId-ChIJn0AAnpX7wIkRjW0_-Ad70iw-large_background/original/17426bf8-b84f-45f2-baa9-4daa8c8093d8.jpeg",
+        "descripcion": "Un tour culinario por los puestos más icónicos de tacos, tamales y otros antojitos de la capital.",
+        "calificacion": 4.9,
+        "estado": "Populares"
+    },
+    {
+        "id": 27,
+        "titulo": "Aventura de snorkel en el arrecife de coral",
+        "ubicacion": "Cozumel",
+        "precio": 1800,
+        "imagen": "https://tse4.mm.bing.net/th/id/OIP.dhwE44jGNB3cp6v3DpTZ4gAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "descripcion": "Descubre la vibrante vida marina y los coloridos corales de uno de los arrecifes más impresionantes del Caribe.",
+        "calificacion": 4.8,
+        "estado": "Populares"
+    },
+    {
+        "id": 28,
+        "titulo": "Taller de creación de joyería de plata en Taxco",
+        "ubicacion": "Taxco",
+        "precio": 2200,
+        "imagen": "https://images.contentstack.io/v3/assets/bltb428ce5d46f8efd8/blt7bdf58785edcb5c6/60ae1a01cc7ff369bd793577/CA_SE-193734_08_8.jpg",
+        "descripcion": "Aprende las técnicas ancestrales de la platería y crea tu propia joya con la ayuda de un artesano local.",
+        "calificacion": 4.6,
+        "estado": "Originals"
+    },
+    {
+        "id": 29,
+        "titulo": "Recorrido en bici por los murales de Diego Rivera",
+        "ubicacion": "Guanajuato",
+        "precio": 980,
+        "imagen": "https://th.bing.com/th/id/R.b4d2db11640c15e083c05907c8d0a6c6?rik=E6FXr091d006wQ&pid=ImgRaw&r=0",
+        "descripcion": "Un viaje cultural en dos ruedas para admirar las obras maestras de Rivera en su ciudad natal.",
+        "calificacion": 4.7,
+        "estado": "Originals"
+    },
+    {
+        "id": 30,
+        "titulo": "Clase de preparación de Mole Poblano auténtico",
+        "ubicacion": "Puebla",
+        "precio": 1700,
+        "imagen": "https://tse4.mm.bing.net/th/id/OIP.-By9FAukuUOPXqMwMEHMdgHaDt?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "descripcion": "Descubre los secretos del platillo más emblemático de Puebla, desde la molienda de los chiles hasta el sabor final.",
+        "calificacion": 5.0,
+        "estado": "Populares"
+    },
+    {
+        "id": 31,
+        "titulo": "Sesión de fotos profesional en paisajes mágicos",
+        "ubicacion": "Bacalar",
+        "precio": 2800,
+        "imagen": "https://revistamomentos.co/wp-content/uploads/2021/05/unnamed-1-1.jpg",
+        "descripcion": "Captura tus mejores momentos en la Laguna de los Siete Colores con un fotógrafo experimentado.",
+        "calificacion": 4.9,
+        "estado": "Populares"
+    },
+    {
+        "id": 32,
+        "titulo": "Taller de grabado y estampación artística",
+        "ubicacion": "Oaxaca",
+        "precio": 1450,
+        "imagen": "https://news.airbnb.com/wp-content/uploads/sites/4/2018/06/YVR_SE-27129_For-You_LEADING-IMAGE_0022_R1-min.jpg?w=1000",
+        "descripcion": "Explora el mundo del grabado con técnicas tradicionales y crea tu propia obra de arte en un taller local.",
+        "calificacion": 4.7,
+        "estado": "Originals"
+    },
+    {
+        "id": 33,
+        "titulo": "Clase de salsa y bachata en una terraza con vista",
+        "ubicacion": "Ciudad de México",
+        "precio": 900,
+        "imagen": "https://www.exprimeviajes.com/wp-content/uploads/2019/07/brooklyin-nueva-york-experiencias-airbnb.jpg",
+        "descripcion": "Aprende los ritmos latinos en un ambiente festivo con instructores profesionales y vistas espectaculares.",
+        "calificacion": 4.6,
+        "estado": "Populares"
+    },
+    {
+        "id": 34,
+        "titulo": "Tour de leyendas de Chichén Itzá al anochecer",
+        "ubicacion": "Yucatán",
+        "precio": 2100,
+        "imagen": "https://a0.muscache.com/im/pictures/INTERNAL/INTERNAL-ImageByPlaceId-ChIJn0AAnpX7wIkRjW0_-Ad70iw-large_background/original/17426bf8-b84f-45f2-baa9-4daa8c8093d8.jpeg",
+        "descripcion": "Un recorrido místico por la zona arqueológica iluminada, descubriendo los secretos de la civilización maya.",
+        "calificacion": 4.9,
+        "estado": "Originals"
+    },
+    {
+        "id": 35,
+        "titulo": "Clase de coctelería con tequila y maridaje",
+        "ubicacion": "Tequila, Jalisco",
+        "precio": 1850,
+        "imagen": "https://images.contentstack.io/v3/assets/bltb428ce5d46f8efd8/blt7bdf58785edcb5c6/60ae1a01cc7ff369bd793577/CA_SE-193734_08_8.jpg",
+        "descripcion": "Conviértete en un experto tequilero, aprendiendo a preparar cócteles clásicos y a maridarlos con platillos típicos.",
+        "calificacion": 4.8,
+        "estado": "Populares"
+    },
+    {
+        "id": 36,
+        "titulo": "Escapada de glamping bajo las estrellas del desierto",
+        "ubicacion": "Baja California Sur",
+        "precio": 3500,
+        "imagen": "https://tse4.mm.bing.net/th/id/OIP.dhwE44jGNB3cp6v3DpTZ4gAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "descripcion": "Una experiencia de lujo en la naturaleza, disfrutando de cielos estrellados y tranquilidad absoluta.",
+        "calificacion": 5.0,
+        "estado": "Originals"
+    },
+    {
+        "id": 37,
+        "titulo": "Taller de pintura al aire libre en un pueblo mágico",
+        "ubicacion": "Pátzcuaro, Michoacán",
+        "precio": 1200,
+        "imagen": "https://th.bing.com/th/id/R.b4d2db11640c15e083c05907c8d0a6c6?rik=E6FXr091d006wQ&pid=ImgRaw&r=0",
+        "descripcion": "Inspírate en la belleza de Pátzcuaro y plasma sus paisajes en un lienzo con la guía de un artista local.",
+        "calificacion": 4.6,
+        "estado": "Populares"
+    },
+    {
+        "id": 38,
+        "titulo": "Tour en bicicleta por la ruta del cacao en Tabasco",
+        "ubicacion": "Comalcalco, Tabasco",
+        "precio": 1600,
+        "imagen": "https://tse4.mm.bing.net/th/id/OIP.-By9FAukuUOPXqMwMEHMdgHaDt?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "descripcion": "Descubre el origen del chocolate, desde el árbol de cacao hasta la deliciosa bebida, pedaleando entre plantaciones.",
+        "calificacion": 4.7,
+        "estado": "Originals"
+    },
+    {
+        "id": 39,
+        "titulo": "Clase de fotografía submarina en un arrecife",
+        "ubicacion": "Cancún",
+        "precio": 2900,
+        "imagen": "https://revistamomentos.co/wp-content/uploads/2021/05/unnamed-1-1.jpg",
+        "descripcion": "Aprende a capturar la asombrosa vida marina del Caribe con equipo especializado y consejos de un fotógrafo submarino.",
+        "calificacion": 4.9,
+        "estado": "Populares"
+    },
+    {
+        "id": 40,
+        "titulo": "Experiencia de senderismo y rapel en cascadas",
+        "ubicacion": "Huasteca Potosina",
+        "precio": 2300,
+        "imagen": "https://news.airbnb.com/wp-content/uploads/sites/4/2018/06/YVR_SE-27129_For-You_LEADING-IMAGE_0022_R1-min.jpg?w=1000",
+        "descripcion": "Adrenalina y naturaleza pura: desciende por cascadas impresionantes y explora paisajes selváticos.",
+        "calificacion": 4.8,
+        "estado": "Originals"
+    },
+    {
+        "id": 41,
+        "titulo": "Taller de telar de cintura con artesanas Zapotecas",
+        "ubicacion": "Teotitlán del Valle, Oaxaca",
+        "precio": 1750,
+        "imagen": "https://www.exprimeviajes.com/wp-content/uploads/2019/07/brooklyin-nueva-york-experiencias-airbnb.jpg",
+        "descripcion": "Aprende el arte ancestral del telar de cintura y crea tu propia pieza textil con la guía de maestras tejedoras.",
+        "calificacion": 5.0,
+        "estado": "Populares"
+    },
+    {
+        "id": 42,
+        "titulo": "Clase de Mixología Maya con ingredientes autóctonos",
+        "ubicacion": "Tulum",
+        "precio": 1900,
+        "imagen": "https://a0.muscache.com/im/pictures/INTERNAL/INTERNAL-ImageByPlaceId-ChIJn0AAnpX7wIkRjW0_-Ad70iw-large_background/original/17426bf8-b84f-45f2-baa9-4daa8c8093d8.jpeg",
+        "descripcion": "Crea cócteles únicos con frutas, hierbas y licores de la región, inspirados en la cultura maya.",
+        "calificacion": 4.7,
+        "estado": "Originals"
+    },
+    {
+        "id": 43,
+        "titulo": "Tour de observación de ballenas grises (temporada)",
+        "ubicacion": "Guerrero Negro, Baja California Sur",
+        "precio": 3100,
+        "imagen": "https://tse4.mm.bing.net/th/id/OIP.dhwE44jGNB3cp6v3DpTZ4gAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "descripcion": "Un encuentro inolvidable con las majestuosas ballenas grises en su hábitat natural, una experiencia única.",
+        "calificacion": 4.9,
+        "estado": "Populares"
+    },
+    {
+        "id": 44,
+        "titulo": "Aventura en tirolesa por la Sierra Madre Occidental",
+        "ubicacion": "Mazatlán",
+        "precio": 1500,
+        "imagen": "https://images.contentstack.io/v3/assets/bltb428ce5d46f8efd8/blt7bdf58785edcb5c6/60ae1a01cc7ff369bd793577/CA_SE-193734_08_8.jpg",
+        "descripcion": "Siente la adrenalina volando sobre los árboles y admirando paisajes espectaculares.",
+        "calificacion": 4.5,
+        "estado": "Populares"
+    },
+    {
+        "id": 45,
+        "titulo": "Paseo en globo aerostático al amanecer sobre Teotihuacán",
+        "ubicacion": "Teotihuacán, Estado de México",
+        "precio": 3800,
+        "imagen": "https://th.bing.com/th/id/R.b4d2db11640c15e083c05907c8d0a6c6?rik=E6FXr091d006wQ&pid=ImgRaw&r=0",
+        "descripcion": "Una vista inigualable de las Pirámides del Sol y la Luna al salir el sol, una experiencia mágica e inolvidable.",
+        "calificacion": 5.0,
+        "estado": "Originals"
+    },
+    {
+        "id": 46,
+        "titulo": "Taller de herbolaria tradicional mexicana",
+        "ubicacion": "Malinalco, Estado de México",
+        "precio": 1100,
+        "imagen": "https://tse4.mm.bing.net/th/id/OIP.-By9FAukuUOPXqMwMEHMdgHaDt?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "descripcion": "Aprende sobre las propiedades medicinales de las plantas mexicanas y cómo preparar remedios naturales.",
+        "calificacion": 4.6,
+        "estado": "Originals"
+    },
+    {
+        "id": 47,
+        "titulo": "Clase de cocina vegana mexicana con chef reconocido",
+        "ubicacion": "Guadalajara",
+        "precio": 1400,
+        "imagen": "https://revistamomentos.co/wp-content/uploads/2021/05/unnamed-1-1.jpg",
+        "descripcion": "Descubre cómo transformar platillos tradicionales mexicanos en versiones deliciosas y 100% vegetales.",
+        "calificacion": 4.8,
+        "estado": "Populares"
+    },
+    {
+        "id": 48,
+        "titulo": "Exploración de grutas y cavernas ancestrales",
+        "ubicacion": "Grutas de Cacahuamilpa, Guerrero",
+        "precio": 1300,
+        "imagen": "https://news.airbnb.com/wp-content/uploads/sites/4/2018/06/YVR_SE-27129_For-You_LEADING-IMAGE_0022_R1-min.jpg?w=1000",
+        "descripcion": "Un viaje fascinante al corazón de la tierra, explorando formaciones rocosas milenarias y ríos subterráneos.",
+        "calificacion": 4.7,
+        "estado": "Originals"
+    },
+    {
+        "id": 49,
+        "titulo": "Sesión de fotografía de paisajes en el Cañón del Sumidero",
+        "ubicacion": "Chiapas",
+        "precio": 2600,
+        "imagen": "https://www.exprimeviajes.com/wp-content/uploads/2019/07/brooklyin-nueva-york-experiencias-airbnb.jpg",
+        "descripcion": "Captura la majestuosidad de este impresionante cañón desde diferentes perspectivas con un fotógrafo experto.",
+        "calificacion": 4.9,
+        "estado": "Populares"
+    },
+    {
+        "id": 50,
+        "titulo": "Taller de creación de títeres tradicionales de Michoacán",
+        "ubicacion": "Tzintzuntzan, Michoacán",
+        "precio": 1050,
+        "imagen": "https://a0.muscache.com/im/pictures/INTERNAL/INTERNAL-ImageByPlaceId-ChIJn0AAnpX7wIkRjW0_-Ad70iw-large_background/original/17426bf8-b84f-45f2-baa9-4daa8c8093d8.jpeg",
+        "descripcion": "Aprende el arte de la marionetería y crea tu propio personaje en un taller con artesanos purépechas.",
+        "calificacion": 4.6,
+        "estado": "Originals"
+    }
+]

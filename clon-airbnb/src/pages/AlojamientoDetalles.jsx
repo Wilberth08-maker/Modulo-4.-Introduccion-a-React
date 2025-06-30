@@ -183,7 +183,7 @@ const AlojamientoDetalles = () => {
                 </div>
             </div>
 
-            {/* Secciones adicionales (mapa, reseñas, etc.) */}
+            {/* Secciones adicionales */}
             <div className="border-t border-gray-200 pt-8 mt-8">
                 <h2 className="text-2xl font-semibold text-gray-900 mb-4">Ubicación</h2>
                 <div className="bg-gray-100 h-64 rounded-lg flex items-center justify-center text-gray-500">

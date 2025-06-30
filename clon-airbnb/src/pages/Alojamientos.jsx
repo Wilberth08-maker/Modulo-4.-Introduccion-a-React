@@ -91,22 +91,22 @@ const Alojamientos = () => {
     if (error) return <p className="text-red-500">Error: {error}</p>;
 
     return (
-        <div className="flex flex-col items-center p-6 bg-white min-h-screen">
+        <div className="flex flex-col items-center p-6 bg-white dark:bg-gray-900 text-black dark:text-white min-h-screen">
             {/* Contenido principal o indicador de carga (loading) */}
             {(loading || pageLoading) ? (
-            <div className="flex justify-center items-center h-48 w-full"> {/* Añadimos w-full para asegurar que el centrado funcione bien */}
-                <div className="flex space-x-2"> {/* Contenedor para los puntos, con espacio entre ellos */}
+            <div className="flex justify-center items-center h-48 w-full"> 
+                <div className="flex space-x-2"> {/* Contenedor para los puntos */}
                         <div
-                            className="w-3 h-3 bg-red-500 rounded-full animate-pulse" // Color rojo similar al de Airbnb
+                            className="w-3 h-3 bg-red-500 rounded-full animate-pulse" 
                             style={{ animationDelay: '0s' }}
                         ></div>
                         <div
-                            className="w-3 h-3 bg-red-500 rounded-full animate-pulse" // Mismo color
-                            style={{ animationDelay: '0.2s' }} // Retraso para el efecto escalonado
+                            className="w-3 h-3 bg-red-500 rounded-full animate-pulse" 
+                            style={{ animationDelay: '0.2s' }} 
                         ></div>
                         <div
-                            className="w-3 h-3 bg-red-500 rounded-full animate-pulse" // Mismo color
-                            style={{ animationDelay: '0.4s' }} // Otro retraso
+                            className="w-3 h-3 bg-red-500 rounded-full animate-pulse" 
+                            style={{ animationDelay: '0.4s' }} 
                         ></div>
                     </div>
                 </div>
@@ -141,7 +141,7 @@ const Alojamientos = () => {
                                         aria-label={`Tarjeta del alojamiento ${aloj.titulo}`}
 
                                     />
-                                    
+                                    {/* Botón de favorito */}
                                     <button className="absolute top-2 right-2 p-1 rounded-full bg-opacity-70 transition-all duration-200 hover:scale-110">
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
@@ -158,13 +158,13 @@ const Alojamientos = () => {
 
                                 {/* Información del alojamiento */}
                                 <div className="text-sm">
-                                    <h3 className="font-bold text-gray-900 truncate">
+                                    <h3 className="font-bold text-gray-900 dark:text-white truncate">
                                         {aloj.titulo}
                                     </h3>
-                                    <p className="font-semibold text-gray-900">{aloj.ubicacion}</p>
-                                    <p className="font-normal text-gray-600">
+                                    <p className="font-semibold text-gray-900 dark:text-white">{aloj.ubicacion}</p>
+                                    <p className="font-normal text-gray-600 dark:text-gray-300">
                                         ${aloj.precio}
-                                        <span className="font-normal text-gray-600"> / noche</span>
+                                        <span className="font-normal text-gray-600 dark:text-gray-300"> / noche</span>
                                         <span className="float-right flex items-center">
                                             <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-gray-500 mr-1" viewBox="0 0 20 20" fill="currentColor">
                                                 <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.538 1.118l-2.8-2.034a1 1 0 00-1.176 0l-2.8 2.034c-.783.57-1.838-.197-1.538-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.92 8.72c-.783-.57-.381-1.81.588-1.81h3.462a1 1 0 00.95-.69l1.07-3.292z" />

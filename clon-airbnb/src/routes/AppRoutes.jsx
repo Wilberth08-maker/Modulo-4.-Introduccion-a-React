@@ -11,7 +11,6 @@ import Landing from '@/components/Landing.jsx'
 import Alojamientos from '@/pages/Alojamientos.jsx';
 import AlojamientoDetalles from '@/pages/AlojamientoDetalles.jsx'
 
-
 // Componente que recibe el usuario actual y la función para actualizarlo
 const AppRoutes = ({ user, setUser }) => (
     // <Routes> reemplaza al antiguo <Switch> desde React Router v6
