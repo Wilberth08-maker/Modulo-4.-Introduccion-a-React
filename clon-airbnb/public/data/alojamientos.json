@@ -13,7 +13,7 @@
     "titulo": "Casa frente al lago",
     "ubicacion": "Puebla",
     "precio": 1779,
-    "imagen": "/assets/cabana.jpg",
+    "imagen": "https://media.admagazine.com/photos/63d81edc6846dafe257fcf8c/16:9/w_1280,c_limit/Apartment%20with%20a%20great%20view.%20Photo-%20@barilocherent.jpeg",
     "descripcion": "Casa amplia con decoración tradicional y terraza.",
     "calificacion": 3.7
   },
@@ -22,7 +22,7 @@
     "titulo": "Casa estilo hacienda",
     "ubicacion": "Oaxaca",
     "precio": 2007,
-    "imagen": "/assets/mar.jpg",
+    "imagen": "https://e00-telva.uecdn.es/assets/multimedia/imagenes/2016/09/20/14743689382917.jpg",
     "descripcion": "Ambiente acogedor y tranquilo.",
     "calificacion": 4.7
   },
@@ -31,7 +31,7 @@
     "titulo": "Departamento céntrico",
     "ubicacion": "Tulum",
     "precio": 2951,
-    "imagen": "/assets/cabana.jpg",
+    "imagen": "https://media.admagazine.com/photos/618a61cb5175565957556367/master/w_1600%2Cc_limit/84781.jpg",
     "descripcion": "Ambiente acogedor y tranquilo.",
     "calificacion": 4.8
   },
@@ -40,7 +40,7 @@
     "titulo": "Villa con alberca",
     "ubicacion": "San Miguel de Allende",
     "precio": 1768,
-    "imagen": "/assets/penthouse.jpg",
+    "imagen": "https://media.admagazine.com/photos/622288094838a4327ba39bf2/16:9/w_1280,c_limit/Mansi%C3%B3n%20Hist%C3%B3rica%20en%20el%20Centro.jpg?mbid=social_retweet",
     "descripcion": "Casa amplia con decoración tradicional y terraza.",
     "calificacion": 5.0
   },
@@ -49,7 +49,7 @@
     "titulo": "Casa frente al lago",
     "ubicacion": "San Miguel de Allende",
     "precio": 1585,
-    "imagen": "/assets/penthouse.jpg",
+    "imagen": "https://media.admagazine.com/photos/618a6da5c649ce85eef758e5/master/w_1600%2Cc_limit/58318.jpg",
     "descripcion": "Ambiente acogedor y tranquilo.",
     "calificacion": 4.2
   },
@@ -58,7 +58,7 @@
     "titulo": "Casa con jardín",
     "ubicacion": "Guadalajara, Jalisco",
     "precio": 1221,
-    "imagen": "/assets/penthouse.jpg",
+    "imagen": "https://media.admagazine.com/photos/618a61cb259e475000cce930/master/w_1600%2Cc_limit/84788.jpg",
     "descripcion": "Ubicación inmejorable, todo a unos pasos.",
     "calificacion": 4.6
   },
@@ -76,7 +76,7 @@
     "titulo": "Departamento céntrico",
     "ubicacion": "Tulum",
     "precio": 2586,
-    "imagen": "/assets/mar.jpg",
+    "imagen": "https://www.carpemundi.com.br/wp-content/uploads/2018/08/casa-natureza-airbnb-ubatuba.jpg",
     "descripcion": "Decoración moderna y elegante.",
     "calificacion": 3.9
   },
@@ -85,7 +85,7 @@
     "titulo": "Casa con jardín",
     "ubicacion": "Tulum",
     "precio": 1251,
-    "imagen": "/assets/cabana.jpg",
+    "imagen": "https://media.revistaad.es/photos/60c7514e9dad29f14a145ab0/16:9/w_2580,c_limit/50127.jpg",
     "descripcion": "Diseño rústico con toques contemporáneos.",
     "calificacion": 4.5
   },
@@ -94,7 +94,7 @@
     "titulo": "Loft urbano",
     "ubicacion": "Valle de Bravo",
     "precio": 2105,
-    "imagen": "/assets/penthouse.jpg",
+    "imagen": "https://images.squarespace-cdn.com/content/v1/56216fc2e4b059c47b425496/1554325286466-5DT5EP7NPRPHYTYS9M8V/mejores+airbnb+en+M%C3%A9xico",
     "descripcion": "Ubicación inmejorable, todo a unos pasos.",
     "calificacion": 3.7
   },
@@ -103,7 +103,7 @@
     "titulo": "Casa frente al lago",
     "ubicacion": "Oaxaca",
     "precio": 2128,
-    "imagen": "/assets/penthouse.jpg",
+    "imagen": "https://i0.wp.com/foodandpleasure.com/wp-content/uploads/2021/02/airbnbs-boho-playas-casaalegria1.jpg?w=1440&ssl=1",
     "descripcion": "Perfecta para una escapada romántica.",
     "calificacion": 5.0
   },
@@ -112,7 +112,7 @@
     "titulo": "Casa estilo hacienda",
     "ubicacion": "Ciudad de México",
     "precio": 1838,
-    "imagen": "https://tse4.mm.bing.net/th/id/OIP.Rk5tow7i219nt-55qM-ltQHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "imagen": "https://images.adsttc.com/media/images/5b93/9a4d/f197/cc77/b300/005b/large_jpg/Screen_Shot_2015-05-18_at_16.42.15.jpg.jpg?1536399940",
     "descripcion": "Ubicación inmejorable, todo a unos pasos.",
     "calificacion": 4.9
   },
@@ -121,7 +121,7 @@
     "titulo": "Casa estilo hacienda",
     "ubicacion": "Ciudad de México",
     "precio": 2814,
-    "imagen": "/assets/cabana.jpg",
+    "imagen": "https://news.airbnb.com/wp-content/uploads/sites/4/2020/09/Eco-dome-2.jpg?fit=1920%2C1281",
     "descripcion": "Ambiente acogedor y tranquilo.",
     "calificacion": 4.7
   },
@@ -130,7 +130,7 @@
     "titulo": "Casa en la playa",
     "ubicacion": "Mérida",
     "precio": 2439,
-    "imagen": "/assets/mar.jpg",
+    "imagen": "https://i0.wp.com/foodandpleasure.com/wp-content/uploads/2021/02/airbnbs-boho-playas-casaalegria2.jpg?w=1440&ssl=1",
     "descripcion": "Diseño rústico con toques contemporáneos.",
     "calificacion": 3.6
   },
@@ -139,7 +139,7 @@
     "titulo": "Loft urbano",
     "ubicacion": "Tulum",
     "precio": 1451,
-    "imagen": "/assets/mar.jpg",
+    "imagen": "https://www.dondeir.com/wp-content/uploads/2022/04/casas-en-airbnb-mexico.jpg",
     "descripcion": "Ambiente acogedor y tranquilo.",
     "calificacion": 3.7
   },
@@ -148,7 +148,7 @@
     "titulo": "Casa con jardín",
     "ubicacion": "Valle de Bravo",
     "precio": 1539,
-    "imagen": "/assets/cabana.jpg",
+    "imagen": "https://tse3.mm.bing.net/th/id/OIP.Jn9zSMGUVnX4RWlc34QN2QHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
     "descripcion": "Casa amplia con decoración tradicional y terraza.",
     "calificacion": 4.3
   },
@@ -157,7 +157,7 @@
     "titulo": "Villa con alberca",
     "ubicacion": "Guadalajara, Jalisco",
     "precio": 1560,
-    "imagen": "/assets/cabana.jpg",
+    "imagen": "https://i0.wp.com/foodandpleasure.com/wp-content/uploads/2020/09/airbnb-oaxaca-3.jpg?w=1200&ssl=1",
     "descripcion": "Perfecta para una escapada romántica.",
     "calificacion": 3.6
   },
@@ -166,7 +166,7 @@
     "titulo": "Casa estilo hacienda",
     "ubicacion": "Querétaro",
     "precio": 1750,
-    "imagen": "/assets/mar.jpg",
+    "imagen": "https://media.cntraveller.in/wp-content/uploads/2023/05/Airbnb-Rooms-Bangkok-Bedroom-2023-Summer-Release-scaled.jpg",
     "descripcion": "Ideal para familias, con cocina equipada.",
     "calificacion": 4.6
   },
@@ -175,7 +175,7 @@
     "titulo": "Casa frente al lago",
     "ubicacion": "Monterrey",
     "precio": 2755,
-    "imagen": "/assets/penthouse.jpg",
+    "imagen": "https://todososcaminhos.com/wp-content/uploads/2020/09/airbnb-casa-com-vista-linda-6.png",
     "descripcion": "Ambiente acogedor y tranquilo.",
     "calificacion": 4.4
   },
@@ -184,7 +184,7 @@
     "titulo": "Casa frente al lago",
     "ubicacion": "Ciudad de México",
     "precio": 1724,
-    "imagen": "https://tse4.mm.bing.net/th/id/OIP.Rk5tow7i219nt-55qM-ltQHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "imagen": "https://s2.glbimg.com/sljX6T_2RsD-BevSHAggEp4KTEQ=/smart/e.glbimg.com/og/ed/f/original/2019/06/25/pjm020719q202_luxe_wanakanz_livingroom_0264-lighton_r1.jpg",
     "descripcion": "Diseño rústico con toques contemporáneos.",
     "calificacion": 3.9
   },
@@ -193,7 +193,7 @@
     "titulo": "Casa estilo hacienda",
     "ubicacion": "Monterrey",
     "precio": 1847,
-    "imagen": "/assets/mar.jpg",
+    "imagen": "https://i.pinimg.com/originals/49/e3/d6/49e3d6668afb6ca401b1679fc6456afc.jpg",
     "descripcion": "Diseño rústico con toques contemporáneos.",
     "calificacion": 4.5
   },
@@ -202,7 +202,7 @@
     "titulo": "Departamento céntrico",
     "ubicacion": "Oaxaca",
     "precio": 2249,
-    "imagen": "/assets/penthouse.jpg",
+    "imagen": "https://th.bing.com/th/id/R.d6b4129a0a9f2126e1a9f0cd355781d0?rik=L%2fLKh48jQC3EoQ&riu=http%3a%2f%2fwww.elmueble.com%2fmedio%2f2018%2f07%2f03%2fapartamento-airbnb-en-formentera_2750025f.jpg&ehk=EgTgri17dJXW4nkbHhi%2b9iJ%2bOw6wa77KGx00l4BfA%2fE%3d&risl=&pid=ImgRaw&r=0",
     "descripcion": "Espacios amplios y bien iluminados.",
     "calificacion": 3.7
   },
@@ -211,692 +211,692 @@
     "titulo": "Penthouse moderno",
     "ubicacion": "Querétaro",
     "precio": 2630,
-    "imagen": "/assets/cabana.jpg",
+    "imagen": "https://i0.wp.com/foodandpleasure.com/wp-content/uploads/2021/02/airbnbs-boho-playas-villaprivada2.jpg?resize=768%2C512&ssl=1",
     "descripcion": "Casa amplia con decoración tradicional y terraza.",
     "calificacion": 4.2
   },
   {
     "id": 25,
-    "titulo": "Casa frente al lago",
-    "ubicacion": "Tulum",
-    "precio": 1266,
-    "imagen": "/assets/penthouse.jpg",
-    "descripcion": "Relájate en la alberca privada y jardines amplios.",
-    "calificacion": 4.7
+    "titulo": "Casa con piscina",
+    "ubicacion": "Puerto Vallarta",
+    "precio": 3100,
+    "imagen": "https://media.admagazine.com/photos/63d81edc6846dafe257fcf8c/16:9/w_1280,c_limit/Apartment%20with%20a%20great%20view.%20Photo-%20@barilocherent.jpeg",
+    "descripcion": "Hermosa casa con piscina privada y vistas al mar.",
+    "calificacion": 4.9
   },
   {
     "id": 26,
-    "titulo": "Casa colonial",
-    "ubicacion": "Tulum",
-    "precio": 1371,
-    "imagen": "/assets/mar.jpg",
-    "descripcion": "Vista espectacular desde la terraza.",
+    "titulo": "Departamento con vista al mar",
+    "ubicacion": "Cancún",
+    "precio": 2850,
+    "imagen": "https://media.admagazine.com/photos/618a61cb5175565957556367/master/w_1600%2Cc_limit/84781.jpg",
+    "descripcion": "Lujoso departamento con acceso directo a la playa.",
     "calificacion": 4.7
   },
   {
     "id": 27,
-    "titulo": "Loft urbano",
-    "ubicacion": "Ciudad de México",
-    "precio": 1265,
-    "imagen": "/assets/penthouse.jpg",
-    "descripcion": "Casa amplia con decoración tradicional y terraza.",
-    "calificacion": 4.8
-  },
-  {
-    "id": 28,
-    "titulo": "Loft urbano",
-    "ubicacion": "Mérida",
-    "precio": 2500,
-    "imagen": "/assets/mar.jpg",
-    "descripcion": "Ambiente acogedor y tranquilo.",
-    "calificacion": 3.7
-  },
-  {
-    "id": 29,
-    "titulo": "Casa estilo hacienda",
-    "ubicacion": "Puebla",
-    "precio": 1695,
-    "imagen": "/assets/cabana.jpg",
-    "descripcion": "Ambiente acogedor y tranquilo.",
-    "calificacion": 3.8
-  },
-  {
-    "id": 30,
-    "titulo": "Loft urbano",
-    "ubicacion": "Oaxaca",
-    "precio": 2353,
-    "imagen": "/assets/cabana.jpg",
-    "descripcion": "Casa amplia con decoración tradicional y terraza.",
-    "calificacion": 4.4
-  },
-  {
-    "id": 31,
-    "titulo": "Penthouse moderno",
-    "ubicacion": "Mérida",
-    "precio": 2788,
-    "imagen": "/assets/mar.jpg",
-    "descripcion": "Diseño rústico con toques contemporáneos.",
-    "calificacion": 4.9
-  },
-  {
-    "id": 32,
-    "titulo": "Departamento céntrico",
-    "ubicacion": "Tulum",
-    "precio": 2355,
-    "imagen": "/assets/mar.jpg",
-    "descripcion": "Relájate en la alberca privada y jardines amplios.",
-    "calificacion": 4.9
-  },
-  {
-    "id": 33,
-    "titulo": "Casa estilo hacienda",
-    "ubicacion": "Guadalajara, Jalisco",
-    "precio": 2578,
-    "imagen": "/assets/penthouse.jpg",
-    "descripcion": "Relájate en la alberca privada y jardines amplios.",
+    "titulo": "Cabaña rústica",
+    "ubicacion": "Mazamitla",
+    "precio": 1200,
+    "imagen": "https://e00-telva.uecdn.es/assets/multimedia/imagenes/2016/09/20/14743689382917.jpg",
+    "descripcion": "Cabaña acogedora en medio del bosque.",
     "calificacion": 4.5
   },
   {
+    "id": 28,
+    "titulo": "Casa colonial",
+    "ubicacion": "San Cristóbal de las Casas",
+    "precio": 2100,
+    "imagen": "https://s2.glbimg.com/sljX6T_2RsD-BevSHAggEp4KTEQ=/smart/e.glbimg.com/og/ed/f/original/2019/06/25/pjm020719q202_luxe_wanakanz_livingroom_0264-lighton_r1.jpg",
+    "descripcion": "Casa histórica con patio interior y encanto colonial.",
+    "calificacion": 4.8
+  },
+  {
+    "id": 29,
+    "titulo": "Glamping de lujo",
+    "ubicacion": "Bacalar",
+    "precio": 2500,
+    "imagen": "https://i0.wp.com/foodandpleasure.com/wp-content/uploads/2020/09/airbnb-oaxaca-3.jpg?w=1200&ssl=1",
+    "descripcion": "Tienda de campaña de lujo con todas las comodidades.",
+    "calificacion": 4.6
+  },
+  {
+    "id": 30,
+    "titulo": "Hacienda de agave",
+    "ubicacion": "Tequila",
+    "precio": 2300,
+    "imagen": "https://media.admagazine.com/photos/618a6da5c649ce85eef758e5/master/w_1600%2Cc_limit/58318.jpg",
+    "descripcion": "Estadía única en una auténtica hacienda tequilera.",
+    "calificacion": 4.9
+  },
+  {
+    "id": 31,
+    "titulo": "Casa en la selva",
+    "ubicacion": "Palenque",
+    "precio": 1900,
+    "imagen": "https://media.admagazine.com/photos/618a61cb259e475000cce930/master/w_1600%2Cc_limit/84788.jpg",
+    "descripcion": "Experiencia inmersiva en la naturaleza, cerca de ruinas mayas.",
+    "calificacion": 4.3
+  },
+  {
+    "id": 32,
+    "titulo": "Loft con terraza",
+    "ubicacion": "Puebla",
+    "precio": 1650,
+    "imagen": "https://tse4.mm.bing.net/th/id/OIP.Rk5tow7i219nt-55qM-ltQHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "descripcion": "Loft moderno con amplia terraza y vistas a la ciudad.",
+    "calificacion": 4.1
+  },
+  {
+    "id": 33,
+    "titulo": "Bungalow frente al mar",
+    "ubicacion": "Isla Holbox",
+    "precio": 2700,
+    "imagen": "https://www.carpemundi.com.br/wp-content/uploads/2018/08/casa-natureza-airbnb-ubatuba.jpg",
+    "descripcion": "Bungalow encantador a pocos pasos de la playa.",
+    "calificacion": 5.0
+  },
+  {
     "id": 34,
-    "titulo": "Cabaña en el bosque",
-    "ubicacion": "Tulum",
-    "precio": 2556,
-    "imagen": "/assets/penthouse.jpg",
-    "descripcion": "Espacios amplios y bien iluminados.",
-    "calificacion": 3.6
+    "titulo": "Casa de campo",
+    "ubicacion": "Ajijic",
+    "precio": 1700,
+    "imagen": "https://media.revistaad.es/photos/60c7514e9dad29f14a145ab0/16:9/w_2580,c_limit/50127.jpg",
+    "descripcion": "Casa tradicional con amplio jardín y vista al lago.",
+    "calificacion": 4.4
   },
   {
     "id": 35,
-    "titulo": "Villa con alberca",
-    "ubicacion": "Puebla",
-    "precio": 1980,
-    "imagen": "/assets/mar.jpg",
-    "descripcion": "Ideal para familias, con cocina equipada.",
-    "calificacion": 3.5
+    "titulo": "Apartamento de diseño",
+    "ubicacion": "Guadalajara",
+    "precio": 2200,
+    "imagen": "https://images.squarespace-cdn.com/content/v1/56216fc2e4b059c47b425496/1554325286466-5DT5EP7NPRPHYTYS9M8V/mejores+airbnb+en+M%C3%A9xico",
+    "descripcion": "Espacio moderno y elegante en el corazón de la ciudad.",
+    "calificacion": 4.7
   },
   {
     "id": 36,
-    "titulo": "Casa frente al lago",
-    "ubicacion": "Valle de Bravo",
-    "precio": 1200,
-    "imagen": "/assets/penthouse.jpg",
-    "descripcion": "Ubicación inmejorable, todo a unos pasos.",
+    "titulo": "Villa con vista panorámica",
+    "ubicacion": "Ensenada",
+    "precio": 2900,
+    "imagen": "https://i0.wp.com/foodandpleasure.com/wp-content/uploads/2021/02/airbnbs-boho-playas-casaalegria1.jpg?w=1440&ssl=1",
+    "descripcion": "Villa de lujo con vistas impresionantes al Pacífico.",
     "calificacion": 4.9
   },
   {
     "id": 37,
-    "titulo": "Casa colonial",
-    "ubicacion": "San Miguel de Allende",
-    "precio": 1276,
-    "imagen": "/assets/cabana.jpg",
-    "descripcion": "Relájate en la alberca privada y jardines amplios.",
-    "calificacion": 4.9
+    "titulo": "Casa en el viñedo",
+    "ubicacion": "Valle de Guadalupe",
+    "precio": 2600,
+    "imagen": "https://images.adsttc.com/media/images/5b93/9a4d/f197/cc77/b300/005b/large_jpg/Screen_Shot_2015-05-18_at_16.42.15.jpg.jpg?1536399940",
+    "descripcion": "Estancia tranquila entre viñedos con catas de vino.",
+    "calificacion": 4.8
   },
   {
     "id": 38,
-    "titulo": "Casa con jardín",
-    "ubicacion": "Valle de Bravo",
-    "precio": 1234,
-    "imagen": "https://tse4.mm.bing.net/th/id/OIP.Rk5tow7i219nt-55qM-ltQHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
-    "descripcion": "Ideal para familias, con cocina equipada.",
+    "titulo": "Eco-domo",
+    "ubicacion": "San Luis Potosí",
+    "precio": 1800,
+    "imagen": "https://news.airbnb.com/wp-content/uploads/sites/4/2020/09/Eco-dome-2.jpg?fit=1920%2C1281",
+    "descripcion": "Experiencia única en un domo ecológico.",
     "calificacion": 4.5
   },
   {
     "id": 39,
-    "titulo": "Penthouse moderno",
-    "ubicacion": "Querétaro",
-    "precio": 2232,
-    "imagen": "/assets/cabana.jpg",
-    "descripcion": "Espacios amplios y bien iluminados.",
-    "calificacion": 4.5
+    "titulo": "Casa de playa con palapa",
+    "ubicacion": "Sayulita",
+    "precio": 2750,
+    "imagen": "https://i0.wp.com/foodandpleasure.com/wp-content/uploads/2021/02/airbnbs-boho-playas-casaalegria2.jpg?w=1440&ssl=1",
+    "descripcion": "Relájate en esta casa con estilo bohemio y palapa.",
+    "calificacion": 4.7
   },
   {
     "id": 40,
-    "titulo": "Loft urbano",
-    "ubicacion": "Oaxaca",
-    "precio": 2771,
-    "imagen": "/assets/cabana.jpg",
-    "descripcion": "Espacios amplios y bien iluminados.",
-    "calificacion": 4.9
-  },
-  {
-    "id": 41,
-    "titulo": "Casa frente al lago",
-    "ubicacion": "San Miguel de Allende",
-    "precio": 2101,
-    "imagen": "/assets/penthouse.jpg",
-    "descripcion": "Relájate en la alberca privada y jardines amplios.",
-    "calificacion": 3.6
-  },
-  {
-    "id": 42,
-    "titulo": "Casa estilo hacienda",
-    "ubicacion": "Querétaro",
-    "precio": 1452,
-    "imagen": "https://tse4.mm.bing.net/th/id/OIP.Rk5tow7i219nt-55qM-ltQHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
-    "descripcion": "Ubicación inmejorable, todo a unos pasos.",
-    "calificacion": 4.6
-  },
-  {
-    "id": 43,
-    "titulo": "Casa con jardín",
-    "ubicacion": "Tulum",
-    "precio": 2766,
-    "imagen": "/assets/mar.jpg",
-    "descripcion": "Decoración moderna y elegante.",
-    "calificacion": 4.6
-  },
-  {
-    "id": 44,
-    "titulo": "Cabaña en el bosque",
-    "ubicacion": "Mérida",
-    "precio": 1476,
-    "imagen": "/assets/penthouse.jpg",
-    "descripcion": "Diseño rústico con toques contemporáneos.",
-    "calificacion": 4.6
-  },
-  {
-    "id": 45,
-    "titulo": "Villa con alberca",
-    "ubicacion": "Ciudad de México",
-    "precio": 1835,
-    "imagen": "https://tse4.mm.bing.net/th/id/OIP.Rk5tow7i219nt-55qM-ltQHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
-    "descripcion": "Ideal para familias, con cocina equipada.",
-    "calificacion": 3.7
-  },
-  {
-    "id": 46,
-    "titulo": "Penthouse moderno",
-    "ubicacion": "Puebla",
-    "precio": 2249,
-    "imagen": "/assets/mar.jpg",
-    "descripcion": "Casa amplia con decoración tradicional y terraza.",
-    "calificacion": 4.6
-  },
-  {
-    "id": 47,
-    "titulo": "Casa colonial",
-    "ubicacion": "Guadalajara, Jalisco",
-    "precio": 1980,
-    "imagen": "/assets/penthouse.jpg",
-    "descripcion": "Espacios amplios y bien iluminados.",
-    "calificacion": 4.5
-  },
-  {
-    "id": 48,
-    "titulo": "Casa colonial",
-    "ubicacion": "San Miguel de Allende",
-    "precio": 2981,
-    "imagen": "https://tse4.mm.bing.net/th/id/OIP.Rk5tow7i219nt-55qM-ltQHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
-    "descripcion": "Perfecta para una escapada romántica.",
-    "calificacion": 3.7
-  },
-  {
-    "id": 49,
-    "titulo": "Casa frente al lago",
-    "ubicacion": "Oaxaca",
-    "precio": 2044,
-    "imagen": "https://tse4.mm.bing.net/th/id/OIP.Rk5tow7i219nt-55qM-ltQHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
-    "descripcion": "Decoración moderna y elegante.",
-    "calificacion": 4.9
-  },
-  {
-    "id": 50,
-    "titulo": "Penthouse moderno",
-    "ubicacion": "Monterrey",
-    "precio": 2829,
-    "imagen": "/assets/mar.jpg",
-    "descripcion": "Espacios amplios y bien iluminados.",
-    "calificacion": 4.8
-  },
-  {
-    "id": 51,
-    "titulo": "Casa en la playa",
-    "ubicacion": "Querétaro",
-    "precio": 1838,
-    "imagen": "/assets/penthouse.jpg",
-    "descripcion": "Perfecta para una escapada romántica.",
-    "calificacion": 4.5
-  },
-  {
-    "id": 52,
-    "titulo": "Departamento céntrico",
-    "ubicacion": "Ciudad de México",
-    "precio": 1823,
-    "imagen": "/assets/mar.jpg",
-    "descripcion": "Ideal para familias, con cocina equipada.",
-    "calificacion": 4.2
-  },
-  {
-    "id": 53,
-    "titulo": "Departamento céntrico",
-    "ubicacion": "Guadalajara, Jalisco",
-    "precio": 1721,
-    "imagen": "/assets/cabana.jpg",
-    "descripcion": "Espacios amplios y bien iluminados.",
-    "calificacion": 4.8
-  },
-  {
-    "id": 54,
-    "titulo": "Departamento céntrico",
-    "ubicacion": "Valle de Bravo",
-    "precio": 1209,
-    "imagen": "/assets/mar.jpg",
-    "descripcion": "Diseño rústico con toques contemporáneos.",
+    "titulo": "Casa flotante",
+    "ubicacion": "Xochimilco",
+    "precio": 1300,
+    "imagen": "https://www.dondeir.com/wp-content/uploads/2022/04/casas-en-airbnb-mexico.jpg",
+    "descripcion": "Aventura única en una casa flotante tradicional.",
     "calificacion": 4.0
   },
   {
-    "id": 55,
-    "titulo": "Loft urbano",
+    "id": 41,
+    "titulo": "Loft con jardín vertical",
     "ubicacion": "Ciudad de México",
-    "precio": 1463,
-    "imagen": "https://tse4.mm.bing.net/th/id/OIP.Rk5tow7i219nt-55qM-ltQHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
-    "descripcion": "Casa amplia con decoración tradicional y terraza.",
+    "precio": 2300,
+    "imagen": "https://tse3.mm.bing.net/th/id/OIP.Jn9zSMGUVnX4RWlc34QN2QHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "descripcion": "Diseño innovador con un exuberante jardín vertical.",
+    "calificacion": 4.6
+  },
+  {
+    "id": 42,
+    "titulo": "Casa con muelle privado",
+    "ubicacion": "Chapala",
+    "precio": 2050,
+    "imagen": "https://i0.wp.com/foodandpleasure.com/wp-content/uploads/2020/09/airbnb-oaxaca-3.jpg?w=1200&ssl=1",
+    "descripcion": "Perfecta para actividades acuáticas y relajación.",
+    "calificacion": 4.5
+  },
+  {
+    "id": 43,
+    "titulo": "Departamento con estilo",
+    "ubicacion": "Querétaro",
+    "precio": 1950,
+    "imagen": "https://media.cntraveller.in/wp-content/uploads/2023/05/Airbnb-Rooms-Bangkok-Bedroom-2023-Summer-Release-scaled.jpg",
+    "descripcion": "Espacio elegante y confortable para tu estancia.",
+    "calificacion": 4.3
+  },
+  {
+    "id": 44,
+    "titulo": "Residencia con arte",
+    "ubicacion": "San Miguel de Allende",
+    "precio": 3200,
+    "imagen": "https://todososcaminhos.com/wp-content/uploads/2020/09/airbnb-casa-com-vista-linda-6.png",
+    "descripcion": "Casa llena de arte y cultura en una ciudad colonial.",
+    "calificacion": 5.0
+  },
+  {
+    "id": 45,
+    "titulo": "Casa en cenote",
+    "ubicacion": "Yucatán",
+    "precio": 2800,
+    "imagen": "https://s2.glbimg.com/sljX6T_2RsD-BevSHAggEp4KTEQ=/smart/e.glbimg.com/og/ed/f/original/2019/06/25/pjm020719q202_luxe_wanakanz_livingroom_0264-lighton_r1.jpg",
+    "descripcion": "Experiencia única junto a un cenote privado.",
+    "calificacion": 4.9
+  },
+  {
+    "id": 46,
+    "titulo": "Bungalow ecológico",
+    "ubicacion": "Oaxaca",
+    "precio": 1600,
+    "imagen": "https://i.pinimg.com/originals/49/e3/d6/49e3d6668afb6ca401b1679fc6456afc.jpg",
+    "descripcion": "Bungalow sostenible en un entorno natural.",
+    "calificacion": 4.2
+  },
+  {
+    "id": 47,
+    "titulo": "Casa con vistas a la montaña",
+    "ubicacion": "Tapalpa",
+    "precio": 1700,
+    "imagen": "https://th.bing.com/th/id/R.d6b4129a0a9f2126e1a9f0cd355781d0?rik=L%2fLKh48jQC3EoQ&riu=http%3a%2f%2fwww.elmueble.com%2fmedio%2f2018%2f07%2f03%2fapartamento-airbnb-en-formentera_2750025f.jpg&ehk=EgTgri17dJXW4nkbHhi%2b9iJ%2bOw6wa77KGx00l4BfA%2fE%3d&risl=&pid=ImgRaw&r=0",
+    "descripcion": "Refugio tranquilo con paisajes impresionantes.",
+    "calificacion": 4.6
+  },
+  {
+    "id": 48,
+    "titulo": "Penthouse de lujo",
+    "ubicacion": "Ciudad de México",
+    "precio": 3500,
+    "imagen": "https://i0.wp.com/foodandpleasure.com/wp-content/uploads/2021/02/airbnbs-boho-playas-villaprivada2.jpg?resize=768%2C512&ssl=1",
+    "descripcion": "Vistas panorámicas y todas las comodidades de lujo.",
+    "calificacion": 5.0
+  },
+  {
+    "id": 49,
+    "titulo": "Casa en la bahía",
+    "ubicacion": "La Paz, BCS",
+    "precio": 2900,
+    "imagen": "https://tse4.mm.bing.net/th/id/OIP.-By9FAukuUOPXqMwMEHMdgHaDt?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "descripcion": "Acceso directo a la playa y actividades acuáticas.",
+    "calificacion": 4.8
+  },
+  {
+    "id": 50,
+    "titulo": "Casa moderna con diseño minimalista",
+    "ubicacion": "Querétaro",
+    "precio": 2400,
+    "imagen": "https://i0.wp.com/foodandpleasure.com/wp-content/uploads/2020/09/airbnb-oaxaca-3.jpg?w=1200&ssl=1",
+    "descripcion": "Líneas limpias y espacios abiertos para una estancia relajante.",
+    "calificacion": 4.6
+  },
+  {
+    "id": 51,
+    "titulo": "Loft creativo",
+    "ubicacion": "Guadalajara",
+    "precio": 1850,
+    "imagen": "https://media.admagazine.com/photos/618a6da5c649ce85eef758e5/master/w_1600%2Cc_limit/58318.jpg",
+    "descripcion": "Espacio vibrante con obras de arte locales.",
+    "calificacion": 4.1
+  },
+  {
+    "id": 52,
+    "titulo": "Casa con temazcal",
+    "ubicacion": "Tepoztlán",
+    "precio": 2100,
+    "imagen": "https://media.admagazine.com/photos/618a61cb5175565957556367/master/w_1600%2Cc_limit/84781.jpg",
+    "descripcion": "Experiencia holística con temazcal privado.",
+    "calificacion": 4.7
+  },
+  {
+    "id": 53,
+    "titulo": "Departamento con roof garden",
+    "ubicacion": "Puebla",
+    "precio": 1980,
+    "imagen": "https://e00-telva.uecdn.es/assets/multimedia/imagenes/2016/09/20/14743689382917.jpg",
+    "descripcion": "Vistas increíbles desde el roof garden privado.",
+    "calificacion": 4.4
+  },
+  {
+    "id": 54,
+    "titulo": "Villa con vista al volcán",
+    "ubicacion": "Cholula",
+    "precio": 2500,
+    "imagen": "https://media.cntraveller.in/wp-content/uploads/2023/05/Airbnb-Rooms-Bangkok-Bedroom-2023-Summer-Release-scaled.jpg",
+    "descripcion": "Disfruta de la majestuosidad del volcán Popocatépetl.",
+    "calificacion": 4.9
+  },
+  {
+    "id": 55,
+    "titulo": "Casa en la cascada",
+    "ubicacion": "Huasteca Potosina",
+    "precio": 2200,
+    "imagen": "https://media.revistaad.es/photos/60c7514e9dad29f14a145ab0/16:9/w_2580,c_limit/50127.jpg",
+    "descripcion": "Inmersión total en la naturaleza con una cascada cercana.",
     "calificacion": 4.8
   },
   {
     "id": 56,
-    "titulo": "Villa con alberca",
-    "ubicacion": "Querétaro",
-    "precio": 1980,
-    "imagen": "/assets/penthouse.jpg",
-    "descripcion": "Decoración moderna y elegante.",
-    "calificacion": 4.9
+    "titulo": "Casa de arte",
+    "ubicacion": "Oaxaca",
+    "precio": 2000,
+    "imagen": "https://tse3.mm.bing.net/th/id/OIP.Jn9zSMGUVnX4RWlc34QN2QHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "descripcion": "Propiedad única decorada con arte local.",
+    "calificacion": 4.6
   },
   {
     "id": 57,
-    "titulo": "Villa con alberca",
-    "ubicacion": "Oaxaca",
-    "precio": 2955,
-    "imagen": "/assets/penthouse.jpg",
-    "descripcion": "Relájate en la alberca privada y jardines amplios.",
-    "calificacion": 4.2
+    "titulo": "Cabaña en el bosque",
+    "ubicacion": "Valle de Bravo",
+    "precio": 1400,
+    "imagen": "https://www.carpemundi.com.br/wp-content/uploads/2018/08/casa-natureza-airbnb-ubatuba.jpg",
+    "descripcion": "Escapada tranquila en un entorno boscoso.",
+    "calificacion": 4.3
   },
   {
     "id": 58,
-    "titulo": "Casa estilo hacienda",
-    "ubicacion": "Querétaro",
-    "precio": 1368,
-    "imagen": "/assets/mar.jpg",
-    "descripcion": "Ideal para familias, con cocina equipada.",
-    "calificacion": 3.7
-  },
-  {
-    "id": 59,
-    "titulo": "Casa con jardín",
-    "ubicacion": "Valle de Bravo",
-    "precio": 1403,
-    "imagen": "/assets/mar.jpg",
-    "descripcion": "Casa amplia con decoración tradicional y terraza.",
-    "calificacion": 3.8
-  },
-  {
-    "id": 60,
-    "titulo": "Cabaña en el bosque",
-    "ubicacion": "Querétaro",
-    "precio": 2196,
-    "imagen": "/assets/mar.jpg",
-    "descripcion": "Decoración moderna y elegante.",
-    "calificacion": 3.8
-  },
-  {
-    "id": 61,
-    "titulo": "Loft urbano",
-    "ubicacion": "Guadalajara, Jalisco",
-    "precio": 2626,
-    "imagen": "/assets/mar.jpg",
-    "descripcion": "Ambiente acogedor y tranquilo.",
-    "calificacion": 4.4
-  },
-  {
-    "id": 62,
-    "titulo": "Penthouse moderno",
-    "ubicacion": "Tulum",
-    "precio": 1551,
-    "imagen": "/assets/penthouse.jpg",
-    "descripcion": "Ideal para familias, con cocina equipada.",
-    "calificacion": 4.3
-  },
-  {
-    "id": 63,
-    "titulo": "Casa frente al lago",
+    "titulo": "Departamento con historia",
     "ubicacion": "Ciudad de México",
-    "precio": 2022,
-    "imagen": "https://tse4.mm.bing.net/th/id/OIP.Rk5tow7i219nt-55qM-ltQHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
-    "descripcion": "Diseño rústico con toques contemporáneos.",
-    "calificacion": 3.5
-  },
-  {
-    "id": 64,
-    "titulo": "Penthouse moderno",
-    "ubicacion": "Tulum",
-    "precio": 2280,
-    "imagen": "https://tse4.mm.bing.net/th/id/OIP.Rk5tow7i219nt-55qM-ltQHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
-    "descripcion": "Perfecta para una escapada romántica.",
-    "calificacion": 3.6
-  },
-  {
-    "id": 65,
-    "titulo": "Casa en la playa",
-    "ubicacion": "Valle de Bravo",
-    "precio": 2361,
-    "imagen": "/assets/cabana.jpg",
-    "descripcion": "Casa amplia con decoración tradicional y terraza.",
-    "calificacion": 4.8
-  },
-  {
-    "id": 66,
-    "titulo": "Loft urbano",
-    "ubicacion": "Guadalajara, Jalisco",
-    "precio": 2467,
-    "imagen": "/assets/cabana.jpg",
-    "descripcion": "Decoración moderna y elegante.",
-    "calificacion": 4.4
-  },
-  {
-    "id": 67,
-    "titulo": "Casa estilo hacienda",
-    "ubicacion": "Monterrey",
-    "precio": 2872,
-    "imagen": "/assets/penthouse.jpg",
-    "descripcion": "Vista espectacular desde la terraza.",
-    "calificacion": 3.7
-  },
-  {
-    "id": 68,
-    "titulo": "Casa frente al lago",
-    "ubicacion": "Valle de Bravo",
-    "precio": 2959,
-    "imagen": "/assets/penthouse.jpg",
-    "descripcion": "Diseño rústico con toques contemporáneos.",
-    "calificacion": 3.8
-  },
-  {
-    "id": 69,
-    "titulo": "Departamento céntrico",
-    "ubicacion": "Tulum",
-    "precio": 2227,
-    "imagen": "https://tse4.mm.bing.net/th/id/OIP.Rk5tow7i219nt-55qM-ltQHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
-    "descripcion": "Espacios amplios y bien iluminados.",
-    "calificacion": 3.6
-  },
-  {
-    "id": 70,
-    "titulo": "Departamento céntrico",
-    "ubicacion": "Mérida",
-    "precio": 2827,
-    "imagen": "/assets/mar.jpg",
-    "descripcion": "Relájate en la alberca privada y jardines amplios.",
+    "precio": 2600,
+    "imagen": "https://media.revistaad.es/photos/60c7514e9dad29f14a145ab0/16:9/w_2580,c_limit/50127.jpg",
+    "descripcion": "Ubicado en un edificio histórico con encanto.",
     "calificacion": 4.5
   },
   {
-    "id": 71,
-    "titulo": "Casa frente al lago",
-    "ubicacion": "Ciudad de México",
-    "precio": 1749,
-    "imagen": "https://tse4.mm.bing.net/th/id/OIP.Rk5tow7i219nt-55qM-ltQHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
-    "descripcion": "Perfecta para una escapada romántica.",
-    "calificacion": 3.8
-  },
-  {
-    "id": 72,
-    "titulo": "Casa con jardín",
-    "ubicacion": "Monterrey",
-    "precio": 1248,
-    "imagen": "https://tse4.mm.bing.net/th/id/OIP.Rk5tow7i219nt-55qM-ltQHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
-    "descripcion": "Ambiente acogedor y tranquilo.",
-    "calificacion": 4.3
-  },
-  {
-    "id": 73,
-    "titulo": "Casa frente al lago",
-    "ubicacion": "Monterrey",
-    "precio": 2643,
-    "imagen": "/assets/mar.jpg",
-    "descripcion": "Relájate en la alberca privada y jardines amplios.",
-    "calificacion": 3.5
-  },
-  {
-    "id": 74,
-    "titulo": "Penthouse moderno",
-    "ubicacion": "Ciudad de México",
-    "precio": 2405,
-    "imagen": "/assets/mar.jpg",
-    "descripcion": "Vista espectacular desde la terraza.",
-    "calificacion": 3.5
-  },
-  {
-    "id": 75,
-    "titulo": "Casa frente al lago",
-    "ubicacion": "Querétaro",
-    "precio": 1438,
-    "imagen": "/assets/cabana.jpg",
-    "descripcion": "Ambiente acogedor y tranquilo.",
-    "calificacion": 4.2
-  },
-  {
-    "id": 76,
-    "titulo": "Cabaña en el bosque",
-    "ubicacion": "Puebla",
-    "precio": 2992,
-    "imagen": "/assets/cabana.jpg",
-    "descripcion": "Espacios amplios y bien iluminados.",
-    "calificacion": 3.8
-  },
-  {
-    "id": 77,
-    "titulo": "Villa con alberca",
-    "ubicacion": "Mérida",
-    "precio": 1512,
-    "imagen": "/assets/penthouse.jpg",
-    "descripcion": "Ambiente acogedor y tranquilo.",
-    "calificacion": 4.9
-  },
-  {
-    "id": 78,
-    "titulo": "Casa colonial",
-    "ubicacion": "San Miguel de Allende",
-    "precio": 2690,
-    "imagen": "/assets/penthouse.jpg",
-    "descripcion": "Ambiente acogedor y tranquilo.",
+    "id": 59,
+    "titulo": "Casa frente al río",
+    "ubicacion": "Jalcomulco",
+    "precio": 1900,
+    "imagen": "https://images.squarespace-cdn.com/content/v1/56216fc2e4b059c47b425496/1554325286466-5DT5EP7NPRPHYTYS9M8V/mejores+airbnb+en+M%C3%A9xico",
+    "descripcion": "Ideal para deportes de aventura y relajación.",
     "calificacion": 4.4
   },
   {
-    "id": 79,
-    "titulo": "Casa colonial",
-    "ubicacion": "Monterrey",
-    "precio": 1537,
-    "imagen": "/assets/penthouse.jpg",
-    "descripcion": "Ambiente acogedor y tranquilo.",
-    "calificacion": 4.6
-  },
-  {
-    "id": 80,
-    "titulo": "Villa con alberca",
-    "ubicacion": "Valle de Bravo",
-    "precio": 1536,
-    "imagen": "/assets/mar.jpg",
-    "descripcion": "Decoración moderna y elegante.",
-    "calificacion": 3.8
-  },
-  {
-    "id": 81,
-    "titulo": "Penthouse moderno",
-    "ubicacion": "San Miguel de Allende",
-    "precio": 1597,
-    "imagen": "/assets/penthouse.jpg",
-    "descripcion": "Relájate en la alberca privada y jardines amplios.",
-    "calificacion": 4.4
-  },
-  {
-    "id": 82,
-    "titulo": "Cabaña en el bosque",
-    "ubicacion": "Monterrey",
-    "precio": 1798,
-    "imagen": "/assets/penthouse.jpg",
-    "descripcion": "Perfecta para una escapada romántica.",
-    "calificacion": 3.9
-  },
-  {
-    "id": 83,
-    "titulo": "Casa frente al lago",
-    "ubicacion": "Querétaro",
-    "precio": 2714,
-    "imagen": "/assets/penthouse.jpg",
-    "descripcion": "Relájate en la alberca privada y jardines amplios.",
-    "calificacion": 3.8
-  },
-  {
-    "id": 84,
-    "titulo": "Cabaña en el bosque",
-    "ubicacion": "Tulum",
-    "precio": 2292,
-    "imagen": "/assets/mar.jpg",
-    "descripcion": "Casa amplia con decoración tradicional y terraza.",
-    "calificacion": 4.7
-  },
-  {
-    "id": 85,
-    "titulo": "Casa con jardín",
-    "ubicacion": "Ciudad de México",
-    "precio": 1554,
-    "imagen": "/assets/penthouse.jpg",
-    "descripcion": "Ubicación inmejorable, todo a unos pasos.",
-    "calificacion": 4.2
-  },
-  {
-    "id": 86,
-    "titulo": "Casa colonial",
-    "ubicacion": "San Miguel de Allende",
-    "precio": 2980,
-    "imagen": "/assets/cabana.jpg",
-    "descripcion": "Vista espectacular desde la terraza.",
-    "calificacion": 3.8
-  },
-  {
-    "id": 87,
-    "titulo": "Departamento céntrico",
-    "ubicacion": "Oaxaca",
-    "precio": 2255,
-    "imagen": "https://tse4.mm.bing.net/th/id/OIP.Rk5tow7i219nt-55qM-ltQHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
-    "descripcion": "Ubicación inmejorable, todo a unos pasos.",
-    "calificacion": 4.2
-  },
-  {
-    "id": 88,
-    "titulo": "Departamento céntrico",
-    "ubicacion": "Oaxaca",
-    "precio": 1620,
-    "imagen": "/assets/mar.jpg",
-    "descripcion": "Ubicación inmejorable, todo a unos pasos.",
-    "calificacion": 3.5
-  },
-  {
-    "id": 89,
-    "titulo": "Casa colonial",
-    "ubicacion": "Monterrey",
-    "precio": 2419,
-    "imagen": "/assets/cabana.jpg",
-    "descripcion": "Casa amplia con decoración tradicional y terraza.",
-    "calificacion": 4.8
-  },
-  {
-    "id": 90,
-    "titulo": "Loft urbano",
-    "ubicacion": "Querétaro",
-    "precio": 2431,
-    "imagen": "/assets/penthouse.jpg",
-    "descripcion": "Ideal para familias, con cocina equipada.",
-    "calificacion": 3.6
-  },
-  {
-    "id": 91,
-    "titulo": "Departamento céntrico",
-    "ubicacion": "Mérida",
-    "precio": 1669,
-    "imagen": "/assets/mar.jpg",
-    "descripcion": "Diseño rústico con toques contemporáneos.",
-    "calificacion": 4.1
-  },
-  {
-    "id": 92,
-    "titulo": "Departamento céntrico",
-    "ubicacion": "Valle de Bravo",
-    "precio": 2787,
-    "imagen": "/assets/mar.jpg",
-    "descripcion": "Diseño rústico con toques contemporáneos.",
-    "calificacion": 4.3
-  },
-  {
-    "id": 93,
-    "titulo": "Departamento céntrico",
-    "ubicacion": "Puebla",
-    "precio": 1238,
-    "imagen": "/assets/mar.jpg",
-    "descripcion": "Vista espectacular desde la terraza.",
-    "calificacion": 4.2
-  },
-  {
-    "id": 94,
-    "titulo": "Casa colonial",
-    "ubicacion": "Puebla",
-    "precio": 1533,
-    "imagen": "/assets/mar.jpg",
-    "descripcion": "Ubicación inmejorable, todo a unos pasos.",
-    "calificacion": 3.6
-  },
-  {
-    "id": 95,
-    "titulo": "Cabaña en el bosque",
-    "ubicacion": "Guadalajara, Jalisco",
-    "precio": 2491,
-    "imagen": "https://tse4.mm.bing.net/th/id/OIP.Rk5tow7i219nt-55qM-ltQHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
-    "descripcion": "Ambiente acogedor y tranquilo.",
-    "calificacion": 3.7
-  },
-  {
-    "id": 96,
-    "titulo": "Villa con alberca",
-    "ubicacion": "Monterrey",
-    "precio": 2412,
-    "imagen": "/assets/mar.jpg",
-    "descripcion": "Diseño rústico con toques contemporáneos.",
-    "calificacion": 4.1
-  },
-  {
-    "id": 97,
-    "titulo": "Villa con alberca",
-    "ubicacion": "Valle de Bravo",
-    "precio": 1824,
-    "imagen": "/assets/penthouse.jpg",
-    "descripcion": "Decoración moderna y elegante.",
-    "calificacion": 3.9
-  },
-  {
-    "id": 98,
-    "titulo": "Loft urbano",
-    "ubicacion": "Valle de Bravo",
-    "precio": 1380,
-    "imagen": "/assets/mar.jpg",
-    "descripcion": "Ideal para familias, con cocina equipada.",
-    "calificacion": 4.2
-  },
-  {
-    "id": 99,
-    "titulo": "Casa colonial",
-    "ubicacion": "Guadalajara, Jalisco",
-    "precio": 1901,
-    "imagen": "/assets/penthouse.jpg",
-    "descripcion": "Espacios amplios y bien iluminados.",
+    "id": 60,
+    "titulo": "Villa con chef privado",
+    "ubicacion": "Riviera Maya",
+    "precio": 3800,
+    "imagen": "https://i0.wp.com/foodandpleasure.com/wp-content/uploads/2021/02/airbnbs-boho-playas-casaalegria1.jpg?w=1440&ssl=1",
+    "descripcion": "Lujo y comodidad con servicio de chef incluido.",
     "calificacion": 5.0
   },
   {
-    "id": 100,
-    "titulo": "Loft urbano",
-    "ubicacion": "Oaxaca",
-    "precio": 1858,
-    "imagen": "/assets/penthouse.jpg",
-    "descripcion": "Ubicación inmejorable, todo a unos pasos.",
+    "id": 61,
+    "titulo": "Casa con estudio de yoga",
+    "ubicacion": "Tulum",
+    "precio": 2700,
+    "imagen": "https://images.adsttc.com/media/images/5b93/9a4d/f197/cc77/b300/005b/large_jpg/Screen_Shot_2015-05-18_at_16.42.15.jpg.jpg?1536399940",
+    "descripcion": "Perfecta para retiros de bienestar y relajación.",
+    "calificacion": 4.9
+  },
+  {
+    "id": 62,
+    "titulo": "Casa en la montaña",
+    "ubicacion": "Arteaga, Coahuila",
+    "precio": 1500,
+    "imagen": "https://news.airbnb.com/wp-content/uploads/sites/4/2020/09/Eco-dome-2.jpg?fit=1920%2C1281",
+    "descripcion": "Paisajes impresionantes y aire puro de montaña.",
+    "calificacion": 4.5
+  },
+  {
+    "id": 63,
+    "titulo": "Departamento con balcón",
+    "ubicacion": "Monterrey",
+    "precio": 1700,
+    "imagen": "https://i0.wp.com/foodandpleasure.com/wp-content/uploads/2021/02/airbnbs-boho-playas-casaalegria2.jpg?w=1440&ssl=1",
+    "descripcion": "Disfruta de la ciudad desde tu balcón privado.",
+    "calificacion": 4.0
+  },
+  {
+    "id": 64,
+    "titulo": "Casa tradicional",
+    "ubicacion": "Taxco",
+    "precio": 1650,
+    "imagen": "https://www.dondeir.com/wp-content/uploads/2022/04/casas-en-airbnb-mexico.jpg",
+    "descripcion": "Sumérgete en la cultura de este pueblo mágico.",
+    "calificacion": 4.3
+  },
+  {
+    "id": 65,
+    "titulo": "Loft con vistas al río",
+    "ubicacion": "San Cristóbal de las Casas",
+    "precio": 1900,
+    "imagen": "https://tse3.mm.bing.net/th/id/OIP.Jn9zSMGUVnX4RWlc34QN2QHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "descripcion": "Ambiente tranquilo con sonidos de la naturaleza.",
+    "calificacion": 4.2
+  },
+  {
+    "id": 66,
+    "titulo": "Casa en la laguna",
+    "ubicacion": "Bacalar",
+    "precio": 2800,
+    "imagen": "https://i0.wp.com/foodandpleasure.com/wp-content/uploads/2020/09/airbnb-oaxaca-3.jpg?w=1200&ssl=1",
+    "descripcion": "Acceso directo a la laguna de los siete colores.",
+    "calificacion": 5.0
+  },
+  {
+    "id": 67,
+    "titulo": "Departamento urbano",
+    "ubicacion": "Ciudad de México",
+    "precio": 2100,
+    "imagen": "https://media.cntraveller.in/wp-content/uploads/2023/05/Airbnb-Rooms-Bangkok-Bedroom-2023-Summer-Release-scaled.jpg",
+    "descripcion": "Conectividad total en el corazón de la capital.",
     "calificacion": 4.6
+  },
+  {
+    "id": 68,
+    "titulo": "Villa con jardín zen",
+    "ubicacion": "San Miguel de Allende",
+    "precio": 3000,
+    "imagen": "https://todososcaminhos.com/wp-content/uploads/2020/09/airbnb-casa-com-vista-linda-6.png",
+    "descripcion": "Un oasis de paz con jardín japonés.",
+    "calificacion": 4.9
+  },
+  {
+    "id": 69,
+    "titulo": "Casa con cascada privada",
+    "ubicacion": "Chiapas",
+    "precio": 2500,
+    "imagen": "https://s2.glbimg.com/sljX6T_2RsD-BevSHAggEp4KTEQ=/smart/e.glbimg.com/og/ed/f/original/2019/06/25/pjm020719q202_luxe_wanakanz_livingroom_0264-lighton_r1.jpg",
+    "descripcion": "Experiencia única con tu propia cascada.",
+    "calificacion": 4.7
+  },
+  {
+    "id": 70,
+    "titulo": "Departamento de lujo",
+    "ubicacion": "Guadalajara",
+    "precio": 2900,
+    "imagen": "https://i.pinimg.com/originals/49/e3/d6/49e3d6668afb6ca401b1679fc6456afc.jpg",
+    "descripcion": "Comodidad y exclusividad en el centro de la ciudad.",
+    "calificacion": 4.8
+  },
+  {
+    "id": 71,
+    "titulo": "Casa con cancha de tenis",
+    "ubicacion": "Cuernavaca",
+    "precio": 2200,
+    "imagen": "https://th.bing.com/th/id/R.d6b4129a0a9f2126e1a9f0cd355781d0?rik=L%2fLKh48jQC3EoQ&riu=http%3a%2f%2fwww.elmueble.com%2fmedio%2f2018%2f07%2f03%2fapartamento-airbnb-en-formentera_2750025f.jpg&ehk=EgTgri17dJXW4nkbHhi%2b9iJ%2bOw6wa77KGx00l4BfA%2fE%3d&risl=&pid=ImgRaw&r=0",
+    "descripcion": "Diversión garantizada con tu propia cancha.",
+    "calificacion": 4.5
+  },
+  {
+    "id": 72,
+    "titulo": "Penthouse con jacuzzi",
+    "ubicacion": "Playa del Carmen",
+    "precio": 3200,
+    "imagen": "https://i0.wp.com/foodandpleasure.com/wp-content/uploads/2021/02/airbnbs-boho-playas-villaprivada2.jpg?resize=768%2C512&ssl=1",
+    "descripcion": "Relájate en el jacuzzi con vistas al mar.",
+    "calificacion": 5.0
+  },
+  {
+    "id": 73,
+    "titulo": "Casa con observatorio",
+    "ubicacion": "San José del Pacífico",
+    "precio": 2000,
+    "imagen": "https://tse4.mm.bing.net/th/id/OIP.-By9FAukuUOPXqMwMEHMdgHaDt?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "descripcion": "Disfruta de las estrellas en este lugar mágico.",
+    "calificacion": 4.8
+  },
+  {
+    "id": 74,
+    "titulo": "Bungalow con hamacas",
+    "ubicacion": "Puerto Escondido",
+    "precio": 2600,
+    "imagen": "https://media.admagazine.com/photos/63d81edc6846dafe257fcf8c/16:9/w_1280,c_limit/Apartment%20with%20a%20great%20view.%20Photo-%20@barilocherent.jpeg",
+    "descripcion": "Relájate al máximo en la brisa marina.",
+    "calificacion": 4.7
+  },
+  {
+    "id": 75,
+    "titulo": "Casa de adobe",
+    "ubicacion": "Real de Catorce",
+    "precio": 1500,
+    "imagen": "https://e00-telva.uecdn.es/assets/multimedia/imagenes/2016/09/20/14743689382917.jpg",
+    "descripcion": "Autenticidad y misticismo en el desierto.",
+    "calificacion": 4.6
+  },
+  {
+    "id": 76,
+    "titulo": "Loft con chimenea",
+    "ubicacion": "Tepoztlán",
+    "precio": 1750,
+    "imagen": "https://media.admagazine.com/photos/618a61cb5175565957556367/master/w_1600%2Cc_limit/84781.jpg",
+    "descripcion": "Ambiente cálido y acogedor para noches frías.",
+    "calificacion": 4.4
+  },
+  {
+    "id": 77,
+    "titulo": "Casa con río subterráneo",
+    "ubicacion": "Tulum",
+    "precio": 3000,
+    "imagen": "https://media.admagazine.com/photos/622288094838a4327ba39bf2/16:9/w_1280,c_limit/Mansi%C3%B3n%20Hist%C3%B3rica%20en%20el%20Centro.jpg?mbid=social_retweet",
+    "descripcion": "Descubre un río subterráneo en tu propiedad.",
+    "calificacion": 5.0
+  },
+  {
+    "id": 78,
+    "titulo": "Casa frente al lago",
+    "ubicacion": "Pátzcuaro",
+    "precio": 1800,
+    "imagen": "https://media.admagazine.com/photos/618a6da5c649ce85eef758e5/master/w_1600%2Cc_limit/58318.jpg",
+    "descripcion": "Vistas tranquilas al lago y la isla de Janitzio.",
+    "calificacion": 4.5
+  },
+  {
+    "id": 79,
+    "titulo": "Departamento con vista a la ciudad",
+    "ubicacion": "Ciudad de México",
+    "precio": 2300,
+    "imagen": "https://media.admagazine.com/photos/618a61cb259e475000cce930/master/w_1600%2Cc_limit/84788.jpg",
+    "descripcion": "Disfruta de la vida urbana desde lo alto.",
+    "calificacion": 4.3
+  },
+  {
+    "id": 80,
+    "titulo": "Casa con jardín botánico",
+    "ubicacion": "Jardines de México",
+    "precio": 2500,
+    "imagen": "https://tse4.mm.bing.net/th/id/OIP.Rk5tow7i219nt-55qM-ltQHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "descripcion": "Sumérgete en la belleza de la flora mexicana.",
+    "calificacion": 4.9
+  },
+  {
+    "id": 81,
+    "titulo": "Villa con campo de golf",
+    "ubicacion": "Los Cabos",
+    "precio": 3700,
+    "imagen": "https://www.carpemundi.com.br/wp-content/uploads/2018/08/casa-natureza-airbnb-ubatuba.jpg",
+    "descripcion": "Para los amantes del golf, con acceso exclusivo.",
+    "calificacion": 5.0
+  },
+  {
+    "id": 82,
+    "titulo": "Casa en la selva con alberca natural",
+    "ubicacion": "Puerto Escondido",
+    "precio": 2800,
+    "imagen": "https://media.revistaad.es/photos/60c7514e9dad29f14a145ab0/16:9/w_2580,c_limit/50127.jpg",
+    "descripcion": "Refugio ecológico con alberca alimentada por manantial.",
+    "calificacion": 4.8
+  },
+  {
+    "id": 83,
+    "titulo": "Loft con galería de arte",
+    "ubicacion": "San Miguel de Allende",
+    "precio": 2400,
+    "imagen": "https://images.squarespace-cdn.com/content/v1/56216fc2e4b059c47b425496/1554325286466-5DT5EP7NPRPHYTYS9M8V/mejores+airbnb+en+M%C3%A9xico",
+    "descripcion": "Espacio cultural con exposiciones de arte rotativas.",
+    "calificacion": 4.7
+  },
+  {
+    "id": 84,
+    "titulo": "Casa con horno de leña",
+    "ubicacion": "Valle de Bravo",
+    "precio": 1950,
+    "imagen": "https://i0.wp.com/foodandpleasure.com/wp-content/uploads/2021/02/airbnbs-boho-playas-casaalegria1.jpg?w=1440&ssl=1",
+    "descripcion": "Ideal para los amantes de la cocina rústica.",
+    "calificacion": 4.5
+  },
+  {
+    "id": 85,
+    "titulo": "Departamento con gimnasio",
+    "ubicacion": "Monterrey",
+    "precio": 2100,
+    "imagen": "https://images.adsttc.com/media/images/5b93/9a4d/f197/cc77/b300/005b/large_jpg/Screen_Shot_2015-05-18_at_16.42.15.jpg.jpg?1536399940",
+    "descripcion": "Mantente en forma durante tu viaje.",
+    "calificacion": 4.3
+  },
+  {
+    "id": 86,
+    "titulo": "Casa frente a la pirámide",
+    "ubicacion": "Teotihuacán",
+    "precio": 1800,
+    "imagen": "https://news.airbnb.com/wp-content/uploads/sites/4/2020/09/Eco-dome-2.jpg?fit=1920%2C1281",
+    "descripcion": "Despierta con la vista de las pirámides.",
+    "calificacion": 4.9
+  },
+  {
+    "id": 87,
+    "titulo": "Cabaña con jacuzzi exterior",
+    "ubicacion": "Mazamitla",
+    "precio": 1600,
+    "imagen": "https://i0.wp.com/foodandpleasure.com/wp-content/uploads/2021/02/airbnbs-boho-playas-casaalegria2.jpg?w=1440&ssl=1",
+    "descripcion": "Relájate bajo las estrellas en el bosque.",
+    "calificacion": 4.6
+  },
+  {
+    "id": 88,
+    "titulo": "Departamento con acceso a metro",
+    "ubicacion": "Ciudad de México",
+    "precio": 1900,
+    "imagen": "https://www.dondeir.com/wp-content/uploads/2022/04/casas-en-airbnb-mexico.jpg",
+    "descripcion": "Explora la ciudad con facilidad.",
+    "calificacion": 4.1
+  },
+  {
+    "id": 89,
+    "titulo": "Casa con zona de fogata",
+    "ubicacion": "San Miguel de Allende",
+    "precio": 2000,
+    "imagen": "https://tse3.mm.bing.net/th/id/OIP.Jn9zSMGUVnX4RWlc34QN2QHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "descripcion": "Noches inolvidables bajo las estrellas.",
+    "calificacion": 4.5
+  },
+  {
+    "id": 90,
+    "titulo": "Villa con bodega privada",
+    "ubicacion": "Valle de Guadalupe",
+    "precio": 3100,
+    "imagen": "https://i0.wp.com/foodandpleasure.com/wp-content/uploads/2020/09/airbnb-oaxaca-3.jpg?w=1200&ssl=1",
+    "descripcion": "Experiencia enológica completa con tu propia bodega.",
+    "calificacion": 5.0
+  },
+  {
+    "id": 91,
+    "titulo": "Casa con tobogán acuático",
+    "ubicacion": "Puerto Vallarta",
+    "precio": 2700,
+    "imagen": "https://media.cntraveller.in/wp-content/uploads/2023/05/Airbnb-Rooms-Bangkok-Bedroom-2023-Summer-Release-scaled.jpg",
+    "descripcion": "Diversión garantizada para toda la familia.",
+    "calificacion": 4.8
+  },
+  {
+    "id": 92,
+    "titulo": "Penthouse con helipuerto",
+    "ubicacion": "Ciudad de México",
+    "precio": 4000,
+    "imagen": "https://todososcaminhos.com/wp-content/uploads/2020/09/airbnb-casa-com-vista-linda-6.png",
+    "descripcion": "Lujo extremo y acceso exclusivo.",
+    "calificacion": 5.0
+  },
+  {
+    "id": 93,
+    "titulo": "Casa de pescadores",
+    "ubicacion": "Isla Mujeres",
+    "precio": 2300,
+    "imagen": "https://s2.glbimg.com/sljX6T_2RsD-BevSHAggEp4KTEQ=/smart/e.glbimg.com/og/ed/f/original/2019/06/25/pjm020719q202_luxe_wanakanz_livingroom_0264-lighton_r1.jpg",
+    "descripcion": "Encanto rústico frente al mar.",
+    "calificacion": 4.6
+  },
+  {
+    "id": 94,
+    "titulo": "Bungalow en árbol",
+    "ubicacion": "Huasteca Potosina",
+    "precio": 1700,
+    "imagen": "https://i.pinimg.com/originals/49/e3/d6/49e3d6668afb6ca401b1679fc6456afc.jpg",
+    "descripcion": "Aventura única en las alturas del bosque.",
+    "calificacion": 4.7
+  },
+  {
+    "id": 95,
+    "titulo": "Casa con taller de cerámica",
+    "ubicacion": "Tlaquepaque",
+    "precio": 1850,
+    "imagen": "https://th.bing.com/th/id/R.d6b4129a0a9f2126e1a9f0cd355781d0?rik=L%2fLKh48jQC3EoQ&riu=http%3a%2f%2fwww.elmueble.com%2fmedio%2f2018%2f07%2f03%2fapartamento-airbnb-en-formentera_2750025f.jpg&ehk=EgTgri17dJXW4kbbhhi%2b9iJ%2bOw6wa77KGx00l4BfA%2fE%3d&risl=&pid=ImgRaw&r=0",
+    "descripcion": "Aprende y crea en un ambiente inspirador.",
+    "calificacion": 4.4
+  },
+  {
+    "id": 96,
+    "titulo": "Departamento con sala de cine",
+    "ubicacion": "Monterrey",
+    "precio": 2500,
+    "imagen": "https://i0.wp.com/foodandpleasure.com/wp-content/uploads/2021/02/airbnbs-boho-playas-villaprivada2.jpg?resize=768%2C512&ssl=1",
+    "descripcion": "Noches de películas como en el cine.",
+    "calificacion": 4.9
+  },
+  {
+    "id": 97,
+    "titulo": "Casa en la gruta",
+    "ubicacion": "Grutas de Tolantongo",
+    "precio": 2100,
+    "imagen": "https://tse4.mm.bing.net/th/id/OIP.-By9FAukuUOPXqMwMEHMdgHaDt?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "descripcion": "Experiencia única en una gruta natural.",
+    "calificacion": 4.7
+  },
+  {
+    "id": 98,
+    "titulo": "Loft con cocina gourmet",
+    "ubicacion": "Ciudad de México",
+    "precio": 2200,
+    "imagen": "https://media.admagazine.com/photos/63d81edc6846dafe257fcf8c/16:9/w_1280,c_limit/Apartment%20with%20a%20great%20view.%20Photo-%20@barilocherent.jpeg",
+    "descripcion": "Ideal para amantes de la gastronomía.",
+    "calificacion": 4.5
+  },
+  {
+    "id": 99,
+    "titulo": "Casa con huerto orgánico",
+    "ubicacion": "Tepoztlán",
+    "precio": 1900,
+    "imagen": "https://e00-telva.uecdn.es/assets/multimedia/imagenes/2016/09/20/14743689382917.jpg",
+    "descripcion": "Conéctate con la naturaleza y disfruta de productos frescos.",
+    "calificacion": 4.6
+  },
+  {
+    "id": 100,
+    "titulo": "Villa con observatorio",
+    "ubicacion": "Valle de Guadalupe",
+    "precio": 3000,
+    "imagen": "https://media.admagazine.com/photos/618a61cb5175565957556367/master/w_1600%2Cc_limit/84781.jpg",
+    "descripcion": "Noches estrelladas inigualables en la ruta del vino.",
+    "calificacion": 5.0
   }
 ]

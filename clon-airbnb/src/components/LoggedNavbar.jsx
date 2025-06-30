@@ -188,18 +188,11 @@ const LandingNavbar = ({ user, setUser }) => {
                         <div className="absolute right-0 mt-3 w-48 bg-white border border-gray-200 rounded-xl shadow-lg py-2 z-20 animate-fadeInUp">
                             <span className="block px-4 py-2 text-gray-700 text-sm truncate">Hola, **{user.email.split('@')[0]}**</span>
                                     <Link
-                                        to="/profile" // Puedes añadir un enlace a la página de perfil del usuario
+                                        to="/profile"
                                         onClick={() => setIsMenuOpen(false)}
                                         className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-lg transition-colors duration-200"
                                     >
                                         Mi perfil
-                                    </Link>
-                                    <Link
-                                        to="/login"
-                                        onClick={() => setIsMenuOpen(false)}
-                                        className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-lg transition-colors duration-200"
-                                    >
-                                        Iniciar Sesión
                                     </Link>
                                     <Link
                                         to="/signup"

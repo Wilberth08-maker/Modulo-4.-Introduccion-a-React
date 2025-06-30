@@ -1,5 +1,6 @@
-import { useEffect, useState, useCallback } from 'react';
+import { useEffect, useState, useCallback, useMemo } from 'react';
 import PagButtons from '@/components/PageButtons/PageButtons';
+import {Link} from 'react-router-dom';
 
 const Alojamientos = () => {
     const [alojamientos, setAlojamientos] = useState([]);
@@ -9,10 +10,13 @@ const Alojamientos = () => {
     const [currentPage, setCurrentPage] = useState(1); // Nuevo estado para la página actual
     const itemsPerPage = 24; // Mostrar 24 tarjetas por página
 
+    const [cardsBlurred, setCardsBlurred] = useState(true); // Inicia borroso
+
     useEffect(() => {
         const fetchAlojamientos = async () => {
             try {
                 setLoading(true);
+                setCardsBlurred(true);
                 const timer = new Promise((res) => setTimeout(res, 2000));
 
                 const fetchPromise = fetch('/data/alojamientos.json');
@@ -24,9 +28,16 @@ const Alojamientos = () => {
                 const data = await res.json();
                 
                 setAlojamientos(data);
+
+                setTimeout(() => {
+                    setCardsBlurred(false); // Tarjetas nítidas
+                    setLoading(false); // Oculta el spinner principal
+                }, 500); // Pequeño retraso para que el spinner principal tenga tiempo de desaparecer
+
             } catch (err) {
                 console.error('Error cargando alojamientos:', err);
                 setError(err.message);
+                setCardsBlurred(true);
             } finally {
                 setLoading(false);
             }
@@ -39,11 +50,27 @@ const Alojamientos = () => {
     const totalPages = Math.ceil(alojamientos.length / itemsPerPage);
     const startIndex = (currentPage - 1) * itemsPerPage;
     const endIndex = startIndex + itemsPerPage;
-    const currentAlojamientos = alojamientos.slice(startIndex, endIndex);
+
+    const currentAlojamientos = useMemo(() => {
+        setCardsBlurred(true);
+        return alojamientos.slice(startIndex, endIndex); 
+    },[alojamientos, startIndex, endIndex]);
+
+    // useEffect para re-activar el efecto de desenfoque cuando currentAlojamientos cambia
+    useEffect(() => {
+        if (!loading && !pageLoading && currentAlojamientos.length > 0) {
+            // Un pequeño retraso para asegurar que los spinners se oculten primero
+            const timer = setTimeout(() => {
+                setCardsBlurred(false); // Haz las tarjetas nítidas después de la transición de página
+            }, 500); // 
+            return () => clearTimeout(timer);
+        }
+    }, [currentAlojamientos, loading, pageLoading]); // Dependencias para re-ejecutar
 
     // Función para manejar el cambio de página con loading
     const changePage = useCallback(async (newPage) => {
         setPageLoading(true); // Activa el loading para el cambio de página
+        setCardsBlurred(true);
         await new Promise(resolve => setTimeout(resolve, 500)); // Pequeña pausa para ver el spinner
         setCurrentPage(newPage);
         setPageLoading(false); // Desactiva el loading
@@ -93,22 +120,40 @@ const Alojamientos = () => {
                         /> 
 
                     {/* Contenedor principal de las tarjetas */}
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-x-4 gap-y-8 w-full max-w-7xl">
+                    <div className={`
+                            grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 
+                            gap-x-4 gap-y-8 w-full max-w-7xl 
+                            transition-all duration-500 ease-in-out 
+                            ${cardsBlurred ? 'blur-md' : 'blur-none'}
+                        `}>
                         {currentAlojamientos.map(aloj => (
-                            <div key={aloj.id} className="group cursor-pointer"> {/* Usamos 'group' para efectos de hover */}
+                            <Link 
+                            key={aloj.id} 
+                            to={`/alojamientos/${aloj.id}`}
+                            className="group cursor-pointer block" 
+                            >
                                 {/* Contenedor de la imagen */}
                                 <div className="relative overflow-hidden rounded-xl aspect-square mb-2">
                                     <img
                                         src={aloj.imagen}
                                         alt={aloj.titulo}
                                         className="w-full h-full object-cover transform transition-transform duration-300 group-hover:scale-105"
+                                        aria-label={`Tarjeta del alojamiento ${aloj.titulo}`}
+
                                     />
-                                    {/* Puedes añadir un botón de "Favorito" aquí, al estilo Airbnb */}
-                                    {/* <button className="absolute top-2 right-2 p-1 rounded-full bg-white bg-opacity-70 text-gray-800 hover:text-red-500">
-                                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                    
+                                    <button className="absolute top-2 right-2 p-1 rounded-full bg-opacity-70 transition-all duration-200 hover:scale-110">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 32 32"
+                                            aria-hidden="true"
+                                            role="presentation"
+                                            focusable="false"
+                                            className="block h-6 w-6 stroke-white stroke-2 overflow-visible  transition-colors duration-200 "
+                                        >
+                                            <path d="M16 28c7-4.73 14-10 14-17a6.98 6.98 0 0 0-7-7c-1.8 0-3.58.68-4.95 2.05L16 8.1l-2.05-2.05a6.98 6.98 0 0 0-9.9 0A6.98 6.98 0 0 0 2 11c0 7 7 12.27 14 17z"></path>
                                         </svg>
-                                    </button> */}
+                                    </button>
                                 </div>
 
                                 {/* Información del alojamiento */}
@@ -128,9 +173,15 @@ const Alojamientos = () => {
                                         </span> 
                                     </p>
                                 </div>
-                            </div>
+                            </Link>
                         ))}
-                    </div>   
+                    </div>
+                    {/* Paginación */}
+                    <PagButtons
+                            info={{ prev: currentPage > 1, next: currentPage < totalPages }}
+                            onPrevious={handlePreviousPage}
+                            onNext={handleNextPage}
+                        />    
                 </>
             )}       
         </div>
