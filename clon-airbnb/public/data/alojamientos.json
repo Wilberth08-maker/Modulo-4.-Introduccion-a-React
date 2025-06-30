@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "titulo": "Casa con jardín",
+    "ubicacion": "Monterrey",
+    "precio": 1580,
+    "imagen": "https://tse4.mm.bing.net/th/id/OIP.-By9FAukuUOPXqMwMEHMdgHaDt?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "descripcion": "Decoración moderna y elegante.",
+    "calificacion": 4.2
+  },
+  {
+    "id": 2,
+    "titulo": "Casa frente al lago",
+    "ubicacion": "Puebla",
+    "precio": 1779,
+    "imagen": "/assets/cabana.jpg",
+    "descripcion": "Casa amplia con decoración tradicional y terraza.",
+    "calificacion": 3.7
+  },
+  {
+    "id": 3,
+    "titulo": "Casa estilo hacienda",
+    "ubicacion": "Oaxaca",
+    "precio": 2007,
+    "imagen": "/assets/mar.jpg",
+    "descripcion": "Ambiente acogedor y tranquilo.",
+    "calificacion": 4.7
+  },
+  {
+    "id": 4,
+    "titulo": "Departamento céntrico",
+    "ubicacion": "Tulum",
+    "precio": 2951,
+    "imagen": "/assets/cabana.jpg",
+    "descripcion": "Ambiente acogedor y tranquilo.",
+    "calificacion": 4.8
+  },
+  {
+    "id": 5,
+    "titulo": "Villa con alberca",
+    "ubicacion": "San Miguel de Allende",
+    "precio": 1768,
+    "imagen": "/assets/penthouse.jpg",
+    "descripcion": "Casa amplia con decoración tradicional y terraza.",
+    "calificacion": 5.0
+  },
+  {
+    "id": 6,
+    "titulo": "Casa frente al lago",
+    "ubicacion": "San Miguel de Allende",
+    "precio": 1585,
+    "imagen": "/assets/penthouse.jpg",
+    "descripcion": "Ambiente acogedor y tranquilo.",
+    "calificacion": 4.2
+  },
+  {
+    "id": 7,
+    "titulo": "Casa con jardín",
+    "ubicacion": "Guadalajara, Jalisco",
+    "precio": 1221,
+    "imagen": "/assets/penthouse.jpg",
+    "descripcion": "Ubicación inmejorable, todo a unos pasos.",
+    "calificacion": 4.6
+  },
+  {
+    "id": 8,
+    "titulo": "Loft urbano",
+    "ubicacion": "Monterrey",
+    "precio": 2027,
+    "imagen": "https://tse4.mm.bing.net/th/id/OIP.Rk5tow7i219nt-55qM-ltQHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "descripcion": "Perfecta para una escapada romántica.",
+    "calificacion": 3.7
+  },
+  {
+    "id": 9,
+    "titulo": "Departamento céntrico",
+    "ubicacion": "Tulum",
+    "precio": 2586,
+    "imagen": "/assets/mar.jpg",
+    "descripcion": "Decoración moderna y elegante.",
+    "calificacion": 3.9
+  },
+  {
+    "id": 10,
+    "titulo": "Casa con jardín",
+    "ubicacion": "Tulum",
+    "precio": 1251,
+    "imagen": "/assets/cabana.jpg",
+    "descripcion": "Diseño rústico con toques contemporáneos.",
+    "calificacion": 4.5
+  },
+  {
+    "id": 11,
+    "titulo": "Loft urbano",
+    "ubicacion": "Valle de Bravo",
+    "precio": 2105,
+    "imagen": "/assets/penthouse.jpg",
+    "descripcion": "Ubicación inmejorable, todo a unos pasos.",
+    "calificacion": 3.7
+  },
+  {
+    "id": 12,
+    "titulo": "Casa frente al lago",
+    "ubicacion": "Oaxaca",
+    "precio": 2128,
+    "imagen": "/assets/penthouse.jpg",
+    "descripcion": "Perfecta para una escapada romántica.",
+    "calificacion": 5.0
+  },
+  {
+    "id": 13,
+    "titulo": "Casa estilo hacienda",
+    "ubicacion": "Ciudad de México",
+    "precio": 1838,
+    "imagen": "https://tse4.mm.bing.net/th/id/OIP.Rk5tow7i219nt-55qM-ltQHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "descripcion": "Ubicación inmejorable, todo a unos pasos.",
+    "calificacion": 4.9
+  },
+  {
+    "id": 14,
+    "titulo": "Casa estilo hacienda",
+    "ubicacion": "Ciudad de México",
+    "precio": 2814,
+    "imagen": "/assets/cabana.jpg",
+    "descripcion": "Ambiente acogedor y tranquilo.",
+    "calificacion": 4.7
+  },
+  {
+    "id": 15,
+    "titulo": "Casa en la playa",
+    "ubicacion": "Mérida",
+    "precio": 2439,
+    "imagen": "/assets/mar.jpg",
+    "descripcion": "Diseño rústico con toques contemporáneos.",
+    "calificacion": 3.6
+  },
+  {
+    "id": 16,
+    "titulo": "Loft urbano",
+    "ubicacion": "Tulum",
+    "precio": 1451,
+    "imagen": "/assets/mar.jpg",
+    "descripcion": "Ambiente acogedor y tranquilo.",
+    "calificacion": 3.7
+  },
+  {
+    "id": 17,
+    "titulo": "Casa con jardín",
+    "ubicacion": "Valle de Bravo",
+    "precio": 1539,
+    "imagen": "/assets/cabana.jpg",
+    "descripcion": "Casa amplia con decoración tradicional y terraza.",
+    "calificacion": 4.3
+  },
+  {
+    "id": 18,
+    "titulo": "Villa con alberca",
+    "ubicacion": "Guadalajara, Jalisco",
+    "precio": 1560,
+    "imagen": "/assets/cabana.jpg",
+    "descripcion": "Perfecta para una escapada romántica.",
+    "calificacion": 3.6
+  },
+  {
+    "id": 19,
+    "titulo": "Casa estilo hacienda",
+    "ubicacion": "Querétaro",
+    "precio": 1750,
+    "imagen": "/assets/mar.jpg",
+    "descripcion": "Ideal para familias, con cocina equipada.",
+    "calificacion": 4.6
+  },
+  {
+    "id": 20,
+    "titulo": "Casa frente al lago",
+    "ubicacion": "Monterrey",
+    "precio": 2755,
+    "imagen": "/assets/penthouse.jpg",
+    "descripcion": "Ambiente acogedor y tranquilo.",
+    "calificacion": 4.4
+  },
+  {
+    "id": 21,
+    "titulo": "Casa frente al lago",
+    "ubicacion": "Ciudad de México",
+    "precio": 1724,
+    "imagen": "https://tse4.mm.bing.net/th/id/OIP.Rk5tow7i219nt-55qM-ltQHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "descripcion": "Diseño rústico con toques contemporáneos.",
+    "calificacion": 3.9
+  },
+  {
+    "id": 22,
+    "titulo": "Casa estilo hacienda",
+    "ubicacion": "Monterrey",
+    "precio": 1847,
+    "imagen": "/assets/mar.jpg",
+    "descripcion": "Diseño rústico con toques contemporáneos.",
+    "calificacion": 4.5
+  },
+  {
+    "id": 23,
+    "titulo": "Departamento céntrico",
+    "ubicacion": "Oaxaca",
+    "precio": 2249,
+    "imagen": "/assets/penthouse.jpg",
+    "descripcion": "Espacios amplios y bien iluminados.",
+    "calificacion": 3.7
+  },
+  {
+    "id": 24,
+    "titulo": "Penthouse moderno",
+    "ubicacion": "Querétaro",
+    "precio": 2630,
+    "imagen": "/assets/cabana.jpg",
+    "descripcion": "Casa amplia con decoración tradicional y terraza.",
+    "calificacion": 4.2
+  },
+  {
+    "id": 25,
+    "titulo": "Casa frente al lago",
+    "ubicacion": "Tulum",
+    "precio": 1266,
+    "imagen": "/assets/penthouse.jpg",
+    "descripcion": "Relájate en la alberca privada y jardines amplios.",
+    "calificacion": 4.7
+  },
+  {
+    "id": 26,
+    "titulo": "Casa colonial",
+    "ubicacion": "Tulum",
+    "precio": 1371,
+    "imagen": "/assets/mar.jpg",
+    "descripcion": "Vista espectacular desde la terraza.",
+    "calificacion": 4.7
+  },
+  {
+    "id": 27,
+    "titulo": "Loft urbano",
+    "ubicacion": "Ciudad de México",
+    "precio": 1265,
+    "imagen": "/assets/penthouse.jpg",
+    "descripcion": "Casa amplia con decoración tradicional y terraza.",
+    "calificacion": 4.8
+  },
+  {
+    "id": 28,
+    "titulo": "Loft urbano",
+    "ubicacion": "Mérida",
+    "precio": 2500,
+    "imagen": "/assets/mar.jpg",
+    "descripcion": "Ambiente acogedor y tranquilo.",
+    "calificacion": 3.7
+  },
+  {
+    "id": 29,
+    "titulo": "Casa estilo hacienda",
+    "ubicacion": "Puebla",
+    "precio": 1695,
+    "imagen": "/assets/cabana.jpg",
+    "descripcion": "Ambiente acogedor y tranquilo.",
+    "calificacion": 3.8
+  },
+  {
+    "id": 30,
+    "titulo": "Loft urbano",
+    "ubicacion": "Oaxaca",
+    "precio": 2353,
+    "imagen": "/assets/cabana.jpg",
+    "descripcion": "Casa amplia con decoración tradicional y terraza.",
+    "calificacion": 4.4
+  },
+  {
+    "id": 31,
+    "titulo": "Penthouse moderno",
+    "ubicacion": "Mérida",
+    "precio": 2788,
+    "imagen": "/assets/mar.jpg",
+    "descripcion": "Diseño rústico con toques contemporáneos.",
+    "calificacion": 4.9
+  },
+  {
+    "id": 32,
+    "titulo": "Departamento céntrico",
+    "ubicacion": "Tulum",
+    "precio": 2355,
+    "imagen": "/assets/mar.jpg",
+    "descripcion": "Relájate en la alberca privada y jardines amplios.",
+    "calificacion": 4.9
+  },
+  {
+    "id": 33,
+    "titulo": "Casa estilo hacienda",
+    "ubicacion": "Guadalajara, Jalisco",
+    "precio": 2578,
+    "imagen": "/assets/penthouse.jpg",
+    "descripcion": "Relájate en la alberca privada y jardines amplios.",
+    "calificacion": 4.5
+  },
+  {
+    "id": 34,
+    "titulo": "Cabaña en el bosque",
+    "ubicacion": "Tulum",
+    "precio": 2556,
+    "imagen": "/assets/penthouse.jpg",
+    "descripcion": "Espacios amplios y bien iluminados.",
+    "calificacion": 3.6
+  },
+  {
+    "id": 35,
+    "titulo": "Villa con alberca",
+    "ubicacion": "Puebla",
+    "precio": 1980,
+    "imagen": "/assets/mar.jpg",
+    "descripcion": "Ideal para familias, con cocina equipada.",
+    "calificacion": 3.5
+  },
+  {
+    "id": 36,
+    "titulo": "Casa frente al lago",
+    "ubicacion": "Valle de Bravo",
+    "precio": 1200,
+    "imagen": "/assets/penthouse.jpg",
+    "descripcion": "Ubicación inmejorable, todo a unos pasos.",
+    "calificacion": 4.9
+  },
+  {
+    "id": 37,
+    "titulo": "Casa colonial",
+    "ubicacion": "San Miguel de Allende",
+    "precio": 1276,
+    "imagen": "/assets/cabana.jpg",
+    "descripcion": "Relájate en la alberca privada y jardines amplios.",
+    "calificacion": 4.9
+  },
+  {
+    "id": 38,
+    "titulo": "Casa con jardín",
+    "ubicacion": "Valle de Bravo",
+    "precio": 1234,
+    "imagen": "https://tse4.mm.bing.net/th/id/OIP.Rk5tow7i219nt-55qM-ltQHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "descripcion": "Ideal para familias, con cocina equipada.",
+    "calificacion": 4.5
+  },
+  {
+    "id": 39,
+    "titulo": "Penthouse moderno",
+    "ubicacion": "Querétaro",
+    "precio": 2232,
+    "imagen": "/assets/cabana.jpg",
+    "descripcion": "Espacios amplios y bien iluminados.",
+    "calificacion": 4.5
+  },
+  {
+    "id": 40,
+    "titulo": "Loft urbano",
+    "ubicacion": "Oaxaca",
+    "precio": 2771,
+    "imagen": "/assets/cabana.jpg",
+    "descripcion": "Espacios amplios y bien iluminados.",
+    "calificacion": 4.9
+  },
+  {
+    "id": 41,
+    "titulo": "Casa frente al lago",
+    "ubicacion": "San Miguel de Allende",
+    "precio": 2101,
+    "imagen": "/assets/penthouse.jpg",
+    "descripcion": "Relájate en la alberca privada y jardines amplios.",
+    "calificacion": 3.6
+  },
+  {
+    "id": 42,
+    "titulo": "Casa estilo hacienda",
+    "ubicacion": "Querétaro",
+    "precio": 1452,
+    "imagen": "https://tse4.mm.bing.net/th/id/OIP.Rk5tow7i219nt-55qM-ltQHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "descripcion": "Ubicación inmejorable, todo a unos pasos.",
+    "calificacion": 4.6
+  },
+  {
+    "id": 43,
+    "titulo": "Casa con jardín",
+    "ubicacion": "Tulum",
+    "precio": 2766,
+    "imagen": "/assets/mar.jpg",
+    "descripcion": "Decoración moderna y elegante.",
+    "calificacion": 4.6
+  },
+  {
+    "id": 44,
+    "titulo": "Cabaña en el bosque",
+    "ubicacion": "Mérida",
+    "precio": 1476,
+    "imagen": "/assets/penthouse.jpg",
+    "descripcion": "Diseño rústico con toques contemporáneos.",
+    "calificacion": 4.6
+  },
+  {
+    "id": 45,
+    "titulo": "Villa con alberca",
+    "ubicacion": "Ciudad de México",
+    "precio": 1835,
+    "imagen": "https://tse4.mm.bing.net/th/id/OIP.Rk5tow7i219nt-55qM-ltQHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "descripcion": "Ideal para familias, con cocina equipada.",
+    "calificacion": 3.7
+  },
+  {
+    "id": 46,
+    "titulo": "Penthouse moderno",
+    "ubicacion": "Puebla",
+    "precio": 2249,
+    "imagen": "/assets/mar.jpg",
+    "descripcion": "Casa amplia con decoración tradicional y terraza.",
+    "calificacion": 4.6
+  },
+  {
+    "id": 47,
+    "titulo": "Casa colonial",
+    "ubicacion": "Guadalajara, Jalisco",
+    "precio": 1980,
+    "imagen": "/assets/penthouse.jpg",
+    "descripcion": "Espacios amplios y bien iluminados.",
+    "calificacion": 4.5
+  },
+  {
+    "id": 48,
+    "titulo": "Casa colonial",
+    "ubicacion": "San Miguel de Allende",
+    "precio": 2981,
+    "imagen": "https://tse4.mm.bing.net/th/id/OIP.Rk5tow7i219nt-55qM-ltQHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "descripcion": "Perfecta para una escapada romántica.",
+    "calificacion": 3.7
+  },
+  {
+    "id": 49,
+    "titulo": "Casa frente al lago",
+    "ubicacion": "Oaxaca",
+    "precio": 2044,
+    "imagen": "https://tse4.mm.bing.net/th/id/OIP.Rk5tow7i219nt-55qM-ltQHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "descripcion": "Decoración moderna y elegante.",
+    "calificacion": 4.9
+  },
+  {
+    "id": 50,
+    "titulo": "Penthouse moderno",
+    "ubicacion": "Monterrey",
+    "precio": 2829,
+    "imagen": "/assets/mar.jpg",
+    "descripcion": "Espacios amplios y bien iluminados.",
+    "calificacion": 4.8
+  },
+  {
+    "id": 51,
+    "titulo": "Casa en la playa",
+    "ubicacion": "Querétaro",
+    "precio": 1838,
+    "imagen": "/assets/penthouse.jpg",
+    "descripcion": "Perfecta para una escapada romántica.",
+    "calificacion": 4.5
+  },
+  {
+    "id": 52,
+    "titulo": "Departamento céntrico",
+    "ubicacion": "Ciudad de México",
+    "precio": 1823,
+    "imagen": "/assets/mar.jpg",
+    "descripcion": "Ideal para familias, con cocina equipada.",
+    "calificacion": 4.2
+  },
+  {
+    "id": 53,
+    "titulo": "Departamento céntrico",
+    "ubicacion": "Guadalajara, Jalisco",
+    "precio": 1721,
+    "imagen": "/assets/cabana.jpg",
+    "descripcion": "Espacios amplios y bien iluminados.",
+    "calificacion": 4.8
+  },
+  {
+    "id": 54,
+    "titulo": "Departamento céntrico",
+    "ubicacion": "Valle de Bravo",
+    "precio": 1209,
+    "imagen": "/assets/mar.jpg",
+    "descripcion": "Diseño rústico con toques contemporáneos.",
+    "calificacion": 4.0
+  },
+  {
+    "id": 55,
+    "titulo": "Loft urbano",
+    "ubicacion": "Ciudad de México",
+    "precio": 1463,
+    "imagen": "https://tse4.mm.bing.net/th/id/OIP.Rk5tow7i219nt-55qM-ltQHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "descripcion": "Casa amplia con decoración tradicional y terraza.",
+    "calificacion": 4.8
+  },
+  {
+    "id": 56,
+    "titulo": "Villa con alberca",
+    "ubicacion": "Querétaro",
+    "precio": 1980,
+    "imagen": "/assets/penthouse.jpg",
+    "descripcion": "Decoración moderna y elegante.",
+    "calificacion": 4.9
+  },
+  {
+    "id": 57,
+    "titulo": "Villa con alberca",
+    "ubicacion": "Oaxaca",
+    "precio": 2955,
+    "imagen": "/assets/penthouse.jpg",
+    "descripcion": "Relájate en la alberca privada y jardines amplios.",
+    "calificacion": 4.2
+  },
+  {
+    "id": 58,
+    "titulo": "Casa estilo hacienda",
+    "ubicacion": "Querétaro",
+    "precio": 1368,
+    "imagen": "/assets/mar.jpg",
+    "descripcion": "Ideal para familias, con cocina equipada.",
+    "calificacion": 3.7
+  },
+  {
+    "id": 59,
+    "titulo": "Casa con jardín",
+    "ubicacion": "Valle de Bravo",
+    "precio": 1403,
+    "imagen": "/assets/mar.jpg",
+    "descripcion": "Casa amplia con decoración tradicional y terraza.",
+    "calificacion": 3.8
+  },
+  {
+    "id": 60,
+    "titulo": "Cabaña en el bosque",
+    "ubicacion": "Querétaro",
+    "precio": 2196,
+    "imagen": "/assets/mar.jpg",
+    "descripcion": "Decoración moderna y elegante.",
+    "calificacion": 3.8
+  },
+  {
+    "id": 61,
+    "titulo": "Loft urbano",
+    "ubicacion": "Guadalajara, Jalisco",
+    "precio": 2626,
+    "imagen": "/assets/mar.jpg",
+    "descripcion": "Ambiente acogedor y tranquilo.",
+    "calificacion": 4.4
+  },
+  {
+    "id": 62,
+    "titulo": "Penthouse moderno",
+    "ubicacion": "Tulum",
+    "precio": 1551,
+    "imagen": "/assets/penthouse.jpg",
+    "descripcion": "Ideal para familias, con cocina equipada.",
+    "calificacion": 4.3
+  },
+  {
+    "id": 63,
+    "titulo": "Casa frente al lago",
+    "ubicacion": "Ciudad de México",
+    "precio": 2022,
+    "imagen": "https://tse4.mm.bing.net/th/id/OIP.Rk5tow7i219nt-55qM-ltQHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "descripcion": "Diseño rústico con toques contemporáneos.",
+    "calificacion": 3.5
+  },
+  {
+    "id": 64,
+    "titulo": "Penthouse moderno",
+    "ubicacion": "Tulum",
+    "precio": 2280,
+    "imagen": "https://tse4.mm.bing.net/th/id/OIP.Rk5tow7i219nt-55qM-ltQHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "descripcion": "Perfecta para una escapada romántica.",
+    "calificacion": 3.6
+  },
+  {
+    "id": 65,
+    "titulo": "Casa en la playa",
+    "ubicacion": "Valle de Bravo",
+    "precio": 2361,
+    "imagen": "/assets/cabana.jpg",
+    "descripcion": "Casa amplia con decoración tradicional y terraza.",
+    "calificacion": 4.8
+  },
+  {
+    "id": 66,
+    "titulo": "Loft urbano",
+    "ubicacion": "Guadalajara, Jalisco",
+    "precio": 2467,
+    "imagen": "/assets/cabana.jpg",
+    "descripcion": "Decoración moderna y elegante.",
+    "calificacion": 4.4
+  },
+  {
+    "id": 67,
+    "titulo": "Casa estilo hacienda",
+    "ubicacion": "Monterrey",
+    "precio": 2872,
+    "imagen": "/assets/penthouse.jpg",
+    "descripcion": "Vista espectacular desde la terraza.",
+    "calificacion": 3.7
+  },
+  {
+    "id": 68,
+    "titulo": "Casa frente al lago",
+    "ubicacion": "Valle de Bravo",
+    "precio": 2959,
+    "imagen": "/assets/penthouse.jpg",
+    "descripcion": "Diseño rústico con toques contemporáneos.",
+    "calificacion": 3.8
+  },
+  {
+    "id": 69,
+    "titulo": "Departamento céntrico",
+    "ubicacion": "Tulum",
+    "precio": 2227,
+    "imagen": "https://tse4.mm.bing.net/th/id/OIP.Rk5tow7i219nt-55qM-ltQHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "descripcion": "Espacios amplios y bien iluminados.",
+    "calificacion": 3.6
+  },
+  {
+    "id": 70,
+    "titulo": "Departamento céntrico",
+    "ubicacion": "Mérida",
+    "precio": 2827,
+    "imagen": "/assets/mar.jpg",
+    "descripcion": "Relájate en la alberca privada y jardines amplios.",
+    "calificacion": 4.5
+  },
+  {
+    "id": 71,
+    "titulo": "Casa frente al lago",
+    "ubicacion": "Ciudad de México",
+    "precio": 1749,
+    "imagen": "https://tse4.mm.bing.net/th/id/OIP.Rk5tow7i219nt-55qM-ltQHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "descripcion": "Perfecta para una escapada romántica.",
+    "calificacion": 3.8
+  },
+  {
+    "id": 72,
+    "titulo": "Casa con jardín",
+    "ubicacion": "Monterrey",
+    "precio": 1248,
+    "imagen": "https://tse4.mm.bing.net/th/id/OIP.Rk5tow7i219nt-55qM-ltQHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "descripcion": "Ambiente acogedor y tranquilo.",
+    "calificacion": 4.3
+  },
+  {
+    "id": 73,
+    "titulo": "Casa frente al lago",
+    "ubicacion": "Monterrey",
+    "precio": 2643,
+    "imagen": "/assets/mar.jpg",
+    "descripcion": "Relájate en la alberca privada y jardines amplios.",
+    "calificacion": 3.5
+  },
+  {
+    "id": 74,
+    "titulo": "Penthouse moderno",
+    "ubicacion": "Ciudad de México",
+    "precio": 2405,
+    "imagen": "/assets/mar.jpg",
+    "descripcion": "Vista espectacular desde la terraza.",
+    "calificacion": 3.5
+  },
+  {
+    "id": 75,
+    "titulo": "Casa frente al lago",
+    "ubicacion": "Querétaro",
+    "precio": 1438,
+    "imagen": "/assets/cabana.jpg",
+    "descripcion": "Ambiente acogedor y tranquilo.",
+    "calificacion": 4.2
+  },
+  {
+    "id": 76,
+    "titulo": "Cabaña en el bosque",
+    "ubicacion": "Puebla",
+    "precio": 2992,
+    "imagen": "/assets/cabana.jpg",
+    "descripcion": "Espacios amplios y bien iluminados.",
+    "calificacion": 3.8
+  },
+  {
+    "id": 77,
+    "titulo": "Villa con alberca",
+    "ubicacion": "Mérida",
+    "precio": 1512,
+    "imagen": "/assets/penthouse.jpg",
+    "descripcion": "Ambiente acogedor y tranquilo.",
+    "calificacion": 4.9
+  },
+  {
+    "id": 78,
+    "titulo": "Casa colonial",
+    "ubicacion": "San Miguel de Allende",
+    "precio": 2690,
+    "imagen": "/assets/penthouse.jpg",
+    "descripcion": "Ambiente acogedor y tranquilo.",
+    "calificacion": 4.4
+  },
+  {
+    "id": 79,
+    "titulo": "Casa colonial",
+    "ubicacion": "Monterrey",
+    "precio": 1537,
+    "imagen": "/assets/penthouse.jpg",
+    "descripcion": "Ambiente acogedor y tranquilo.",
+    "calificacion": 4.6
+  },
+  {
+    "id": 80,
+    "titulo": "Villa con alberca",
+    "ubicacion": "Valle de Bravo",
+    "precio": 1536,
+    "imagen": "/assets/mar.jpg",
+    "descripcion": "Decoración moderna y elegante.",
+    "calificacion": 3.8
+  },
+  {
+    "id": 81,
+    "titulo": "Penthouse moderno",
+    "ubicacion": "San Miguel de Allende",
+    "precio": 1597,
+    "imagen": "/assets/penthouse.jpg",
+    "descripcion": "Relájate en la alberca privada y jardines amplios.",
+    "calificacion": 4.4
+  },
+  {
+    "id": 82,
+    "titulo": "Cabaña en el bosque",
+    "ubicacion": "Monterrey",
+    "precio": 1798,
+    "imagen": "/assets/penthouse.jpg",
+    "descripcion": "Perfecta para una escapada romántica.",
+    "calificacion": 3.9
+  },
+  {
+    "id": 83,
+    "titulo": "Casa frente al lago",
+    "ubicacion": "Querétaro",
+    "precio": 2714,
+    "imagen": "/assets/penthouse.jpg",
+    "descripcion": "Relájate en la alberca privada y jardines amplios.",
+    "calificacion": 3.8
+  },
+  {
+    "id": 84,
+    "titulo": "Cabaña en el bosque",
+    "ubicacion": "Tulum",
+    "precio": 2292,
+    "imagen": "/assets/mar.jpg",
+    "descripcion": "Casa amplia con decoración tradicional y terraza.",
+    "calificacion": 4.7
+  },
+  {
+    "id": 85,
+    "titulo": "Casa con jardín",
+    "ubicacion": "Ciudad de México",
+    "precio": 1554,
+    "imagen": "/assets/penthouse.jpg",
+    "descripcion": "Ubicación inmejorable, todo a unos pasos.",
+    "calificacion": 4.2
+  },
+  {
+    "id": 86,
+    "titulo": "Casa colonial",
+    "ubicacion": "San Miguel de Allende",
+    "precio": 2980,
+    "imagen": "/assets/cabana.jpg",
+    "descripcion": "Vista espectacular desde la terraza.",
+    "calificacion": 3.8
+  },
+  {
+    "id": 87,
+    "titulo": "Departamento céntrico",
+    "ubicacion": "Oaxaca",
+    "precio": 2255,
+    "imagen": "https://tse4.mm.bing.net/th/id/OIP.Rk5tow7i219nt-55qM-ltQHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "descripcion": "Ubicación inmejorable, todo a unos pasos.",
+    "calificacion": 4.2
+  },
+  {
+    "id": 88,
+    "titulo": "Departamento céntrico",
+    "ubicacion": "Oaxaca",
+    "precio": 1620,
+    "imagen": "/assets/mar.jpg",
+    "descripcion": "Ubicación inmejorable, todo a unos pasos.",
+    "calificacion": 3.5
+  },
+  {
+    "id": 89,
+    "titulo": "Casa colonial",
+    "ubicacion": "Monterrey",
+    "precio": 2419,
+    "imagen": "/assets/cabana.jpg",
+    "descripcion": "Casa amplia con decoración tradicional y terraza.",
+    "calificacion": 4.8
+  },
+  {
+    "id": 90,
+    "titulo": "Loft urbano",
+    "ubicacion": "Querétaro",
+    "precio": 2431,
+    "imagen": "/assets/penthouse.jpg",
+    "descripcion": "Ideal para familias, con cocina equipada.",
+    "calificacion": 3.6
+  },
+  {
+    "id": 91,
+    "titulo": "Departamento céntrico",
+    "ubicacion": "Mérida",
+    "precio": 1669,
+    "imagen": "/assets/mar.jpg",
+    "descripcion": "Diseño rústico con toques contemporáneos.",
+    "calificacion": 4.1
+  },
+  {
+    "id": 92,
+    "titulo": "Departamento céntrico",
+    "ubicacion": "Valle de Bravo",
+    "precio": 2787,
+    "imagen": "/assets/mar.jpg",
+    "descripcion": "Diseño rústico con toques contemporáneos.",
+    "calificacion": 4.3
+  },
+  {
+    "id": 93,
+    "titulo": "Departamento céntrico",
+    "ubicacion": "Puebla",
+    "precio": 1238,
+    "imagen": "/assets/mar.jpg",
+    "descripcion": "Vista espectacular desde la terraza.",
+    "calificacion": 4.2
+  },
+  {
+    "id": 94,
+    "titulo": "Casa colonial",
+    "ubicacion": "Puebla",
+    "precio": 1533,
+    "imagen": "/assets/mar.jpg",
+    "descripcion": "Ubicación inmejorable, todo a unos pasos.",
+    "calificacion": 3.6
+  },
+  {
+    "id": 95,
+    "titulo": "Cabaña en el bosque",
+    "ubicacion": "Guadalajara, Jalisco",
+    "precio": 2491,
+    "imagen": "https://tse4.mm.bing.net/th/id/OIP.Rk5tow7i219nt-55qM-ltQHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "descripcion": "Ambiente acogedor y tranquilo.",
+    "calificacion": 3.7
+  },
+  {
+    "id": 96,
+    "titulo": "Villa con alberca",
+    "ubicacion": "Monterrey",
+    "precio": 2412,
+    "imagen": "/assets/mar.jpg",
+    "descripcion": "Diseño rústico con toques contemporáneos.",
+    "calificacion": 4.1
+  },
+  {
+    "id": 97,
+    "titulo": "Villa con alberca",
+    "ubicacion": "Valle de Bravo",
+    "precio": 1824,
+    "imagen": "/assets/penthouse.jpg",
+    "descripcion": "Decoración moderna y elegante.",
+    "calificacion": 3.9
+  },
+  {
+    "id": 98,
+    "titulo": "Loft urbano",
+    "ubicacion": "Valle de Bravo",
+    "precio": 1380,
+    "imagen": "/assets/mar.jpg",
+    "descripcion": "Ideal para familias, con cocina equipada.",
+    "calificacion": 4.2
+  },
+  {
+    "id": 99,
+    "titulo": "Casa colonial",
+    "ubicacion": "Guadalajara, Jalisco",
+    "precio": 1901,
+    "imagen": "/assets/penthouse.jpg",
+    "descripcion": "Espacios amplios y bien iluminados.",
+    "calificacion": 5.0
+  },
+  {
+    "id": 100,
+    "titulo": "Loft urbano",
+    "ubicacion": "Oaxaca",
+    "precio": 1858,
+    "imagen": "/assets/penthouse.jpg",
+    "descripcion": "Ubicación inmejorable, todo a unos pasos.",
+    "calificacion": 4.6
+  }
+]

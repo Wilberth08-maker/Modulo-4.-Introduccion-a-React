@@ -73,9 +73,9 @@ const LandingNavbar = ({ user, setUser }) => {
             }
         };
     }, []);
-
+    
     return (
-        <nav className="bg-white shadow-sm p-4 flex items-center justify-between border-b border-gray-100 relative z-10">
+        <nav className="bg-gray shadow-sm p-4 flex items-center justify-between border-b border-gray-100 relative z-10">
             {/* Logo de Airbnb a la izquierda */}
             <div className="flex items-center">
                 <Link to="https://www.airbnb.mx/" className="flex items-center space-x-2 text-red-500 hover:text-red-600 transition-colors duration-300">
@@ -93,17 +93,17 @@ const LandingNavbar = ({ user, setUser }) => {
         {/* Apartados centrales con videos */}
             <div className="hidden md:flex items-center space-x-8 mx-auto">
                 <Link
-                to="/alojamientos"
+                to="/"
                 onClick={() => handleSectionClick('alojamientos')}
                 className={`flex items-center pb-1 transition-colors duration-200 relative group
-                    ${location.pathname === '/alojamientos' || activeVideo === 'alojamientos'
+                    ${location.pathname === '/' || activeVideo === 'alojamientos'
                     ? 'text-gray-900 font-bold'
                     : 'text-gray-700 hover:text-gray-900 font-medium'
                     }`}
                 >
-                <VideoIcon src="https://a0.muscache.com/videos/search-bar-icons/webm/house-selected.webm" isPlaying={location.pathname === '/alojamientos' || activeVideo === 'alojamientos'} />
+                <VideoIcon src="https://a0.muscache.com/videos/search-bar-icons/webm/house-selected.webm" isPlaying={location.pathname === '/' || activeVideo === 'alojamientos'} />
                 Alojamientos
-                {(location.pathname === '/alojamientos' || activeVideo === 'alojamientos') && (
+                {(location.pathname === '/' || activeVideo === 'alojamientos') && (
                     <span className="absolute bottom-0 left-0 w-full h-0.5 bg-gray-900 transform scale-x-120 transition-transform duration-300"></span>
                 )}
                 </Link>
