@@ -10,6 +10,9 @@ import Error404 from '@/components/Error404.jsx'
 import Landing from '@/components/Landing.jsx'
 import Alojamientos from '@/pages/Alojamientos.jsx';
 import AlojamientoDetalles from '@/pages/AlojamientoDetalles.jsx'
+import Experiencias from '@/pages/Experiencias';
+import ExperienciasDetalles from '@/pages/ExperienciasDetalles.jsx'
+
 
 // Componente que recibe el usuario actual y la función para actualizarlo
 const AppRoutes = ({ user, setUser }) => (
@@ -36,6 +39,16 @@ const AppRoutes = ({ user, setUser }) => (
         <Route 
             path="/alojamientos/:id" 
             element={user ? <AlojamientoDetalles /> : <Navigate to="/login" replace />} 
+        />
+
+        <Route 
+            path="/experiencias" 
+            element={user ? <Experiencias /> : <Navigate to="/login" replace />} 
+        />
+
+        <Route 
+            path="/experiencias/:id" 
+            element={user ? <ExperienciasDetalles /> : <Navigate to="/login" replace />} 
         />
 
         {/* Ruta comodín (404): se muestra si no coincide ninguna ruta anterior */}
