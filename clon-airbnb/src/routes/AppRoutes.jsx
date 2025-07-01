@@ -12,6 +12,8 @@ import Alojamientos from '@/pages/Alojamientos.jsx';
 import AlojamientoDetalles from '@/pages/AlojamientoDetalles.jsx'
 import Experiencias from '@/pages/Experiencias';
 import ExperienciasDetalles from '@/pages/ExperienciasDetalles.jsx'
+import Servicios from '@/pages/Servicios';
+import ServiciosDetalles from '@/pages/ServiciosDetalles';
 
 
 // Componente que recibe el usuario actual y la función para actualizarlo
@@ -31,6 +33,7 @@ const AppRoutes = ({ user, setUser }) => (
         />
 
         {/* Ruta protegida */}
+        {/* Ruta alojamientos */}
         <Route 
             path="/alojamientos" 
             element={user ? <Alojamientos /> : <Navigate to="/login" replace />} 
@@ -41,6 +44,7 @@ const AppRoutes = ({ user, setUser }) => (
             element={user ? <AlojamientoDetalles /> : <Navigate to="/login" replace />} 
         />
 
+        {/* Ruta experiencias */}
         <Route 
             path="/experiencias" 
             element={user ? <Experiencias /> : <Navigate to="/login" replace />} 
@@ -49,6 +53,17 @@ const AppRoutes = ({ user, setUser }) => (
         <Route 
             path="/experiencias/:id" 
             element={user ? <ExperienciasDetalles /> : <Navigate to="/login" replace />} 
+        />
+
+        {/* Ruta servicios */}
+        <Route 
+            path="/servicios" 
+            element={user ? <Servicios /> : <Navigate to="/login" replace />} 
+        />
+
+        <Route 
+            path="/servicios/:id" 
+            element={user ? <ServiciosDetalles /> : <Navigate to="/login" replace />} 
         />
 
         {/* Ruta comodín (404): se muestra si no coincide ninguna ruta anterior */}

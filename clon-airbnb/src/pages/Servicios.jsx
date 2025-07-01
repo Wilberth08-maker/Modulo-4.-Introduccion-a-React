@@ -2,8 +2,8 @@ import { useEffect, useState, useCallback, useMemo } from 'react';
 import PagButtons from '@/components/PageButtons/PageButtons';
 import {Link} from 'react-router-dom';
 
-const Experiencias = () => {
-    const [experiencias, setExperiencias] = useState([]);
+const Servicios = () => {
+    const [servicios, setServicios] = useState([]);
     const [loading, setLoading] = useState(true);
     const [pageLoading, setPageLoading] = useState(false);
     const [error, setError] = useState(null); // Para manejar errores
@@ -13,21 +13,21 @@ const Experiencias = () => {
     const [cardsBlurred, setCardsBlurred] = useState(true); // Inicia borroso
 
     useEffect(() => {
-        const fetchExperiencias = async () => {
+        const fetchServicios = async () => {
             try {
                 setLoading(true);
                 setCardsBlurred(true);
                 const timer = new Promise((res) => setTimeout(res, 2000));
 
-                const fetchPromise = fetch('/data/experiencias.json');
+                const fetchPromise = fetch('/data/servicios.json');
 
                 const [res] = await Promise.all([fetchPromise, timer]);
 
-                if (!res.ok) throw new Error("Error al obtener las experiencias");
+                if (!res.ok) throw new Error("Error al obtener los servicios");
 
                 const data = await res.json();
                 
-                setExperiencias(data);
+                setServicios(data);
 
                 setTimeout(() => {
                     setCardsBlurred(false); // Tarjetas nítidas
@@ -35,7 +35,7 @@ const Experiencias = () => {
                 }, 500); // Pequeño retraso para que el spinner principal tenga tiempo de desaparecer
 
             } catch (err) {
-                console.error('Error cargando las experiencias:', err);
+                console.error('Error cargando serivicios:', err);
                 setError(err.message);
                 setCardsBlurred(true);
             } finally {
@@ -43,29 +43,30 @@ const Experiencias = () => {
             }
         };
 
-        fetchExperiencias();
+        fetchServicios();
     }, []);
 
     // Lógica de paginación en el frontend
-    const totalPages = Math.ceil(experiencias.length / itemsPerPage);
+    const totalPages = Math.ceil(servicios.length / itemsPerPage);
     const startIndex = (currentPage - 1) * itemsPerPage;
     const endIndex = startIndex + itemsPerPage;
 
-    const currentExperiencias = useMemo(() => {
+    // Memoriza el bloque actual de servicios visible y activa el desenfoque visual
+    const currentServicios = useMemo(() => {
         setCardsBlurred(true);
-        return experiencias.slice(startIndex, endIndex); 
-    },[experiencias, startIndex, endIndex]);
+        return servicios.slice(startIndex, endIndex); 
+    },[servicios, startIndex, endIndex]);
 
-    // useEffect para re-activar el efecto de desenfoque cuando currentExperiencias cambia
+    // useEffect para re-activar el efecto de desenfoque cuando currentServicios cambia
     useEffect(() => {
-        if (!loading && !pageLoading && currentExperiencias.length > 0) {
+        if (!loading && !pageLoading && currentServicios.length > 0) {
             // Un pequeño retraso para asegurar que los spinners se oculten primero
             const timer = setTimeout(() => {
                 setCardsBlurred(false); // Haz las tarjetas nítidas después de la transición de página
             }, 500); // 
             return () => clearTimeout(timer);
         }
-    }, [currentExperiencias, loading, pageLoading]); // Dependencias para re-ejecutar
+    }, [currentServicios, loading, pageLoading]); // Dependencias para re-ejecutar
 
     // Función para manejar el cambio de página con loading
     const changePage = useCallback(async (newPage) => {
@@ -126,24 +127,21 @@ const Experiencias = () => {
                             transition-all duration-500 ease-in-out 
                             ${cardsBlurred ? 'blur-md' : 'blur-none'}
                         `}>
-                        {currentExperiencias.map(exp => (
+                        {currentServicios.map(serv => (
                             <Link 
-                            key={exp.id} 
-                            to={`/experiencias/${exp.id}`}
+                            key={serv.id} 
+                            to={`/servicios/${serv.id}`}
                             className="group cursor-pointer block" 
                             >
                                 {/* Contenedor de la imagen */}
                                 <div className="relative overflow-hidden rounded-xl aspect-square mb-2">
                                     <img
-                                        src={exp.imagen}
-                                        alt={exp.titulo}
+                                        src={serv.imagen}
+                                        alt={serv.titulo}
                                         className="w-full h-full object-cover transform transition-transform duration-300 group-hover:scale-105"
-                                        aria-label={`Tarjeta de la experiencia ${exp.titulo}`}
+                                        aria-label={`Tarjeta del servicio ${serv.titulo}`}
 
                                     />
-                                    <button className="absolute top-2 left-2 p-2 rounded-full bg-opacity-100 transition-all duration-200 hover:scale-110 bg-gray-200 text-xs font-semibold dark:text-gray-700">
-                                        {exp.estado}
-                                    </button>
                                     {/* Botón de favorito */}
                                     <button className="absolute top-2 right-2 p-1 rounded-full bg-opacity-70 transition-all duration-200 hover:scale-110">
                                         <svg
@@ -159,20 +157,21 @@ const Experiencias = () => {
                                     </button>
                                 </div>
 
-                                {/* Información del alojamiento */}
+                                {/* Información del servicio */}
                                 <div className="text-sm">
                                     <h3 className="font-bold text-gray-900 dark:text-white truncate">
-                                        {exp.titulo}
+                                        {serv.titulo}
                                     </h3>
-                                    <p className="font-semibold text-gray-900 dark:text-white">{exp.ubicacion}</p>
+                                    <p className="font-semibold text-gray-900 dark:text-white">{serv.ubicacion}</p>
                                     <p className="font-normal text-gray-600 dark:text-gray-300">
-                                        ${exp.precio}
+                                        ${serv.precio}
                                         <span className="font-normal text-gray-600 dark:text-gray-300"> / noche</span>
+                                        {/* CALIFICACIÓN */}
                                         <span className="float-right flex items-center">
                                             <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-gray-500 mr-1" viewBox="0 0 20 20" fill="currentColor">
                                                 <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.538 1.118l-2.8-2.034a1 1 0 00-1.176 0l-2.8 2.034c-.783.57-1.838-.197-1.538-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.92 8.72c-.783-.57-.381-1.81.588-1.81h3.462a1 1 0 00.95-.69l1.07-3.292z" />
                                             </svg>
-                                            {exp.calificacion}
+                                            {serv.calificacion}
                                         </span> 
                                     </p>
                                 </div>
@@ -191,4 +190,4 @@ const Experiencias = () => {
     );
 };
 
-export default Experiencias;
+export default Servicios;

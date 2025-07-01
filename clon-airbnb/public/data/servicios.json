@@ -1,0 +1,902 @@
+[
+    {
+        "id": 1,
+        "titulo": "Retrato fotográfico en coche Vintage con estilo",
+        "ubicacion": "Ciudad de México",
+        "precio": 1580,
+        "imagen": "https://a0.muscache.com/im/pictures/Mt/MtTemplate-4431689/original/4848a93b-274a-446e-9376-0143c3e6ca9f.jpeg",
+        "descripcion": "Pasea por el corazón de la ciudad en un coche clásico, capturando momentos auténticos y divertidos con un fotógrafo profesional.",
+        "calificacion": 4.8
+    },
+    {
+        "id": 2,
+        "titulo": "Sesión de fotografía aérea y terrestre con Juan",
+        "ubicacion": "Tulum",
+        "precio": 1779,
+        "imagen": "https://images.contentstack.io/v3/assets/bltb428ce5d46f8efd8/blt2471514b4646e9fc/5faad85e4cf66113d209ecb9/image1.jpg",
+        "descripcion": "Captura la belleza de Tulum desde las alturas con un dron y explora sus rincones ocultos en tierra, guiado por un experto local.",
+        "calificacion": 4.9
+    },
+    {
+        "id": 3,
+        "titulo": "Clase de cocina tradicional mexicana y mercado local",
+        "ubicacion": "Oaxaca",
+        "precio": 2007,
+        "imagen": "https://tse2.mm.bing.net/th/id/OIP.f8GOev6eWEvj_WZbu-S7qQHaFj?r=0&w=1200&h=900&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "descripcion": "Sumérgete en los sabores de Oaxaca: visita un mercado vibrante y aprende a preparar platillos auténticos con un chef local.",
+        "calificacion": 5.0
+    },
+    {
+        "id": 4,
+        "titulo": "Tour en bicicleta por los murales de Coyoacán",
+        "ubicacion": "Ciudad de México",
+        "precio": 950,
+        "imagen": "https://gigonway.com/wp-content/uploads/2021/03/e72rtzy4.jpg",
+        "descripcion": "Explora la magia de Coyoacán en bicicleta, descubriendo sus coloridos murales y su historia a cada pedaleo.",
+        "calificacion": 4.7
+    },
+    {
+        "id": 5,
+        "titulo": "Cata de mezcal artesanal y leyendas oaxaqueñas",
+        "ubicacion": "Oaxaca",
+        "precio": 1200,
+        "imagen": "https://www.portafolio.co/files/article_new_multimedia/uploads/2024/05/02/6633a2af70474.jpeg",
+        "descripcion": "Degusta mezcales únicos de pequeños productores mientras escuchas fascinantes leyendas del estado de Oaxaca al atardecer.",
+        "calificacion": 4.9
+    },
+    {
+        "id": 6,
+        "titulo": "Clase de surf para principiantes en la playa",
+        "ubicacion": "Puerto Escondido",
+        "precio": 1100,
+        "imagen": "https://th.bing.com/th/id/R.5d4b0eca578303827433644fa6b09ca1?rik=x%2fOrhcrGnHHSgg&pid=ImgRaw&r=0",
+        "descripcion": "Aprende a dominar las olas del Pacífico en un ambiente seguro y divertido, con instructores certificados y todo el equipo necesario.",
+        "calificacion": 4.7
+    },
+    {
+        "id": 7,
+        "titulo": "Senderismo al amanecer en el Cerro de la Silla",
+        "ubicacion": "Monterrey",
+        "precio": 800,
+        "imagen": "https://tse4.mm.bing.net/th/id/OIP.dXPjKFwwegAuR7-V9h1TGAHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "descripcion": "Disfruta de vistas espectaculares de Monterrey al amanecer mientras conquistas el icónico Cerro de la Silla con un guía experimentado.",
+        "calificacion": 4.6
+    },
+    {
+        "id": 8,
+        "titulo": "Taller de alfarería tradicional de Talavera",
+        "ubicacion": "Puebla",
+        "precio": 1350,
+        "imagen": "https://a0.muscache.com/im/pictures/cea30f70-f612-4abc-9792-6948a4679ecc.jpg",
+        "descripcion": "Crea tu propia pieza de Talavera. Aprende el arte ancestral de la cerámica poblana, desde el modelado hasta la pintura.",
+        "calificacion": 4.9
+    },
+    {
+        "id": 9,
+        "titulo": "Paseo en kayak por los canales de Xochimilco",
+        "ubicacion": "Ciudad de México",
+        "precio": 750,
+        "imagen": "https://images.contentstack.io/v3/assets/bltb428ce5d46f8efd8/blt2471514b4646e9fc/5faad85e4cf66113d209ecb9/image1.jpg",
+        "descripcion": "Explora los serenos canales de Xochimilco en kayak, alejándote del bullicio y conectando con la naturaleza y la historia.",
+        "calificacion": 4.5
+    },
+    {
+        "id": 10,
+        "titulo": "Clase de coctelería con agave: Margaritas y más",
+        "ubicacion": "Guadalajara",
+        "precio": 1050,
+        "imagen": "https://tse2.mm.bing.net/th/id/OIP.f8GOev6eWEvj_WZbu-S7qQHaFj?r=0&w=1200&h=900&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "descripcion": "Aprende a preparar los mejores cócteles con tequila y mezcal, desde la clásica Margarita hasta creaciones innovadoras.",
+        "calificacion": 4.8
+    },
+    {
+        "id": 11,
+        "titulo": "Tour guiado de arte urbano en la Colonia Roma",
+        "ubicacion": "Ciudad de México",
+        "precio": 600,
+        "imagen": "https://gigonway.com/wp-content/uploads/2021/03/e72rtzy4.jpg",
+        "descripcion": "Descubre los murales y grafitis más impresionantes de la Roma, explorando la vibrante escena del arte callejero.",
+        "calificacion": 4.6
+    },
+    {
+        "id": 12,
+        "titulo": "Sesión de yoga y meditación al amanecer en la playa",
+        "ubicacion": "Cancún",
+        "precio": 850,
+        "imagen": "https://www.portafolio.co/files/article_new_multimedia/uploads/2024/05/02/6633a2af70474.jpeg",
+        "descripcion": "Inicia tu día con energía y paz. Practica yoga y meditación con el sonido de las olas y el sol naciente en el Caribe.",
+        "calificacion": 5.0
+    },
+    {
+        "id": 13,
+        "titulo": "Fotografía de moda en estudio con estilista",
+        "ubicacion": "Ciudad de México",
+        "precio": 2500,
+        "imagen": "https://th.bing.com/th/id/R.5d4b0eca578303827433644fa6b09ca1?rik=x%2fOrhcrGnHHSgg&pid=ImgRaw&r=0",
+        "descripcion": "Vive la experiencia de una sesión fotográfica profesional de moda, con estilismo y dirección de arte personalizados.",
+        "calificacion": 4.9
+    },
+    {
+        "id": 14,
+        "titulo": "Caminata por la selva y nado en cenote privado",
+        "ubicacion": "Tulum",
+        "precio": 1800,
+        "imagen": "https://tse4.mm.bing.net/th/id/OIP.dXPjKFwwegAuR7-V9h1TGAHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "descripcion": "Explora la exuberante selva maya y refréscate en un cenote cristalino y apartado, una joya escondida.",
+        "calificacion": 4.9
+    },
+    {
+        "id": 15,
+        "titulo": "Clase de baile salsa y bachata para parejas",
+        "ubicacion": "Guadalajara",
+        "precio": 900,
+        "imagen": "https://a0.muscache.com/im/pictures/cea30f70-f612-4abc-9792-6948a4679ecc.jpg",
+        "descripcion": "Conéctense con el ritmo y la pasión del baile. Aprende los pasos básicos de salsa y bachata en una clase privada y divertida.",
+        "calificacion": 4.7
+    },
+    {
+        "id": 16,
+        "titulo": "Tour gastronómico de tacos: sabores auténticos",
+        "ubicacion": "Ciudad de México",
+        "precio": 700,
+        "imagen": "https://images.contentstack.io/v3/assets/bltb428ce5d46f8efd8/blt2471514b4646e9fc/5faad85e4cf66113d209ecb9/image1.jpg",
+        "descripcion": "Embárcate en una aventura culinaria probando los mejores tacos de la ciudad, desde los clásicos hasta los más innovadores.",
+        "calificacion": 4.9
+    },
+    {
+        "id": 17,
+        "titulo": "Excursión de avistamiento de aves en los manglares",
+        "ubicacion": "Puerto Progreso",
+        "precio": 1150,
+        "imagen": "https://tse2.mm.bing.net/th/id/OIP.f8GOev6eWEvj_WZbu-S7qQHaFj?r=0&w=1200&h=900&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "descripcion": "Navega por los manglares y maravíllate con la diversidad de aves acuáticas y migratorias en su hábitat natural.",
+        "calificacion": 4.8
+    },
+    {
+        "id": 18,
+        "titulo": "Taller de pintura al óleo: paisaje mexicano",
+        "ubicacion": "San Miguel de Allende",
+        "precio": 1400,
+        "imagen": "https://gigonway.com/wp-content/uploads/2021/03/e72rtzy4.jpg",
+        "descripcion": "Despierta tu artista interior. Pinta un hermoso paisaje mexicano bajo la guía de un artista local en un estudio inspirador.",
+        "calificacion": 5.0
+    },
+    {
+        "id": 19,
+        "titulo": "Sesión de fotos en las pirámides de Teotihuacán",
+        "ubicacion": "Teotihuacán",
+        "precio": 1650,
+        "imagen": "https://www.portafolio.co/files/article_new_multimedia/uploads/2024/05/02/6633a2af70474.jpeg",
+        "descripcion": "Captura la majestuosidad de Teotihuacán con una sesión fotográfica profesional en los puntos más icónicos de la zona arqueológica.",
+        "calificacion": 4.9
+    },
+    {
+        "id": 20,
+        "titulo": "Clase de preparación de molcajete y guacamole",
+        "ubicacion": "Puebla",
+        "precio": 800,
+        "imagen": "https://th.bing.com/th/id/R.5d4b0eca578303827433644fa6b09ca1?rik=x%2fOrhcrGnHHSgg&pid=ImgRaw&r=0",
+        "descripcion": "Aprende el arte de la gastronomía mexicana con una clase práctica para preparar auténtico guacamole y salsa en molcajete.",
+        "calificacion": 4.7
+    },
+    {
+        "id": 21,
+        "titulo": "Masaje relajante en pareja con aceites esenciales",
+        "ubicacion": "Cancún",
+        "precio": 2200,
+        "imagen": "https://tse4.mm.bing.net/th/id/OIP.dXPjKFwwegAuR7-V9h1TGAHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "descripcion": "Disfruten de un momento de conexión y relajación profunda con un masaje en pareja en un ambiente sereno y lujoso.",
+        "calificacion": 5.0
+    },
+    {
+        "id": 22,
+        "titulo": "Paseo a caballo por los viñedos de Querétaro",
+        "ubicacion": "Querétaro",
+        "precio": 1500,
+        "imagen": "https://a0.muscache.com/im/pictures/cea30f70-f612-4abc-9792-6948a4679ecc.jpg",
+        "descripcion": "Explora los hermosos paisajes vinícolas a caballo, seguido de una cata de vinos locales en un ambiente campestre.",
+        "calificacion": 4.8
+    },
+    {
+        "id": 23,
+        "titulo": "Taller de joyería de plata en Taxco",
+        "ubicacion": "Taxco",
+        "precio": 1700,
+        "imagen": "https://images.contentstack.io/v3/assets/bltb428ce5d46f8efd8/blt2471514b4646e9fc/5faad85e4cf66113d209ecb9/image1.jpg",
+        "descripcion": "Diseña y crea tu propia pieza de joyería de plata en el famoso pueblo mágico de Taxco, guiado por un artesano experto.",
+        "calificacion": 4.9
+    },
+    {
+        "id": 24,
+        "titulo": "Clase de mixología molecular: cócteles innovadores",
+        "ubicacion": "Ciudad de México",
+        "precio": 1300,
+        "imagen": "https://tse2.mm.bing.net/th/id/OIP.f8GOev6eWEvj_WZbu-S7qQHaFj?r=0&w=1200&h=900&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "descripcion": "Adéntrate en el futuro de los cócteles. Aprende técnicas de mixología molecular y sorprende con bebidas vanguardistas.",
+        "calificacion": 4.7
+    },
+    {
+        "id": 25,
+        "titulo": "Tour de snorkeling en arrecifes de coral",
+        "ubicacion": "Playa del Carmen",
+        "precio": 980,
+        "imagen": "https://gigonway.com/wp-content/uploads/2021/03/e72rtzy4.jpg",
+        "descripcion": "Explora el vibrante mundo submarino del Caribe mexicano, nadando entre coloridos peces y majestuosos corales.",
+        "calificacion": 4.9
+    },
+    {
+        "id": 26,
+        "titulo": "Sesión de fotos 'Street Style' en la Condesa",
+        "ubicacion": "Ciudad de México",
+        "precio": 1450,
+        "imagen": "https://www.portafolio.co/files/article_new_multimedia/uploads/2024/05/02/6633a2af70474.jpeg",
+        "descripcion": "Captura tu estilo único en las calles bohemias de la Condesa con un fotógrafo de moda que realzará tu personalidad.",
+        "calificacion": 4.8
+    },
+    {
+        "id": 27,
+        "titulo": "Clase de barro rojo y creación de figuras",
+        "ubicacion": "Tlaquepaque",
+        "precio": 1100,
+        "imagen": "https://th.bing.com/th/id/R.5d4b0eca578303827433644fa6b09ca1?rik=x%2fOrhcrGnHHSgg&pid=ImgRaw&r=0",
+        "descripcion": "Moldea la arcilla y crea tu propia obra de arte. Aprende las técnicas de alfarería tradicional de Tlaquepaque.",
+        "calificacion": 4.7
+    },
+    {
+        "id": 28,
+        "titulo": "Tour de observación de estrellas en el desierto",
+        "ubicacion": "San Luis Potosí",
+        "precio": 1000,
+        "imagen": "https://tse4.mm.bing.net/th/id/OIP.dXPjKFwwegAuR7-V9h1TGAHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "descripcion": "Contempla la vía láctea como nunca antes en la inmensidad del desierto, con telescopios y un guía astrónomo.",
+        "calificacion": 5.0
+    },
+    {
+        "id": 29,
+        "titulo": "Recorrido en trajinera con música y antojitos",
+        "ubicacion": "Xochimilco",
+        "precio": 1600,
+        "imagen": "https://a0.muscache.com/im/pictures/cea30f70-f612-4abc-9792-6948a4679ecc.jpg",
+        "descripcion": "Vive la fiesta mexicana en una trajinera, con música de mariachi, deliciosa comida y la compañía de tus seres queridos.",
+        "calificacion": 4.6
+    },
+    {
+        "id": 30,
+        "titulo": "Clase de yoga y brunch orgánico en la naturaleza",
+        "ubicacion": "Valle de Bravo",
+        "precio": 1250,
+        "imagen": "https://images.contentstack.io/v3/assets/bltb428ce5d46f8efd8/blt2471514b4646e9fc/5faad85e4cf66113d209ecb9/image1.jpg",
+        "descripcion": "Relájate y recarga energías con una sesión de yoga al aire libre, seguida de un brunch nutritivo con productos de la granja.",
+        "calificacion": 4.9
+    },
+    {
+        "id": 31,
+        "titulo": "Fotografía submarina en cenotes de la Riviera Maya",
+        "ubicacion": "Tulum",
+        "precio": 2300,
+        "imagen": "https://tse2.mm.bing.net/th/id/OIP.f8GOev6eWEvj_WZbu-S7qQHaFj?r=0&w=1200&h=900&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "descripcion": "Captura la magia de los cenotes. Sumérgete en aguas cristalinas y obtén fotografías espectaculares bajo el agua.",
+        "calificacion": 4.9
+    },
+    {
+        "id": 32,
+        "titulo": "Taller de creación de alebrijes oaxaqueños",
+        "ubicacion": "Oaxaca",
+        "precio": 1050,
+        "imagen": "https://gigonway.com/wp-content/uploads/2021/03/e72rtzy4.jpg",
+        "descripcion": "Da vida a tu propia criatura fantástica. Aprende el arte de la talla y pintura de alebrijes con artesanos locales.",
+        "calificacion": 5.0
+    },
+    {
+        "id": 33,
+        "titulo": "Ruta de los Pueblos Mágicos en bicicleta eléctrica",
+        "ubicacion": "Puebla",
+        "precio": 1400,
+        "imagen": "https://www.portafolio.co/files/article_new_multimedia/uploads/2024/05/02/6633a2af70474.jpeg",
+        "descripcion": "Explora los pintorescos Pueblos Mágicos de Puebla con facilidad en una bicicleta eléctrica, disfrutando de paisajes y cultura.",
+        "calificacion": 4.8
+    },
+    {
+        "id": 34,
+        "titulo": "Clase de arte latte y barista experto",
+        "ubicacion": "Guadalajara",
+        "precio": 900,
+        "imagen": "https://th.bing.com/th/id/R.5d4b0eca578303827433644fa6b09ca1?rik=x%2fOrhcrGnHHSgg&pid=ImgRaw&r=0",
+        "descripcion": "Conviértete en un maestro del café. Aprende a preparar espresso perfecto y a crear diseños increíbles con arte latte.",
+        "calificacion": 4.7
+    },
+    {
+        "id": 35,
+        "titulo": "Experiencia de buceo para principiantes con instructor",
+        "ubicacion": "Cozumel",
+        "precio": 2000,
+        "imagen": "https://tse4.mm.bing.net/th/id/OIP.dXPjKFwwegAuR7-V9h1TGAHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "descripcion": "Descubre el fascinante mundo submarino de Cozumel de forma segura. Incluye equipo y guía personal.",
+        "calificacion": 4.9
+    },
+    {
+        "id": 36,
+        "titulo": "Caminata y picnic al atardecer en el Parque Fundidora",
+        "ubicacion": "Monterrey",
+        "precio": 700,
+        "imagen": "https://a0.muscache.com/im/pictures/cea30f70-f612-4abc-9792-6948a4679ecc.jpg",
+        "descripcion": "Disfruta de una tarde relajante en el Parque Fundidora, culminando con un picnic gourmet mientras el sol se pone.",
+        "calificacion": 4.5
+    },
+    {
+        "id": 37,
+        "titulo": "Taller de elaboración de chocolate artesanal",
+        "ubicacion": "San Cristóbal de las Casas",
+        "precio": 1100,
+        "imagen": "https://images.contentstack.io/v3/assets/bltb428ce5d46f8efd8/blt2471514b4646e9fc/5faad85e4cf66113d209ecb9/image1.jpg",
+        "descripcion": "Desde el grano hasta la barra, aprende el proceso de elaboración del chocolate artesanal y crea tus propias delicias.",
+        "calificacion": 4.8
+    },
+    {
+        "id": 38,
+        "titulo": "Paseo en globo aerostático al amanecer",
+        "ubicacion": "Teotihuacán",
+        "precio": 3500,
+        "imagen": "https://tse2.mm.bing.net/th/id/OIP.f8GOev6eWEvj_WZbu-S7qQHaFj?r=0&w=1200&h=900&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "descripcion": "Experimenta la magia de volar sobre las pirámides de Teotihuacán al amanecer, una vista inolvidable.",
+        "calificacion": 5.0
+    },
+    {
+        "id": 39,
+        "titulo": "Sesión de fotos temática de Frida Kahlo",
+        "ubicacion": "Coyoacán",
+        "precio": 1800,
+        "imagen": "https://gigonway.com/wp-content/uploads/2021/03/e72rtzy4.jpg",
+        "descripcion": "Transfórmate en Frida. Una sesión fotográfica única en su casa-museo, con vestuario y maquillaje inspirados en la artista.",
+        "calificacion": 4.9
+    },
+    {
+        "id": 40,
+        "titulo": "Clase de español para viajeros: frases esenciales",
+        "ubicacion": "San Miguel de Allende",
+        "precio": 750,
+        "imagen": "https://www.portafolio.co/files/article_new_multimedia/uploads/2024/05/02/6633a2af70474.jpeg",
+        "descripcion": "Aprende las frases clave para moverte por México, pedir comida y conectar con los locales de forma divertida y práctica.",
+        "calificacion": 4.7
+    },
+    {
+        "id": 41,
+        "titulo": "Tour de cenotes y tirolesas en la Riviera Maya",
+        "ubicacion": "Cancún",
+        "precio": 1900,
+        "imagen": "https://th.bing.com/th/id/R.5d4b0eca578303827433644fa6b09ca1?rik=x%2fOrhcrGnHHSgg&pid=ImgRaw&r=0",
+        "descripcion": "Aventura y adrenalina. Explora impresionantes cenotes y vuela sobre la selva en emocionantes tirolesas.",
+        "calificacion": 4.8
+    },
+    {
+        "id": 42,
+        "titulo": "Clase de fotografía móvil: trucos para Instagram",
+        "ubicacion": "Guadalajara",
+        "precio": 800,
+        "imagen": "https://tse4.mm.bing.net/th/id/OIP.dXPjKFwwegAuR7-V9h1TGAHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "descripcion": "Saca el máximo partido a la cámara de tu teléfono. Aprende a tomar fotos increíbles y editarlas para tus redes sociales.",
+        "calificacion": 4.6
+    },
+    {
+        "id": 43,
+        "titulo": "Experiencia de temazcal tradicional maya",
+        "ubicacion": "Tulum",
+        "precio": 1500,
+        "imagen": "https://a0.muscache.com/im/pictures/cea30f70-f612-4abc-9792-6948a4679ecc.jpg",
+        "descripcion": "Purifica cuerpo y mente en una ceremonia ancestral de temazcal, guiada por un chamán maya en un entorno natural.",
+        "calificacion": 5.0
+    },
+    {
+        "id": 44,
+        "titulo": "Tour de catrinas y leyendas del Día de Muertos",
+        "ubicacion": "Pátzcuaro",
+        "precio": 1000,
+        "imagen": "https://images.contentstack.io/v3/assets/bltb428ce5d46f8efd8/blt2471514b4646e9fc/5faad85e4cf66113d209ecb9/image1.jpg",
+        "descripcion": "Sumérgete en la mágica tradición del Día de Muertos, explorando ofrendas y escuchando leyendas en Pátzcuaro.",
+        "calificacion": 4.9
+    },
+    {
+        "id": 45,
+        "titulo": "Clase de pintura sobre barro negro de Oaxaca",
+        "ubicacion": "Oaxaca",
+        "precio": 950,
+        "imagen": "https://tse2.mm.bing.net/th/id/OIP.f8GOev6eWEvj_WZbu-S7qQHaFj?r=0&w=1200&h=900&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "descripcion": "Decora tu propia pieza de barro negro. Aprende las técnicas de grabado y pulido de esta cerámica única.",
+        "calificacion": 4.8
+    },
+    {
+        "id": 46,
+        "titulo": "Paseo en lancha al atardecer por la Bahía",
+        "ubicacion": "Puerto Vallarta",
+        "precio": 1200,
+        "imagen": "https://gigonway.com/wp-content/uploads/2021/03/e72rtzy4.jpg",
+        "descripcion": "Disfruta de las espectaculares vistas de la Bahía de Banderas mientras el sol se oculta en el horizonte, con bebidas incluidas.",
+        "calificacion": 4.7
+    },
+    {
+        "id": 47,
+        "titulo": "Taller de bordado tradicional chiapaneco",
+        "ubicacion": "San Cristóbal de las Casas",
+        "precio": 850,
+        "imagen": "https://www.portafolio.co/files/article_new_multimedia/uploads/2024/05/02/6633a2af70474.jpeg",
+        "descripcion": "Crea tu propia pieza textil. Aprende las puntadas y diseños vibrantes del bordado tradicional de Chiapas.",
+        "calificacion": 4.9
+    },
+    {
+        "id": 48,
+        "titulo": "Clase de defensa personal y acondicionamiento físico",
+        "ubicacion": "Monterrey",
+        "precio": 700,
+        "imagen": "https://th.bing.com/th/id/R.5d4b0eca578303827433644fa6b09ca1?rik=x%2fOrhcrGnHHSgg&pid=ImgRaw&r=0",
+        "descripcion": "Siéntete más seguro y fuerte. Aprende técnicas básicas de defensa personal mientras mejoras tu condición física.",
+        "calificacion": 4.5
+    },
+    {
+        "id": 49,
+        "titulo": "Experiencia de vuelo en parapente con vistas panorámicas",
+        "ubicacion": "Valle de Bravo",
+        "precio": 2800,
+        "imagen": "https://tse4.mm.bing.net/th/id/OIP.dXPjKFwwegAuR7-V9h1TGAHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "descripcion": "Siente la libertad de volar. Disfruta de vistas impresionantes de Valle de Bravo desde el aire con un instructor certificado.",
+        "calificacion": 5.0
+    },
+    {
+        "id": 50,
+        "titulo": "Tour de graffiti y cultura hip-hop en el Barrio Bravo",
+        "ubicacion": "Ciudad de México",
+        "precio": 650,
+        "imagen": "https://a0.muscache.com/im/pictures/cea30f70-f612-4abc-9792-6948a4679ecc.jpg",
+        "descripcion": "Explora el arte callejero y la historia del hip-hop en uno de los barrios más auténticos de la Ciudad de México.",
+        "calificacion": 4.6
+    },
+    {
+        "id": 51,
+        "titulo": "Clase de cocina vegana mexicana: sabores sin carne",
+        "ubicacion": "Guadalajara",
+        "precio": 1100,
+        "imagen": "https://images.contentstack.io/v3/assets/bltb428ce5d46f8efd8/blt2471514b4646e9fc/5faad85e4cf66113d209ecb9/image1.jpg",
+        "descripcion": "Descubre la riqueza de la cocina mexicana con un giro vegano. Prepara platillos deliciosos y saludables a base de plantas.",
+        "calificacion": 4.7
+    },
+    {
+        "id": 52,
+        "titulo": "Taller de fotografía nocturna en entornos urbanos",
+        "ubicacion": "Monterrey",
+        "precio": 1300,
+        "imagen": "https://tse2.mm.bing.net/th/id/OIP.f8GOev6eWEvj_WZbu-S7qQHaFj?r=0&w=1200&h=900&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "descripcion": "Aprende a capturar la magia de la ciudad de noche. Descubre técnicas de larga exposición y composición nocturna.",
+        "calificacion": 4.8
+    },
+    {
+        "id": 53,
+        "titulo": "Paseo en velero al atardecer en Cancún",
+        "ubicacion": "Cancún",
+        "precio": 1750,
+        "imagen": "https://gigonway.com/wp-content/uploads/2021/03/e72rtzy4.jpg",
+        "descripcion": "Disfruta de una romántica travesía en velero por las aguas turquesas del Caribe mientras el sol se despide.",
+        "calificacion": 4.9
+    },
+    {
+        "id": 54,
+        "titulo": "Clase de tejido en telar de cintura con artesanas",
+        "ubicacion": "Oaxaca",
+        "precio": 900,
+        "imagen": "https://www.portafolio.co/files/article_new_multimedia/uploads/2024/05/02/6633a2af70474.jpeg",
+        "descripcion": "Conéctate con la tradición. Aprende el ancestral arte del telar de cintura y crea tu propio textil con maestras tejedoras.",
+        "calificacion": 5.0
+    },
+    {
+        "id": 55,
+        "titulo": "Tour de leyendas y misterios coloniales",
+        "ubicacion": "Guanajuato",
+        "precio": 800,
+        "imagen": "https://th.bing.com/th/id/R.5d4b0eca578303827433644fa6b09ca1?rik=x%2fOrhcrGnHHSgg&pid=ImgRaw&r=0",
+        "descripcion": "Recorre las callejuelas de Guanajuato al anochecer, escuchando fascinantes leyendas de la época colonial.",
+        "calificacion": 4.7
+    },
+    {
+        "id": 56,
+        "titulo": "Experiencia de buceo con tortugas marinas",
+        "ubicacion": "Akumal",
+        "precio": 2100,
+        "imagen": "https://tse4.mm.bing.net/th/id/OIP.dXPjKFwwegAuR7-V9h1TGAHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "descripcion": "Nada junto a majestuosas tortugas marinas en su hábitat natural, una experiencia inolvidable en Akumal.",
+        "calificacion": 5.0
+    },
+    {
+        "id": 57,
+        "titulo": "Taller de creación de velas artesanales",
+        "ubicacion": "San Miguel de Allende",
+        "precio": 700,
+        "imagen": "https://a0.muscache.com/im/pictures/cea30f70-f612-4abc-9792-6948a4679ecc.jpg",
+        "descripcion": "Aprende a hacer tus propias velas con ceras naturales, esencias y decoraciones, creando piezas únicas y aromáticas.",
+        "calificacion": 4.6
+    },
+    {
+        "id": 58,
+        "titulo": "Clase de boxeo mexicano con campeón local",
+        "ubicacion": "Ciudad de México",
+        "precio": 1000,
+        "imagen": "https://images.contentstack.io/v3/assets/bltb428ce5d46f8efd8/blt2471514b4646e9fc/5faad85e4cf66113d209ecb9/image1.jpg",
+        "descripcion": "Entrena como un profesional. Aprende las bases del boxeo mexicano con un boxeador local en un gimnasio tradicional.",
+        "calificacion": 4.8
+    },
+    {
+        "id": 59,
+        "titulo": "Tour de mercado y comida callejera auténtica",
+        "ubicacion": "Puebla",
+        "precio": 850,
+        "imagen": "https://tse2.mm.bing.net/th/id/OIP.f8GOev6eWEvj_WZbu-S7qQHaFj?r=0&w=1200&h=900&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "descripcion": "Descubre los sabores de Puebla en sus mercados y puestos callejeros, probando antojitos tradicionales y joyas escondidas.",
+        "calificacion": 4.9
+    },
+    {
+        "id": 60,
+        "titulo": "Clase de fotografía de paisajes en la Sierra Madre",
+        "ubicacion": "Monterrey",
+        "precio": 1400,
+        "imagen": "https://gigonway.com/wp-content/uploads/2021/03/e72rtzy4.jpg",
+        "descripcion": "Aprende a capturar la majestuosidad de la Sierra Madre. Descubre técnicas de composición y luz para paisajes impactantes.",
+        "calificacion": 4.9
+    },
+    {
+        "id": 61,
+        "titulo": "Experiencia de parapente sobre la Presa de Valle de Bravo",
+        "ubicacion": "Valle de Bravo",
+        "precio": 2900,
+        "imagen": "https://www.portafolio.co/files/article_new_multimedia/uploads/2024/05/02/6633a2af70474.jpeg",
+        "descripcion": "Eleva tus sentidos. Vuela en parapente sobre la impresionante presa de Valle de Bravo con vistas espectaculares.",
+        "calificacion": 5.0
+    },
+    {
+        "id": 62,
+        "titulo": "Tour de mezcal y copal: arte y espíritu oaxaqueño",
+        "ubicacion": "Oaxaca",
+        "precio": 1600,
+        "imagen": "https://th.bing.com/th/id/R.5d4b0eca578303827433644fa6b09ca1?rik=x%2fOrhcrGnHHSgg&pid=ImgRaw&r=0",
+        "descripcion": "Sumérgete en la cultura zapoteca: degusta mezcal ancestral y conoce el arte de la elaboración del copal, una resina sagrada.",
+        "calificacion": 4.9
+    },
+    {
+        "id": 63,
+        "titulo": "Clase de fotografía para principiantes: conceptos básicos",
+        "ubicacion": "Ciudad de México",
+        "precio": 900,
+        "imagen": "https://tse4.mm.bing.net/th/id/OIP.dXPjKFwwegAuR7-V9h1TGAHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "descripcion": "Domina tu cámara. Aprende los fundamentos de la fotografía: apertura, velocidad, ISO y composición para fotos increíbles.",
+        "calificacion": 4.7
+    },
+    {
+        "id": 64,
+        "titulo": "Paseo a caballo por las dunas de Cancún",
+        "ubicacion": "Cancún",
+        "precio": 1400,
+        "imagen": "https://a0.muscache.com/im/pictures/cea30f70-f612-4abc-9792-6948a4679ecc.jpg",
+        "descripcion": "Una experiencia única. Cabalga por las playas y dunas de Cancún con el mar Caribe de fondo.",
+        "calificacion": 4.8
+    },
+    {
+        "id": 65,
+        "titulo": "Taller de elaboración de pan artesanal",
+        "ubicacion": "San Miguel de Allende",
+        "precio": 950,
+        "imagen": "https://images.contentstack.io/v3/assets/bltb428ce5d46f8efd8/blt2471514b4646e9fc/5faad85e4cf66113d209ecb9/image1.jpg",
+        "descripcion": "Amasar y hornear. Aprende los secretos para hacer pan de masa madre y otras delicias en un taller práctico.",
+        "calificacion": 4.9
+    },
+    {
+        "id": 66,
+        "titulo": "Tour de mercados de flores y plantas exóticas",
+        "ubicacion": "Ciudad de México",
+        "precio": 600,
+        "imagen": "https://tse2.mm.bing.net/th/id/OIP.f8GOev6eWEvj_WZbu-S7qQHaFj?r=0&w=1200&h=900&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "descripcion": "Un festín para los sentidos. Explora los mercados de flores más grandes y coloridos de la Ciudad de México.",
+        "calificacion": 4.6
+    },
+    {
+        "id": 67,
+        "titulo": "Clase de escultura en madera: arte popular mexicano",
+        "ubicacion": "Oaxaca",
+        "precio": 1200,
+        "imagen": "https://gigonway.com/wp-content/uploads/2021/03/e72rtzy4.jpg",
+        "descripcion": "Crea tu propia pieza tallada. Aprende las técnicas de la escultura en madera con un artesano tradicional oaxaqueño.",
+        "calificacion": 5.0
+    },
+    {
+        "id": 68,
+        "titulo": "Experiencia de snorkel nocturno en cenote",
+        "ubicacion": "Tulum",
+        "precio": 1500,
+        "imagen": "https://www.portafolio.co/files/article_new_multimedia/uploads/2024/05/02/6633a2af70474.jpeg",
+        "descripcion": "Descubre la magia oculta de los cenotes por la noche. Una experiencia de snorkel única con vida acuática nocturna.",
+        "calificacion": 4.9
+    },
+    {
+        "id": 69,
+        "titulo": "Tour fotográfico por el centro histórico",
+        "ubicacion": "Guadalajara",
+        "precio": 1100,
+        "imagen": "https://th.bing.com/th/id/R.5d4b0eca578303827433644fa6b09ca1?rik=x%2fOrhcrGnHHSgg&pid=ImgRaw&r=0",
+        "descripcion": "Captura la esencia de Guadalajara. Un recorrido fotográfico por sus edificios históricos y plazas emblemáticas.",
+        "calificacion": 4.8
+    },
+    {
+        "id": 70,
+        "titulo": "Clase de yoga en la azotea con vista panorámica",
+        "ubicacion": "San Miguel de Allende",
+        "precio": 850,
+        "imagen": "https://tse4.mm.bing.net/th/id/OIP.dXPjKFwwegAuR7-V9h1TGAHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "descripcion": "Relájate y encuentra tu equilibrio. Sesión de yoga con vistas espectaculares de San Miguel al amanecer o atardecer.",
+        "calificacion": 4.9
+    },
+    {
+        "id": 71,
+        "titulo": "Taller de creación de máscaras de lucha libre",
+        "ubicacion": "Ciudad de México",
+        "precio": 900,
+        "imagen": "https://a0.muscache.com/im/pictures/cea30f70-f612-4abc-9792-6948a4679ecc.jpg",
+        "descripcion": "Diseña tu propia identidad. Crea tu máscara de lucha libre personalizada y llévate un recuerdo único de México.",
+        "calificacion": 4.7
+    },
+    {
+        "id": 72,
+        "titulo": "Tour en bicicleta por el Pueblo Mágico de Cholula",
+        "ubicacion": "Puebla",
+        "precio": 700,
+        "imagen": "https://images.contentstack.io/v3/assets/bltb428ce5d46f8efd8/blt2471514b4646e9fc/5faad85e4cf66113d209ecb9/image1.jpg",
+        "descripcion": "Pedalea por la historia. Explora Cholula, sus pirámides y sus iglesias en un tour en bicicleta guiado y relajado.",
+        "calificacion": 4.8
+    },
+    {
+        "id": 73,
+        "titulo": "Clase de repostería con dulces mexicanos",
+        "ubicacion": "Morelia",
+        "precio": 1000,
+        "imagen": "https://tse2.mm.bing.net/th/id/OIP.f8GOev6eWEvj_WZbu-S7qQHaFj?r=0&w=1200&h=900&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "descripcion": "Endulza tu vida. Aprende a preparar postres tradicionales mexicanos como las morelianas o los chongos zamoranos.",
+        "calificacion": 4.9
+    },
+    {
+        "id": 74,
+        "titulo": "Experiencia de rafting en el río Filobobos",
+        "ubicacion": "Veracruz",
+        "precio": 1800,
+        "imagen": "https://gigonway.com/wp-content/uploads/2021/03/e72rtzy4.jpg",
+        "descripcion": "Aventura y emoción. Desciende por los rápidos del río Filobobos en una emocionante experiencia de rafting.",
+        "calificacion": 4.7
+    },
+    {
+        "id": 75,
+        "titulo": "Sesión de fotos de parejas en un jardín botánico",
+        "ubicacion": "San Miguel de Allende",
+        "precio": 1700,
+        "imagen": "https://www.portafolio.co/files/article_new_multimedia/uploads/2024/05/02/6633a2af70474.jpeg",
+        "descripcion": "Captura tu amor en un entorno mágico. Una sesión de fotos romántica en los exuberantes jardines botánicos.",
+        "calificacion": 5.0
+    },
+    {
+        "id": 76,
+        "titulo": "Clase de acuarela y dibujo botánico",
+        "ubicacion": "Jardín Etnobotánico, Oaxaca",
+        "precio": 1150,
+        "imagen": "https://th.bing.com/th/id/R.5d4b0eca578303827433644fa6b09ca1?rik=x%2fOrhcrGnHHSgg&pid=ImgRaw&r=0",
+        "descripcion": "Conéctate con la naturaleza a través del arte. Aprende a dibujar y pintar la flora del jardín etnobotánico con acuarelas.",
+        "calificacion": 4.9
+    },
+    {
+        "id": 77,
+        "titulo": "Tour en cuatrimoto por la selva de Tulum",
+        "ubicacion": "Tulum",
+        "precio": 1300,
+        "imagen": "https://tse4.mm.bing.net/th/id/OIP.dXPjKFwwegAuR7-V9h1TGAHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "descripcion": "Aventura off-road. Recorre la densa selva maya en cuatrimoto, explorando caminos y paisajes ocultos.",
+        "calificacion": 4.8
+    },
+    {
+        "id": 78,
+        "titulo": "Clase de pintura sobre tela y diseño de rebozos",
+        "ubicacion": "Oaxaca",
+        "precio": 1050,
+        "imagen": "https://a0.muscache.com/im/pictures/cea30f70-f612-4abc-9792-6948a4679ecc.jpg",
+        "descripcion": "Personaliza tu propio rebozo. Aprende técnicas de pintura sobre tela y crea diseños únicos con inspiración oaxaqueña.",
+        "calificacion": 4.7
+    },
+    {
+        "id": 79,
+        "titulo": "Experiencia de nado con delfines en el Caribe",
+        "ubicacion": "Cancún",
+        "precio": 2500,
+        "imagen": "https://images.contentstack.io/v3/assets/bltb428ce5d46f8efd8/blt2471514b4646e9fc/5faad85e4cf66113d209ecb9/image1.jpg",
+        "descripcion": "Un encuentro mágico. Interactúa y nada con delfines en las cálidas aguas del Caribe mexicano.",
+        "calificacion": 5.0
+    },
+    {
+        "id": 80,
+        "titulo": "Taller de escritura creativa en un café bohemio",
+        "ubicacion": "Ciudad de México",
+        "precio": 800,
+        "imagen": "https://tse2.mm.bing.net/th/id/OIP.f8GOev6eWEvj_WZbu-S7qQHaFj?r=0&w=1200&h=900&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "descripcion": "Libera tu voz interior. Desarrolla tus habilidades de escritura en un inspirador café de la Condesa o Roma.",
+        "calificacion": 4.6
+    },
+    {
+        "id": 81,
+        "titulo": "Tour de barranquismo y cascadas en la Sierra Gorda",
+        "ubicacion": "Querétaro",
+        "precio": 2000,
+        "imagen": "https://gigonway.com/wp-content/uploads/2021/03/e72rtzy4.jpg",
+        "descripcion": "Aventura en la naturaleza. Desciende barrancos y explora impresionantes cascadas en la Sierra Gorda.",
+        "calificacion": 4.8
+    },
+    {
+        "id": 82,
+        "titulo": "Clase de cocina prehispánica: rescate de sabores",
+        "ubicacion": "Teotihuacán",
+        "precio": 1300,
+        "imagen": "https://www.portafolio.co/files/article_new_multimedia/uploads/2024/05/02/6633a2af70474.jpeg",
+        "descripcion": "Un viaje al pasado culinario. Aprende a preparar platillos inspirados en las recetas y técnicas de la época prehispánica.",
+        "calificacion": 4.9
+    },
+    {
+        "id": 83,
+        "titulo": "Masaje de piedras calientes y aromaterapia",
+        "ubicacion": "San Miguel de Allende",
+        "precio": 1600,
+        "imagen": "https://th.bing.com/th/id/R.5d4b0eca578303827433644fa6b09ca1?rik=x%2fOrhcrGnHHSgg&pid=ImgRaw&r=0",
+        "descripcion": "Relajación profunda. Disfruta de un masaje terapéutico con piedras calientes y aceites esenciales en un spa boutique.",
+        "calificacion": 5.0
+    },
+    {
+        "id": 84,
+        "titulo": "Tour de leyendas de la Alhóndiga de Granaditas",
+        "ubicacion": "Guanajuato",
+        "precio": 650,
+        "imagen": "https://tse4.mm.bing.net/th/id/OIP.dXPjKFwwegAuR7-V9h1TGAHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "descripcion": "Adéntrate en la historia. Descubre las fascinantes leyendas que rodean la icónica Alhóndiga de Granaditas en Guanajuato.",
+        "calificacion": 4.7
+    },
+    {
+        "id": 85,
+        "titulo": "Clase de yoga aéreo en hamacas",
+        "ubicacion": "Playa del Carmen",
+        "precio": 900,
+        "imagen": "https://a0.muscache.com/im/pictures/cea30f70-f612-4abc-9792-6948a4679ecc.jpg",
+        "descripcion": "Experimenta la ingravidez. Mejora tu flexibilidad y fuerza en una divertida clase de yoga aéreo en hamacas.",
+        "calificacion": 4.8
+    },
+    {
+        "id": 86,
+        "titulo": "Taller de fotografía macro: el mundo en detalle",
+        "ubicacion": "Xalapa",
+        "precio": 1200,
+        "imagen": "https://images.contentstack.io/v3/assets/bltb428ce5d46f8efd8/blt2471514b4646e9fc/5faad85e4cf66113d209ecb9/image1.jpg",
+        "descripcion": "Descubre un universo oculto. Aprende a capturar pequeños detalles de la naturaleza y objetos cotidianos con fotografía macro.",
+        "calificacion": 4.9
+    },
+    {
+        "id": 87,
+        "titulo": "Paseo en góndola por los canales de Puerto de la Paz",
+        "ubicacion": "La Paz, BCS",
+        "precio": 1500,
+        "imagen": "https://tse2.mm.bing.net/th/id/OIP.f8GOev6eWEvj_WZbu-S7qQHaFj?r=0&w=1200&h=900&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "descripcion": "Disfruta de un romántico paseo en góndola por los tranquilos canales de Puerto de la Paz al atardecer.",
+        "calificacion": 4.7
+    },
+    {
+        "id": 88,
+        "titulo": "Clase de cocina con insectos comestibles: sabores ancestrales",
+        "ubicacion": "Oaxaca",
+        "precio": 1100,
+        "imagen": "https://gigonway.com/wp-content/uploads/2021/03/e72rtzy4.jpg",
+        "descripcion": "Atrévete a probar algo diferente. Aprende a cocinar platillos con insectos comestibles, una tradición milenaria mexicana.",
+        "calificacion": 4.6
+    },
+    {
+        "id": 89,
+        "titulo": "Tour de leyendas mayas y sitios arqueológicos poco conocidos",
+        "ubicacion": "Yucatán",
+        "precio": 1700,
+        "imagen": "https://www.portafolio.co/files/article_new_multimedia/uploads/2024/05/02/6633a2af70474.jpeg",
+        "descripcion": "Explora la mística Península de Yucatán, visitando sitios arqueológicos remotos y escuchando antiguas leyendas mayas.",
+        "calificacion": 4.9
+    },
+    {
+        "id": 90,
+        "titulo": "Clase de defensa personal Krav Maga",
+        "ubicacion": "Monterrey",
+        "precio": 950,
+        "imagen": "https://th.bing.com/th/id/R.5d4b0eca578303827433644fa6b09ca1?rik=x%2fOrhcrGnHHSgg&pid=ImgRaw&r=0",
+        "descripcion": "Aprende técnicas efectivas de Krav Maga para protegerte en cualquier situación, con un instructor certificado.",
+        "calificacion": 4.8
+    },
+    {
+        "id": 91,
+        "titulo": "Paseo en bicicleta por el desierto de Real de Catorce",
+        "ubicacion": "Real de Catorce",
+        "precio": 1300,
+        "imagen": "https://tse4.mm.bing.net/th/id/OIP.dXPjKFwwegAuR7-V9h1TGAHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "descripcion": "Recorre paisajes desérticos impresionantes en bicicleta, explorando la historia minera de Real de Catorce.",
+        "calificacion": 4.9
+    },
+    {
+        "id": 92,
+        "titulo": "Tour de fotografía nocturna en el centro de Mérida",
+        "ubicacion": "Mérida",
+        "precio": 1000,
+        "imagen": "https://a0.muscache.com/im/pictures/cea30f70-f612-4abc-9792-6948a4679ecc.jpg",
+        "descripcion": "Captura la belleza nocturna de Mérida. Aprende a fotografiar sus edificios coloniales y plazas iluminadas.",
+        "calificacion": 4.8
+    },
+    {
+        "id": 93,
+        "titulo": "Clase de yoga y paddleboard al amanecer",
+        "ubicacion": "Puerto Vallarta",
+        "precio": 1200,
+        "imagen": "https://images.contentstack.io/v3/assets/bltb428ce5d46f8efd8/blt2471514b4646e9fc/5faad85e4cf66113d209ecb9/image1.jpg",
+        "descripcion": "Encuentra la paz en el mar. Combina una sesión de yoga en paddleboard con el amanecer sobre el Pacífico.",
+        "calificacion": 5.0
+    },
+    {
+        "id": 94,
+        "titulo": "Taller de encuadernación artesanal y creación de diarios",
+        "ubicacion": "Ciudad de México",
+        "precio": 950,
+        "imagen": "https://tse2.mm.bing.net/th/id/OIP.f8GOev6eWEvj_WZbu-S7qQHaFj?r=0&w=1200&h=900&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "descripcion": "Crea tu propio legado. Aprende las técnicas de encuadernación tradicional y diseña un diario personal único.",
+        "calificacion": 4.7
+    },
+    {
+        "id": 95,
+        "titulo": "Tour de observación de aves migratorias en la costa",
+        "ubicacion": "Celestún",
+        "precio": 1400,
+        "imagen": "https://gigonway.com/wp-content/uploads/2021/03/e72rtzy4.jpg",
+        "descripcion": "Un paraíso para los amantes de las aves. Observa flamencos y otras especies migratorias en su hábitat costero.",
+        "calificacion": 4.9
+    },
+    {
+        "id": 96,
+        "titulo": "Experiencia de buceo en el Museo Subacuático de Arte (MUSA)",
+        "ubicacion": "Cancún",
+        "precio": 2700,
+        "imagen": "https://www.portafolio.co/files/article_new_multimedia/uploads/2024/05/02/6633a2af70474.jpeg",
+        "descripcion": "Sumérgete en el arte. Explora el impresionante museo subacuático de esculturas en Cancún, una experiencia inolvidable.",
+        "calificacion": 5.0
+    },
+    {
+        "id": 97,
+        "titulo": "Clase de baile folklórico mexicano",
+        "ubicacion": "Guadalajara",
+        "precio": 800,
+        "imagen": "https://th.bing.com/th/id/R.5d4b0eca578303827433644fa6b09ca1?rik=x%2fOrhcrGnHHSgg&pid=ImgRaw&r=0",
+        "descripcion": "Descubre la alegría de la danza mexicana. Aprende los pasos básicos de bailes folklóricos con trajes tradicionales.",
+        "calificacion": 4.6
+    },
+    {
+        "id": 98,
+        "titulo": "Tour gastronómico 'Sabores de antaño' en el centro",
+        "ubicacion": "Puebla",
+        "precio": 900,
+        "imagen": "https://tse4.mm.bing.net/th/id/OIP.dXPjKFwwegAuR7-V9h1TGAHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3",
+        "descripcion": "Un viaje culinario al pasado. Prueba platillos tradicionales y secretos gastronómicos del centro histórico de Puebla.",
+        "calificacion": 4.9
+    },
+    {
+        "id": 99,
+        "titulo": "Sesión de fotos de maternidad en paisajes naturales",
+        "ubicacion": "Valle de Bravo",
+        "precio": 1900,
+        "imagen": "https://a0.muscache.com/im/pictures/cea30f70-f612-4abc-9792-6948a4679ecc.jpg",
+        "descripcion": "Inmortaliza un momento especial. Sesión fotográfica de maternidad en los hermosos paisajes de Valle de Bravo.",
+        "calificacion": 5.0
+    },
+    {
+        "id": 100,
+        "titulo": "Taller de creación de títeres y teatro de sombras",
+        "ubicacion": "San Cristóbal de las Casas",
+        "precio": 750,
+        "imagen": "https://images.contentstack.io/v3/assets/bltb428ce5d46f8efd8/blt2471514b4646e9fc/5faad85e4cf66113d209ecb9/image1.jpg",
+        "descripcion": "Despierta tu imaginación. Aprende a crear títeres y a contar historias a través del fascinante teatro de sombras.",
+        "calificacion": 4.7
+    }
+]

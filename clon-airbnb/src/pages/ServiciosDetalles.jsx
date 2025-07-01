@@ -3,11 +3,11 @@ import { useParams, useNavigate } from 'react-router-dom'; // Importamos usePara
 import { useDarkMode } from '@/styles/DarkModeContent';
 
 
-const ExperienciasDetalles = () => {
-    const { id } = useParams(); // Obtiene el ID de la URL (ej: /experiencias/123 -> id = "123")
+const ServiciosDetalles = () => {
+    const { id } = useParams(); // Obtiene el ID de la URL (ej: /servicios/123 -> id = "123")
     const navigate = useNavigate(); // Hook para navegación programática 
 
-    const [experiencias, setExperiencias] = useState(null);
+    const [servicios, setServicios] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
 
@@ -18,7 +18,7 @@ const ExperienciasDetalles = () => {
     useEffect(() => {
         if (!id) return; // Si no hay ID en la URL, no se hace nada
 
-        const fetchExperienciasDetalles = async () => {
+        const fetchServiciosDetalles = async () => {
             try {
                 setLoading(true);
                 setError(null);
@@ -27,22 +27,22 @@ const ExperienciasDetalles = () => {
                 // Simula una carga de datos con un retardo
                 const timer = new Promise((res) => setTimeout(res, 1000));
                 
-                // Fetch de todos las experienciass
-                const fetchPromise = fetch('/data/experiencias.json');
+                // Fetch de todos los servicios
+                const fetchPromise = fetch('/data/servicios.json');
                 
                 const [res] = await Promise.all([fetchPromise, timer]);
 
-                if (!res.ok) throw new Error("Error al obtener los detalles de la experiencia");
+                if (!res.ok) throw new Error("Error al obtener los detalles del servicio");
 
                 const data = await res.json();
                 
-                // Filtra para encontrar el experiencias específico por ID
-                const foundExperiencias = data.find(item => item.id.toString() === id);
+                // Filtra para encontrar el servicio específico por ID
+                const foundServicio = data.find(item => item.id.toString() === id);
 
-                if (foundExperiencias) {
-                    setExperiencias(foundExperiencias);
+                if (foundServicio) {
+                    setServicios(foundServicio);
                 } else {
-                    setError("Experiencia no encontrada");
+                    setError("Servicio no encontrado");
                 }
 
                 setTimeout(() => {
@@ -59,7 +59,7 @@ const ExperienciasDetalles = () => {
             }
         };
 
-        fetchExperienciasDetalles();
+        fetchServiciosDetalles();
     }, [id]); // Dependencia del ID para que se ejecute cuando el ID en la URL cambie
 
     // Renderizado
@@ -89,8 +89,8 @@ const ExperienciasDetalles = () => {
         );
     }
 
-    if (!experiencias) {
-        return <div className="text-center py-10 text-gray-700 bg-white dark:bg-gray-900 dark:text-gray-300">Experiencia no disponible.</div>;
+    if (!servicios) {
+        return <div className="text-center py-10 text-gray-700 bg-white dark:bg-gray-900 dark:text-gray-300">Servicio no disponible.</div>;
     }
 
     // 
@@ -107,20 +107,20 @@ const ExperienciasDetalles = () => {
             </button>
             {/* Cabecera con título y ubicación */}
             <h1 className="text-3xl md:text-4xl font-semibold text-gray-900 mb-2 dark:text-white">
-                {experiencias.titulo}
+                {servicios.titulo}
             </h1>
             <p className="text-lg text-gray-600 mb-6 flex items-center dark:text-gray-300">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-1 text-gray-500 dark:text-gray-400" viewBox="0 0 20 20" fill="currentColor">
                     <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
                 </svg>
-                {experiencias.ubicacion} &middot; <span className="ml-1 text-gray-700 font-medium dark:text-gray-200">{experiencias.calificacion} ★</span>
+                {servicios.ubicacion} &middot; <span className="ml-1 text-gray-700 font-medium dark:text-gray-200">{servicios.calificacion} ★</span>
             </p>
 
             {/* Imagen */}
             <div className="relative aspect-video rounded-xl overflow-hidden mb-8">
                 <img
-                    src={experiencias.imagen}
-                    alt={experiencias.titulo}
+                    src={servicios.imagen}
+                    alt={servicios.titulo}
                     className="w-full h-full object-cover"
                 />
                 {/* Botón de favorito  */}
@@ -142,10 +142,10 @@ const ExperienciasDetalles = () => {
                 {/* Sección de detalles */}
                 <div className="md:col-span-2">
                     <h2 className="text-2xl font-semibold text-gray-900 mb-4 dark:text-white">
-                        experiencias en {experiencias.ubicacion}
+                        Servicios en {servicios.ubicacion}
                     </h2>
                     <p className="text-gray-700 leading-relaxed mb-6 dark:text-gray-200">
-                        {experiencias.descripcion}
+                        {servicios.descripcion}
                     </p>
 
                     {/* Características destacadas */}
@@ -171,7 +171,7 @@ const ExperienciasDetalles = () => {
                             </svg>
                             <div>
                                 <h3 className="font-semibold text-gray-900 dark:text-white">Llegada autónoma</h3>
-                                <p className="text-sm text-gray-600 dark:text-gray-300">Para entrar al experiencias, usa la caja de seguridad para llaves.</p>
+                                <p className="text-sm text-gray-600 dark:text-gray-300">Para entrar al alojamiento, usa la caja de seguridad para llaves.</p>
                             </div>                              
                         </div>
                         <div className="flex items-center">
@@ -196,7 +196,7 @@ const ExperienciasDetalles = () => {
                 <div className="md:col-span-1">
                     <div className="sticky top-20 border border-gray-200 rounded-xl p-6 shadow-md dark:bg-gray-700 dark:border-gray-600 dark:shadow-lg">
                         <div className="flex justify-between items-center mb-4">
-                            <span className="text-2xl font-semibold text-gray-900 dark:text-white">${experiencias.precio}</span>
+                            <span className="text-2xl font-semibold text-gray-900 dark:text-white">${servicios.precio}</span>
                             <span className="text-gray-600 dark:text-gray-300">/ noche</span>
                         </div>
                         <button className="w-full bg-red-500 text-white py-3 rounded-lg font-semibold hover:bg-red-600 transition-colors duration-200">
@@ -218,4 +218,4 @@ const ExperienciasDetalles = () => {
     );
 };
 
-export default ExperienciasDetalles;
+export default ServiciosDetalles;

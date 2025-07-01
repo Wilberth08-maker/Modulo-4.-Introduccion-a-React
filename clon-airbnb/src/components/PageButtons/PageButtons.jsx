@@ -2,7 +2,7 @@ const PagButtons = ({ info, onPrevious, onNext }) => {
     return (
         <div className="flex justify-end items-center gap-2 my-8 w-full max-w-7xl mx-auto px-6">
             <button
-                className="w-6 h-6 flex items-center justify-center bg-gray-200 border border-gray-300 rounded-full text-gray-900 hover:bg-gray-300 transition-colors duration-200 disabled:bg-gray-100 disabled:text-gray-400 disabled:border-gray-200 disabled:cursor-not-allowed"
+                className="w-6 h-6 flex items-center justify-center bg-gray-200 border border-gray-300 rounded-full text-gray-900 hover:bg-gray-300 transition-colors duration-200 disabled:bg-gray-100 disabled:text-gray-400 disabled:border-gray-200 disabled:cursor-not-allowed dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600"
                 onClick={onPrevious}
                 disabled={!info.prev}
                 aria-label="Previous page"
@@ -12,7 +12,7 @@ const PagButtons = ({ info, onPrevious, onNext }) => {
                 </svg>
             </button>
             <button 
-                className="w-6 h-6 flex items-center justify-center bg-gray-200 border border-gray-300 rounded-full text-gray-900 hover:bg-gray-300 transition-colors duration-200 disabled:bg-gray-100 disabled:text-gray-400 disabled:border-gray-200 disabled:cursor-not-allowed"
+                className="w-6 h-6 flex items-center justify-center bg-gray-200 border border-gray-300 rounded-full text-gray-900 hover:bg-gray-300 transition-colors duration-200 disabled:bg-gray-100 disabled:text-gray-400 disabled:border-gray-200 disabled:cursor-not-allowed dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600"
                 onClick={onNext}
                 disabled={!info.next}
                 aria-label="Next page"

@@ -5,7 +5,7 @@ import { useDarkMode } from '@/styles/DarkModeContent';
 
 const AlojamientoDetalles = () => {
     const { id } = useParams(); // Obtiene el ID de la URL (ej: /alojamientos/123 -> id = "123")
-    const navigate = useNavigate(); // Hook para navegación programática (ej: para un botón "Volver")
+    const navigate = useNavigate(); // Hook para navegación programática 
 
     const [alojamiento, setAlojamiento] = useState(null);
     const [loading, setLoading] = useState(true);
@@ -96,6 +96,15 @@ const AlojamientoDetalles = () => {
     // 
     return (
         <div className={`min-h-screen p-4 md:p-8 lg:p-12 bg-white dark:bg-gray-800 dark:text-gray-100 ${blurred ? 'blur-md' : 'blur-none'}`}>
+            {/* Botón de regresar */}
+            <button
+                onClick={() => navigate(-1)} // Vuelve a la página anterior
+                className="flex items-center mb-6 justify-center bg-white dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full w-10 h-10 shadow-md hover:bg-gray-100 dark:hover:bg-gray-600 transition-all duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-gray-300 focus:ring-opacity-75"
+            >
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7" />
+                </svg>
+            </button>
             {/* Cabecera con título y ubicación */}
             <h1 className="text-3xl md:text-4xl font-semibold text-gray-900 mb-2 dark:text-white">
                 {alojamiento.titulo}
