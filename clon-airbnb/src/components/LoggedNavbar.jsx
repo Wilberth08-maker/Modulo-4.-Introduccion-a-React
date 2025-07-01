@@ -189,6 +189,7 @@ const LandingNavbar = ({ user, setUser }) => {
                     {isMenuOpen && (
                         <div className="absolute right-0 mt-3 w-48 bg-white border border-gray-200 rounded-xl shadow-lg py-2 z-20 animate-fadeInUp dark:bg-gray-700 dark:border-gray-600">
                             <span className="block px-4 py-2 text-gray-700 text-sm dark:text-gray-200 truncate">Hola, **{user.email.split('@')[0]}**</span>
+                            <div className="border-t border-gray-100 my-1"></div> {/* Separador */}
                                     <Link
                                         to="/profile"
                                         onClick={() => setIsMenuOpen(false)}

@@ -141,6 +141,7 @@ const Experiencias = () => {
                                         aria-label={`Tarjeta de la experiencia ${exp.titulo}`}
 
                                     />
+                                    {/* Botón de estado */}
                                     <button className="absolute top-2 left-2 p-2 rounded-full bg-opacity-100 transition-all duration-200 hover:scale-110 bg-gray-200 text-xs font-semibold dark:text-gray-700">
                                         {exp.estado}
                                     </button>

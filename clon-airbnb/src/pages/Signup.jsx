@@ -41,16 +41,22 @@ const Signup = () => {
             return;
         }
 
-        // si pasa todas las validaciones, limpia el error
-        setError("");
+        try{
+            registerUser(email, password);
 
-        registerUser(email, password);
+            // si pasa todas las validaciones, limpia el error
+            setError("");        
 
-        // simula un registro exitoso con un alert
-        alert("Registro exitoso, ahora puedes iniciar sesión.")
+            // simula un registro exitoso con un alert
+            alert("Registro exitoso, ahora puedes iniciar sesión.")
 
-        // Redirigir al usuario al login
-        navigate("/login")
+            // Redirigir al usuario al login
+            navigate("/login")
+        }
+        catch(err){
+            setError(err.message);
+        }
+        
     }
 
 
