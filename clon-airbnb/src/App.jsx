@@ -23,7 +23,7 @@ function App() {
       setLoading(false); // ← después del delay, carga terminada
     }, 300)
 
-  }, []); // El array vacío [] significa que se ejecuta solo 1 vez al montar el componente
+  }, []); 
 
   if (loading) {
     return (

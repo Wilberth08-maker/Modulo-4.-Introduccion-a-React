@@ -44,7 +44,8 @@ const AlojamientoDetalles = () => {
                 } else {
                     setError("Alojamiento no encontrado");
                 }
-
+                
+                // Simulaión de carga
                 setTimeout(() => {
                     setBlurred(false);
                     setLoading(false);

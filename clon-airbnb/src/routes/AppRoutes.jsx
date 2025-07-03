@@ -19,13 +19,13 @@ import Perfil from '@/pages/Perfil';
 
 // Componente que recibe el usuario actual y la función para actualizarlo
 const AppRoutes = ({ user, setUser }) => (
-    // <Routes> reemplaza al antiguo <Switch> desde React Router v6
     <Routes>
+
         {/* Ruta para el login. Pasamos setUser como prop para actualizar el estado */}
         <Route path="/login" element={<Login setUser={setUser} />} />
+
         {/* Ruta para el registro */}
         <Route path="/signup" element={<Signup />} />
-
 
         {/* Ruta raíz ("/"): si no hay usuario, si hay se muestra "/alojamientos" */}
         <Route
