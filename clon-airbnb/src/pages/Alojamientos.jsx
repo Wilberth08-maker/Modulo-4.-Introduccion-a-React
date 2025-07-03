@@ -1,6 +1,7 @@
 import { useEffect, useState, useCallback, useMemo } from 'react';
 import PagButtons from '@/components/PageButtons/PageButtons';
 import {Link} from 'react-router-dom';
+import FilterPanel from '@/components/FilterPanel/FilterPanel';
 
 const Alojamientos = () => {
     const [alojamientos, setAlojamientos] = useState([]);
@@ -10,51 +11,93 @@ const Alojamientos = () => {
     const [currentPage, setCurrentPage] = useState(1); // Nuevo estado para la página actual
     const itemsPerPage = 24; // Mostrar 24 tarjetas por página
 
+    const [citySearch, setCitySearch] = useState("");
+    const [minPrice, setMinPrice] = useState("");
+    const [maxPrice, setMaxPrice] = useState("");
+    const [alojamientosFilter, setAlojamientosFilter] = useState([]);
+
     const [cardsBlurred, setCardsBlurred] = useState(true); // Inicia borroso
 
+
+    const fetchAlojamientos = useCallback(async () => {
+        try {
+            setLoading(true);
+            setCardsBlurred(true);
+            setError(null);
+            const timer = new Promise((res) => setTimeout(res, 2000));
+
+            const fetchPromise = fetch('/data/alojamientos.json');
+
+            const [res] = await Promise.all([fetchPromise, timer]);
+
+            if (!res.ok) throw new Error("Error al obtener los alojamientos");
+
+            const data = await res.json();
+
+            setAlojamientos(data);
+            setAlojamientosFilter(data);
+
+            setTimeout(() => {
+                setCardsBlurred(false); // Tarjetas nítidas
+                setLoading(false); // Oculta el spinner principal
+            }, 500); // Pequeño retraso para que el spinner principal tenga tiempo de desaparecer
+
+        } catch (err) {
+            console.error('Error cargando alojamientos:', err);
+            setError(err.message);
+            setCardsBlurred(true);
+        } finally {
+            setLoading(false);
+        }
+    },[setLoading, setCardsBlurred, setError, setAlojamientos, setAlojamientosFilter]); 
+    
     useEffect(() => {
-        const fetchAlojamientos = async () => {
-            try {
-                setLoading(true);
-                setCardsBlurred(true);
-                const timer = new Promise((res) => setTimeout(res, 2000));
+        fetchAlojamientos()        
+    }, [fetchAlojamientos]);
 
-                const fetchPromise = fetch('/data/alojamientos.json');
+    // Lógica de Filtrado
+    //--------------------
+    const handleFilter = useCallback(({ city, minPrice, maxPrice }) => {
+    const min = parseFloat(minPrice);
+    const max = parseFloat(maxPrice);
 
-                const [res] = await Promise.all([fetchPromise, timer]);
+    const filtrados = alojamientos.filter(({ ubicacion, precio }) => {
+            const ciudadOK = !city.trim() || ubicacion.toLowerCase().includes(city.toLowerCase());
+            const precioOK =
+                (isNaN(min) || precio >= min) &&
+                (isNaN(max) || precio <= max);
 
-                if (!res.ok) throw new Error("Error al obtener los alojamientos");
+            return ciudadOK && precioOK;
+        });
 
-                const data = await res.json();
-                
-                setAlojamientos(data);
+        setAlojamientosFilter(filtrados);
+        setCurrentPage(1);
+        setCardsBlurred(true);
+        setError(null);
+    }, [alojamientos, setAlojamientosFilter, setCurrentPage, setError, setCardsBlurred]);
 
-                setTimeout(() => {
-                    setCardsBlurred(false); // Tarjetas nítidas
-                    setLoading(false); // Oculta el spinner principal
-                }, 500); // Pequeño retraso para que el spinner principal tenga tiempo de desaparecer
+    const handleClearFilters = useCallback(() => {
+        setCitySearch("");
+        setMinPrice("");
+        setMaxPrice("");
+        setError(null);
+        setCurrentPage(1); 
+        setCardsBlurred(true); 
 
-            } catch (err) {
-                console.error('Error cargando alojamientos:', err);
-                setError(err.message);
-                setCardsBlurred(true);
-            } finally {
-                setLoading(false);
-            }
-        };
+        
+        handleFilter({ city: "", minPrice: "", maxPrice: "" });
+    }, [handleFilter, setCitySearch, setMinPrice, setMaxPrice, setError, setCurrentPage, setCardsBlurred]); 
 
-        fetchAlojamientos();
-    }, []);
+    // ------------
 
     // Lógica de paginación en el frontend
-    const totalPages = Math.ceil(alojamientos.length / itemsPerPage);
+    const totalPages = Math.ceil(alojamientosFilter.length / itemsPerPage);
     const startIndex = (currentPage - 1) * itemsPerPage;
     const endIndex = startIndex + itemsPerPage;
 
     const currentAlojamientos = useMemo(() => {
-        setCardsBlurred(true);
-        return alojamientos.slice(startIndex, endIndex); 
-    },[alojamientos, startIndex, endIndex]);
+        return alojamientosFilter.slice(startIndex, endIndex); 
+    },[alojamientosFilter, startIndex, endIndex]);
 
     // useEffect para re-activar el efecto de desenfoque cuando currentAlojamientos cambia
     useEffect(() => {
@@ -64,6 +107,8 @@ const Alojamientos = () => {
                 setCardsBlurred(false); // Haz las tarjetas nítidas después de la transición de página
             }, 500); // 
             return () => clearTimeout(timer);
+        }   else if (!loading && !pageLoading && currentAlojamientos.length === 0) {
+            setCardsBlurred(false); // Si no hay resultados
         }
     }, [currentAlojamientos, loading, pageLoading]); // Dependencias para re-ejecutar
 
@@ -74,21 +119,19 @@ const Alojamientos = () => {
         await new Promise(resolve => setTimeout(resolve, 500)); // Pequeña pausa para ver el spinner
         setCurrentPage(newPage);
         setPageLoading(false); // Desactiva el loading
-    }, []);
+    }, [setPageLoading, setCardsBlurred, setCurrentPage]);
 
-    const handleNextPage = () => {
+    const handleNextPage = useCallback(() => {
         if (currentPage < totalPages) {
             changePage(currentPage + 1);
         }
-    };
+    }, [currentPage, totalPages, changePage]);
 
-    const handlePreviousPage = () => {
+    const handlePreviousPage = useCallback(() => {
         if (currentPage > 1) {
             changePage(currentPage - 1);
         }
-    };
-
-    if (error) return <p className="text-red-500">Error: {error}</p>;
+    },[currentPage, changePage]);
 
     return (
         <div className="flex flex-col items-center p-6 bg-white dark:bg-gray-900 text-black dark:text-white min-h-screen">
@@ -112,12 +155,31 @@ const Alojamientos = () => {
                 </div>
             ) : (
                 <>
+                    <div className="w-full flex justify-center py-4 px-4 md:px-0"> 
+                        <div className="w-full max-w-6xl">
+                            <FilterPanel
+                                citySearch={citySearch}
+                                setCitySearch={setCitySearch}
+                                minPrice={minPrice}
+                                setMinPrice={setMinPrice}
+                                maxPrice={maxPrice}
+                                setMaxPrice={setMaxPrice}
+                                onFilter={handleFilter}
+                                onClearFilters={handleClearFilters}
+                                />
+                        </div>
+                    </div>
                 {/* Paginación */}
                     <PagButtons
                             info={{ prev: currentPage > 1, next: currentPage < totalPages }}
                             onPrevious={handlePreviousPage}
                             onNext={handleNextPage}
-                        /> 
+                    /> 
+                    
+                    {/* Muestra mensaje de error en caso de existir */}
+                    {error && (
+                        <p className="mb-6 text-red-500 font-semibold text-center text-sm">{error}</p>
+                    )}
 
                     {/* Contenedor principal de las tarjetas */}
                     <div className={`
@@ -126,7 +188,8 @@ const Alojamientos = () => {
                             transition-all duration-500 ease-in-out 
                             ${cardsBlurred ? 'blur-md' : 'blur-none'}
                         `}>
-                        {currentAlojamientos.map(aloj => (
+                        {currentAlojamientos.length > 0 ? (
+                            currentAlojamientos.map(aloj => (
                             <Link 
                             key={aloj.id} 
                             to={`/alojamientos/${aloj.id}`}
@@ -139,6 +202,7 @@ const Alojamientos = () => {
                                         alt={aloj.titulo}
                                         className="w-full h-full object-cover transform transition-transform duration-300 group-hover:scale-105"
                                         aria-label={`Tarjeta del alojamiento ${aloj.titulo}`}
+                                        loading="lazy"
 
                                     />
                                     {/* Botón de favorito */}
@@ -174,14 +238,24 @@ const Alojamientos = () => {
                                     </p>
                                 </div>
                             </Link>
-                        ))}
+                        ))
+                    ) : (
+                            // Mensaje para cuando no hay alojamientos que mostrar
+                            !loading && !error && (
+                                <p className="col-span-full text-center text-gray-500 dark:text-gray-400">
+                                    No hay alojamientos disponibles con los filtros actuales.
+                                </p>
+                            )
+                    )}
                     </div>
                     {/* Paginación */}
-                    <PagButtons
+                    {alojamientosFilter.length > 0 && !error && (
+                        <PagButtons
                             info={{ prev: currentPage > 1, next: currentPage < totalPages }}
                             onPrevious={handlePreviousPage}
                             onNext={handleNextPage}
-                        />    
+                        /> 
+                    )} 
                 </>
             )}       
         </div>

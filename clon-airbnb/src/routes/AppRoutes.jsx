@@ -14,6 +14,7 @@ import Experiencias from '@/pages/Experiencias';
 import ExperienciasDetalles from '@/pages/ExperienciasDetalles.jsx'
 import Servicios from '@/pages/Servicios';
 import ServiciosDetalles from '@/pages/ServiciosDetalles';
+import Perfil from '@/pages/Perfil';
 
 
 // Componente que recibe el usuario actual y la función para actualizarlo
@@ -64,6 +65,12 @@ const AppRoutes = ({ user, setUser }) => (
         <Route 
             path="/servicios/:id" 
             element={user ? <ServiciosDetalles /> : <Navigate to="/login" replace />} 
+        />
+
+        {/* Ruta perfil */}
+        <Route 
+            path="/perfil" 
+            element={user ? <Perfil user={user} /> : <Navigate to="/login" replace />} 
         />
 
         {/* Ruta comodín (404): se muestra si no coincide ninguna ruta anterior */}

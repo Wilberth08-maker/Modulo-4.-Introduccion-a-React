@@ -46,6 +46,7 @@ const LandingNavbar = ({ user, setUser }) => {
 
     const handleLogout = () => {
         logout();
+        setDarkMode(false); // Quita el darkMode de los componentes cuando se cierra sesión
         setUser(null);
         setIsMenuOpen(false); // Cierra el menú al cerrar sesión
     };
@@ -77,6 +78,7 @@ const LandingNavbar = ({ user, setUser }) => {
     }, []);
     
     return (
+        <>
         <nav className="bg-gray shadow-sm p-4 flex items-center justify-between border-b border-gray-100 relative z-10 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-100">
             {/* Logo de Airbnb a la izquierda */}
             <div className="flex items-center">
@@ -191,7 +193,7 @@ const LandingNavbar = ({ user, setUser }) => {
                             <span className="block px-4 py-2 text-gray-700 text-sm dark:text-gray-200 truncate">Hola, **{user.email.split('@')[0]}**</span>
                             <div className="border-t border-gray-100 my-1"></div> {/* Separador */}
                                     <Link
-                                        to="/profile"
+                                        to="/perfil"
                                         onClick={() => setIsMenuOpen(false)}
                                         className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-lg transition-colors duration-200 dark:text-gray-200 dark:hover:bg-gray-600"
                                     >
@@ -218,11 +220,12 @@ const LandingNavbar = ({ user, setUser }) => {
                                         Cerrar Sesión
                                     </button>                        
                         </div>
-                )}
-            </div>
-            </div>  
+                    )}
+                </div>
+            </div> 
         </nav>
-    );
+    </>
+    );    
 };
 
 export default LandingNavbar;

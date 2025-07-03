@@ -202,7 +202,7 @@ const ExperienciasDetalles = () => {
                         <button className="w-full bg-red-500 text-white py-3 rounded-lg font-semibold hover:bg-red-600 transition-colors duration-200">
                             Reservar
                         </button>
-                        <p className="text-center text-sm text-gray-500 mt-2 dark:text-gray-400">No se te cobrará nada aún</p>
+                        <p className="text-center text-sm text-gray-500 mt-2 dark:text-gray-400">Aún no se te cobrará nada</p>
                     </div>
                 </div>
             </div>

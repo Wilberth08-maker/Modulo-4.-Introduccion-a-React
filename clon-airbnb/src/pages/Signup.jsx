@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { registerUser } from "../utils/auth";
+import {useDarkMode} from '@/styles/DarkModeContent'
 
 // Componente signup (registro)
 const Signup = () => {
@@ -9,6 +10,7 @@ const Signup = () => {
     const [password, setPassword] = useState("");
     const [confirmPass, setConfirmPass] = useState("");
     const [error, setError] = useState("");
+    const {darkMode} = useDarkMode();
 
     // Hook para redirigir a otra ruta después del login
     const navigate = useNavigate()
@@ -61,8 +63,8 @@ const Signup = () => {
 
 
     return (
-        <div className="max-w-md w-full mx-auto p-8 rounded-xl shadow-lg bg-white mt-10 mb-10 md:mt-20 md:mb-20">
-            <h2 className="text-3xl font-extrabold mb-8 text-center text-gray-900">Crear Cuenta</h2>
+        <div className="max-w-md w-full mx-auto p-8 rounded-xl shadow-lg dark:bg-gray-800 bg-white mt-10 mb-10 md:mt-20 md:mb-20 dark:text-gray-100">
+            <h2 className="text-3xl font-extrabold mb-8 text-center text-gray-900 dark:text-white">Crear Cuenta</h2>
 
             {/* Muestra mensaje de error en caso de existir */}
             {error && (
@@ -73,14 +75,14 @@ const Signup = () => {
             <form className="space-y-6" onSubmit={handleSubmit}>
                 {/* Campo de correo */}
                 <div>
-                    <label htmlFor="email" className="block mb-2 font-medium text-gray-700">
+                    <label htmlFor="email" className="block mb-2 font-medium text-gray-700 dark:text-gray-100 ">
                         Correo Electrónico
                     </label>
                     <input
                         id="email"
                         type="email"
                         placeholder="usuario@ejemplo.com"
-                        className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition duration-200"
+                        className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition duration-200 dark:text-gray-100 dark:bg-gray-700"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
                         autoComplete="email"
@@ -91,14 +93,14 @@ const Signup = () => {
 
                 {/* Campo de contraseña */}
                 <div>
-                    <label htmlFor="password" className="block mb-2 font-medium text-gray-700">
+                    <label htmlFor="password" className="block mb-2 font-medium text-gray-700 dark:text-gray-100">
                         Contraseña
                     </label>
                     <input
                         id="password"
                         type="password"
                         placeholder="Ingresa tu contraseña"
-                        className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition duration-200"
+                        className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition duration-200 dark:text-gray-100 dark:bg-gray-700"
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
                         autoComplete="new-password"
@@ -108,14 +110,14 @@ const Signup = () => {
 
                 {/* campo para confirmar contraseña */}
                 <div>
-                    <label htmlFor="confirmPass" className="block mb-2 font-medium">
+                    <label htmlFor="confirmPass" className="block mb-2 font-medium dark:text-gray-100">
                         Confirmar contraseña
                     </label>
                     <input
                         id="confirmPass"
                         type="password"
                         placeholder="Confirmar Contraseña"
-                        className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition duration-200"
+                        className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition duration-200 dark:text-gray-100 dark:bg-gray-700"
                         value={confirmPass}
                         onChange={(e) => setConfirmPass(e.target.value)}
                         autoComplete="new-password"
