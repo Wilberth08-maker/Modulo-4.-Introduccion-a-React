@@ -5,6 +5,7 @@ import { useDarkMode } from '@/styles/DarkModeContent';
 
 // Componente para un video de ícono que se reproduce al hacer click
 const VideoIcon = ({ src, isPlaying }) => {
+
     const videoRef = React.useRef(null);
 
     // Efecto para controlar la reproducción del video
@@ -51,7 +52,7 @@ const LandingNavbar = ({ user, setUser }) => {
         setIsMenuOpen(false); // Cierra el menú al cerrar sesión
     };
 
-    // Función para manejar el clic en una sección central
+    // Función para manejar el clic en la sección central
     const handleSectionClick = (sectionName) => {
         // 1. Limpiar cualquier timer
         if (videoTimerRef.current) {
@@ -86,7 +87,7 @@ const LandingNavbar = ({ user, setUser }) => {
                     {/* SVG de Airbnb  */}
                     {/* IMAGEN DEL LOGO DE AIRBNB DESDE LA URL */}
                     <img
-                        src="https://www.svgrepo.com/show/475697/airbnb-color.svg" // <-- Aquí la URL de la imagen
+                        src="https://www.svgrepo.com/show/475697/airbnb-color.svg" // 
                         alt="Airbnb Logo" // <-- Texto alternativo para accesibilidad
                         className="w-8 h-8 md:w-10 md:h-10" // <-- Clases de tamaño y estilo
                     />
@@ -191,6 +192,40 @@ const LandingNavbar = ({ user, setUser }) => {
                     {isMenuOpen && (
                         <div className="absolute right-0 mt-3 w-48 bg-white border border-gray-200 rounded-xl shadow-lg py-2 z-20 animate-fadeInUp dark:bg-gray-700 dark:border-gray-600">
                             <span className="block px-4 py-2 text-gray-700 text-sm dark:text-gray-200 truncate">Hola, **{user.email.split('@')[0]}**</span>
+                                {/* Secciones visibles en móvil */}
+                                <Link
+                                    to="/"
+                                    onClick={() => {
+                                        handleSectionClick('alojamientos');
+                                        setIsMenuOpen(false);
+                                    }}
+                                    className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-lg transition-colors duration-200 dark:text-gray-200 dark:hover:bg-gray-600 md:hidden"
+                                >
+                                    Alojamientos
+                                </Link>
+
+                                <Link
+                                    to="/experiencias"
+                                    onClick={() => {
+                                        handleSectionClick('experiencias');
+                                        setIsMenuOpen(false);
+                                    }}
+                                    className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-lg transition-colors duration-200 dark:text-gray-200 dark:hover:bg-gray-600 md:hidden"
+                                >
+                                    Experiencias <span className="ml-2 bg-blue-900 text-white text-xs font-semibold px-2 py-0.5 rounded-full">Nuevo</span>
+                                </Link>
+
+                                <Link
+                                    to="/servicios"
+                                    onClick={() => {
+                                        handleSectionClick('servicios');
+                                        setIsMenuOpen(false);
+                                    }}
+                                    className="block px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-lg transition-colors duration-200 dark:text-gray-200 dark:hover:bg-gray-600 md:hidden"
+                                >
+                                    Servicios <span className="ml-2 bg-blue-900 text-white text-xs font-semibold px-2 py-0.5 rounded-full">Nuevo</span>
+                                </Link>
+                                {/* --------------------- */}
                             <div className="border-t border-gray-100 my-1"></div> {/* Separador */}
                                     <Link
                                         to="/perfil"
