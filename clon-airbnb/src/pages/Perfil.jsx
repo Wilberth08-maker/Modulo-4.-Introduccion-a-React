@@ -1,7 +1,9 @@
+import { useNavigate } from 'react-router-dom'; // Importamos useNavigate
 import {useDarkMode} from '@/styles/DarkModeContent'
 
 const Perfil = ({user}) => {
 
+    const navigate = useNavigate(); // Hook para navegación programática 
     const {darkMode} = useDarkMode();
 
     if (!user) {
@@ -15,6 +17,15 @@ const Perfil = ({user}) => {
     return(
         < div className="min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 p-6 md:p-10 lg:p-16 flex justify-center" >
             <div className="w-full max-w-2xl bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 md:p-8">
+                {/* Botón de regresar */}
+            <button
+                onClick={() => navigate(-1)} // Vuelve a la página anterior
+                className="flex items-center mb-6 justify-center bg-white dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-full w-10 h-10 shadow-md hover:bg-gray-100 dark:hover:bg-gray-600 transition-all duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-gray-300 focus:ring-opacity-75"
+            >
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 19l-7-7 7-7" />
+                </svg>
+            </button>
 
                 {/* Sección de la Cabecera del Perfil */}
                 <div className="flex flex-col items-center border-b pb-6 mb-6 border-gray-200 dark:border-gray-700">
