@@ -42,8 +42,8 @@ const Login = ({ setUser }) => {
     }
 
     return (
-        <div className="max-w-md w-full mx-auto p-8 rounded-xl shadow-lg bg-white mt-10 mb-10 md:mt-20 md:mb-20">
-            <h2 className="text-3xl font-extrabold mb-8 text-center text-gray-900">Iniciar Sesión</h2>
+        <div className="max-w-md w-full mx-auto p-8 rounded-xl shadow-lg bg-white mt-10 mb-10 md:mt-20 md:mb-20 dark:bg-gray-800 dark:text-gray-100">
+            <h2 className="text-3xl font-extrabold mb-8 text-center text-gray-900 dark:text-white">Iniciar Sesión</h2>
 
             {/* Muestra mensaje de error en caso de existir */}
             {error && (
@@ -54,14 +54,14 @@ const Login = ({ setUser }) => {
             <form className="space-y-6" onSubmit={handleSubmit}>
                 {/* campo de correo */}
                 <div>
-                    <label htmlFor="email" className="block mb-2 font-medium text-gray-700">
+                    <label htmlFor="email" className="block mb-2 font-medium text-gray-700 dark:text-gray-100">
                         Correo Electrónico
                     </label>
                     <input
                         id="email"
                         type="email"
                         placeholder="usuario@ejemplo.com"
-                        className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition duration-200"
+                        className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition duration-200 dark:text-gray-100 dark:bg-gray-700"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
                         autoComplete="username"
@@ -71,14 +71,14 @@ const Login = ({ setUser }) => {
 
                 {/* campo de contraseña */}
                 <div>
-                    <label htmlFor="password" className="block mb-2 font-medium text-gray-700">
+                    <label htmlFor="password" className="block mb-2 font-medium text-gray-700 dark:text-gray-100">
                         Contraseña
                     </label>
                     <input
                         id="password"
                         type="password"
                         placeholder="Ingresa tu contraseña"
-                        className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition duration-200"
+                        className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent transition duration-200 dark:text-gray-100 dark:bg-gray-700"
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
                         autoComplete="current-password"
@@ -95,7 +95,7 @@ const Login = ({ setUser }) => {
                 </button>
             </form>
             {/* Enlace a registro */}
-                <p className="mt-8 text-center text-gray-600 text-sm">
+                <p className="mt-8 text-center text-gray-600 text-sm dark:text-gray-100">
                     ¿No tienes una cuenta?{' '}
                     <Link to="/signup" className="text-red-500 hover:text-red-600 font-semibold hover:underline">
                     Regístrate aquí
