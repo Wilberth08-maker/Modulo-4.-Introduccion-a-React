@@ -24,6 +24,8 @@ const Alojamientos = () => {
             setLoading(true);
             setCardsBlurred(true);
             setError(null);
+
+            // Simular carga
             const timer = new Promise((res) => setTimeout(res, 2000));
 
             const fetchPromise = fetch('/data/alojamientos.json');
@@ -90,11 +92,12 @@ const Alojamientos = () => {
 
     // ------------
 
-    // Lógica de paginación en el frontend
+    // Lógica de paginación 
     const totalPages = Math.ceil(alojamientosFilter.length / itemsPerPage);
     const startIndex = (currentPage - 1) * itemsPerPage;
     const endIndex = startIndex + itemsPerPage;
 
+    // Memoriza el bloque actual de alojamientos visible
     const currentAlojamientos = useMemo(() => {
         return alojamientosFilter.slice(startIndex, endIndex); 
     },[alojamientosFilter, startIndex, endIndex]);
@@ -104,13 +107,13 @@ const Alojamientos = () => {
         if (!loading && !pageLoading && currentAlojamientos.length > 0) {
             // Un pequeño retraso para asegurar que los spinners se oculten primero
             const timer = setTimeout(() => {
-                setCardsBlurred(false); // Haz las tarjetas nítidas después de la transición de página
+                setCardsBlurred(false); // Tarjetas nítidas después de la transición de página
             }, 500); // 
             return () => clearTimeout(timer);
         }   else if (!loading && !pageLoading && currentAlojamientos.length === 0) {
             setCardsBlurred(false); // Si no hay resultados
         }
-    }, [currentAlojamientos, loading, pageLoading]); // Dependencias para re-ejecutar
+    }, [currentAlojamientos, loading, pageLoading]); 
 
     // Función para manejar el cambio de página con loading
     const changePage = useCallback(async (newPage) => {

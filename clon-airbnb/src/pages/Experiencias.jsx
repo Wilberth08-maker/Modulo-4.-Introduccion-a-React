@@ -1,6 +1,7 @@
 import { useEffect, useState, useCallback, useMemo } from 'react';
 import PagButtons from '@/components/PageButtons/PageButtons';
 import {Link} from 'react-router-dom';
+import FilterPanel from '@/components/FilterPanel/FilterPanel';
 
 const Experiencias = () => {
     const [experiencias, setExperiencias] = useState([]);
@@ -10,10 +11,14 @@ const Experiencias = () => {
     const [currentPage, setCurrentPage] = useState(1); // Nuevo estado para la página actual
     const itemsPerPage = 24; // Mostrar 24 tarjetas por página
 
+    const [citySearch, setCitySearch] = useState("");
+    const [minPrice, setMinPrice] = useState("");
+    const [maxPrice, setMaxPrice] = useState("");
+    const [experienciasFilter, setExperienciasFilter] = useState([]);
+
     const [cardsBlurred, setCardsBlurred] = useState(true); // Inicia borroso
 
-    useEffect(() => {
-        const fetchExperiencias = async () => {
+    const fetchExperiencias = useCallback(async () => {
             try {
                 setLoading(true);
                 setCardsBlurred(true);
@@ -28,6 +33,7 @@ const Experiencias = () => {
                 const data = await res.json();
                 
                 setExperiencias(data);
+                setExperienciasFilter(data);
 
                 setTimeout(() => {
                     setCardsBlurred(false); // Tarjetas nítidas
@@ -41,31 +47,71 @@ const Experiencias = () => {
             } finally {
                 setLoading(false);
             }
-        };
+    },[setLoading, setCardsBlurred, setError, setExperiencias, setExperienciasFilter]);
 
+    useEffect(() => {
         fetchExperiencias();
-    }, []);
+    }, [fetchExperiencias]);
 
-    // Lógica de paginación en el frontend
-    const totalPages = Math.ceil(experiencias.length / itemsPerPage);
+    // Lógica de filtrado
+    //--------------------
+    const handleFilter = useCallback(({city, minPrice, maxPrice}) => {
+        const min = parseFloat(minPrice);
+        const max = parseFloat(maxPrice);
+
+        const filtrados = experiencias.filter(({ubicacion, precio}) => {
+            const ciudadOK = !city.trim() || ubicacion.toLowerCase().includes(city.toLowerCase());
+            const precioOK =
+                (isNaN(min) || precio >= min) &&
+                (isNaN(max) || precio <= max);
+
+            return ciudadOK && precioOK;
+        });
+
+        setExperienciasFilter(filtrados);
+        setCurrentPage(1);
+        setCardsBlurred(true);
+        setError(null);
+    }, [experiencias, setExperienciasFilter, setCurrentPage, setError, setCardsBlurred])
+
+    const handleClearFilters = useCallback(() => {
+        setCitySearch("");
+        setMinPrice("");
+        setMaxPrice("");
+        setError(null);
+        setCurrentPage(1); 
+        setCardsBlurred(true); 
+
+        
+        handleFilter({ city: "", minPrice: "", maxPrice: "" });
+    }, [handleFilter, setCitySearch, setMinPrice, setMaxPrice, setError, setCurrentPage, setCardsBlurred]); 
+
+    // ------------
+
+    
+
+    // Lógica de paginación
+    const totalPages = Math.ceil(experienciasFilter.length / itemsPerPage);
     const startIndex = (currentPage - 1) * itemsPerPage;
     const endIndex = startIndex + itemsPerPage;
 
+    // Memoriza el bloque actual de experiencias visible
     const currentExperiencias = useMemo(() => {
-        setCardsBlurred(true);
-        return experiencias.slice(startIndex, endIndex); 
-    },[experiencias, startIndex, endIndex]);
+        return experienciasFilter.slice(startIndex, endIndex); 
+    },[experienciasFilter, startIndex, endIndex]);
 
     // useEffect para re-activar el efecto de desenfoque cuando currentExperiencias cambia
     useEffect(() => {
         if (!loading && !pageLoading && currentExperiencias.length > 0) {
             // Un pequeño retraso para asegurar que los spinners se oculten primero
             const timer = setTimeout(() => {
-                setCardsBlurred(false); // Haz las tarjetas nítidas después de la transición de página
+                setCardsBlurred(false); // Tarjetas nítidas después de la transición de página
             }, 500); // 
             return () => clearTimeout(timer);
+        }   else if (!loading && !pageLoading && currentExperiencias.length === 0) {
+            setCardsBlurred(false); // Si no hay resultados
         }
-    }, [currentExperiencias, loading, pageLoading]); // Dependencias para re-ejecutar
+    }, [currentExperiencias, loading, pageLoading]); 
 
     // Función para manejar el cambio de página con loading
     const changePage = useCallback(async (newPage) => {
@@ -74,21 +120,19 @@ const Experiencias = () => {
         await new Promise(resolve => setTimeout(resolve, 500)); // Pequeña pausa para ver el spinner
         setCurrentPage(newPage);
         setPageLoading(false); // Desactiva el loading
-    }, []);
+    }, [setPageLoading, setCardsBlurred, setCurrentPage]);
 
-    const handleNextPage = () => {
+    const handleNextPage = useCallback(() => {
         if (currentPage < totalPages) {
             changePage(currentPage + 1);
         }
-    };
+    },[currentPage, totalPages, changePage]);
 
-    const handlePreviousPage = () => {
+    const handlePreviousPage = useCallback(() => {
         if (currentPage > 1) {
             changePage(currentPage - 1);
         }
-    };
-
-    if (error) return <p className="text-red-500">Error: {error}</p>;
+    }, [currentPage, changePage]);
 
     return (
         <div className="flex flex-col items-center p-6 bg-white dark:bg-gray-900 text-black dark:text-white min-h-screen">
@@ -112,12 +156,30 @@ const Experiencias = () => {
                 </div>
             ) : (
                 <>
+                    <div className="w-full flex justify-center py-4 px-4 md:px-0">
+                        <div className="w-full max-w-6xl">
+                            <FilterPanel
+                                    citySearch={citySearch}
+                                    setCitySearch={setCitySearch}
+                                    minPrice={minPrice}
+                                    setMinPrice={setMinPrice}
+                                    maxPrice={maxPrice}
+                                    setMaxPrice={setMaxPrice}
+                                    onFilter={handleFilter}
+                                    onClearFilters={handleClearFilters}
+                            />
+                        </div>
+                    </div>
                 {/* Paginación */}
                     <PagButtons
                             info={{ prev: currentPage > 1, next: currentPage < totalPages }}
                             onPrevious={handlePreviousPage}
                             onNext={handleNextPage}
                         /> 
+                    {/* Muestra mensaje de error en caso de existir */}
+                    {error && (
+                        <p className="mb-6 text-red-500 font-semibold text-center text-sm">{error}</p>
+                    )}
 
                     {/* Contenedor principal de las tarjetas */}
                     <div className={`
@@ -126,7 +188,8 @@ const Experiencias = () => {
                             transition-all duration-500 ease-in-out 
                             ${cardsBlurred ? 'blur-md' : 'blur-none'}
                         `}>
-                        {currentExperiencias.map(exp => (
+                        {currentExperiencias.length > 0 ? (
+                            currentExperiencias.map(exp => (
                             <Link 
                             key={exp.id} 
                             to={`/experiencias/${exp.id}`}
@@ -139,6 +202,7 @@ const Experiencias = () => {
                                         alt={exp.titulo}
                                         className="w-full h-full object-cover transform transition-transform duration-300 group-hover:scale-105"
                                         aria-label={`Tarjeta de la experiencia ${exp.titulo}`}
+                                        loading="lazy"
 
                                     />
                                     {/* Botón de estado */}
@@ -160,7 +224,7 @@ const Experiencias = () => {
                                     </button>
                                 </div>
 
-                                {/* Información del alojamiento */}
+                                {/* Información de la experiencia */}
                                 <div className="text-sm">
                                     <h3 className="font-bold text-gray-900 dark:text-white truncate">
                                         {exp.titulo}
@@ -178,14 +242,25 @@ const Experiencias = () => {
                                     </p>
                                 </div>
                             </Link>
-                        ))}
+                        ))
+                    ):(
+                        // Mensaje para cuando no hay alojamientos que mostrar
+                        !loading && !error && (
+                            <p className="col-span-full text-center text-gray-500 dark:text-gray-400">
+                                    No hay alojamientos disponibles con los filtros actuales.
+                            </p>
+                        )
+
+                    )}
                     </div>
                     {/* Paginación */}
-                    <PagButtons
+                    {experienciasFilter.length > 0 && !error && (
+                        <PagButtons
                             info={{ prev: currentPage > 1, next: currentPage < totalPages }}
                             onPrevious={handlePreviousPage}
                             onNext={handleNextPage}
-                        />    
+                        /> 
+                    )}
                 </>
             )}       
         </div>

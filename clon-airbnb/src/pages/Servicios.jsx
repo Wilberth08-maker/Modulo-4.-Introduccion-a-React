@@ -1,6 +1,7 @@
 import { useEffect, useState, useCallback, useMemo } from 'react';
 import PagButtons from '@/components/PageButtons/PageButtons';
 import {Link} from 'react-router-dom';
+import FilterPanel from '@/components/FilterPanel/FilterPanel';
 
 const Servicios = () => {
     const [servicios, setServicios] = useState([]);
@@ -10,13 +11,19 @@ const Servicios = () => {
     const [currentPage, setCurrentPage] = useState(1); // Nuevo estado para la página actual
     const itemsPerPage = 24; // Mostrar 24 tarjetas por página
 
+    const [citySearch, setCitySearch] = useState("");
+    const [minPrice, setMinPrice] = useState("");
+    const [maxPrice, setMaxPrice] = useState("");
+    const [serviciosFilter, setServiciosFilter] = useState([]);
+
     const [cardsBlurred, setCardsBlurred] = useState(true); // Inicia borroso
 
-    useEffect(() => {
-        const fetchServicios = async () => {
+    const fetchServicios = useCallback(async () => {
             try {
                 setLoading(true);
                 setCardsBlurred(true);
+
+                // Simular carga
                 const timer = new Promise((res) => setTimeout(res, 2000));
 
                 const fetchPromise = fetch('/data/servicios.json');
@@ -28,6 +35,7 @@ const Servicios = () => {
                 const data = await res.json();
                 
                 setServicios(data);
+                setServiciosFilter(data);
 
                 setTimeout(() => {
                     setCardsBlurred(false); // Tarjetas nítidas
@@ -41,32 +49,69 @@ const Servicios = () => {
             } finally {
                 setLoading(false);
             }
-        };
+    },[setLoading, setCardsBlurred, setError, setServicios, setServiciosFilter]);
 
+    useEffect(() => {
         fetchServicios();
-    }, []);
+    }, [fetchServicios]);
 
-    // Lógica de paginación en el frontend
-    const totalPages = Math.ceil(servicios.length / itemsPerPage);
+    // Lógica de Filtrado
+    //--------------------
+    const handleFilter = useCallback(({ city, minPrice, maxPrice }) => {
+    const min = parseFloat(minPrice);
+    const max = parseFloat(maxPrice);
+
+    const filtrados = servicios.filter(({ ubicacion, precio }) => {
+            const ciudadOK = !city.trim() || ubicacion.toLowerCase().includes(city.toLowerCase());
+            const precioOK =
+                (isNaN(min) || precio >= min) &&
+                (isNaN(max) || precio <= max);
+
+            return ciudadOK && precioOK;
+        });
+
+        setServiciosFilter(filtrados);
+        setCurrentPage(1);
+        setCardsBlurred(true);
+        setError(null);
+    }, [servicios, setServiciosFilter, setCurrentPage, setError, setCardsBlurred]);
+
+    const handleClearFilters = useCallback(() => {
+        setCitySearch("");
+        setMinPrice("");
+        setMaxPrice("");
+        setError(null);
+        setCurrentPage(1); 
+        setCardsBlurred(true); 
+
+        
+        handleFilter({ city: "", minPrice: "", maxPrice: "" });
+    }, [handleFilter, setCitySearch, setMinPrice, setMaxPrice, setError, setCurrentPage, setCardsBlurred]); 
+
+    // ------------
+
+    // Lógica de paginación 
+    const totalPages = Math.ceil(serviciosFilter.length / itemsPerPage);
     const startIndex = (currentPage - 1) * itemsPerPage;
     const endIndex = startIndex + itemsPerPage;
 
-    // Memoriza el bloque actual de servicios visible y activa el desenfoque visual
+    // Memoriza el bloque actual de servicios visible
     const currentServicios = useMemo(() => {
-        setCardsBlurred(true);
-        return servicios.slice(startIndex, endIndex); 
-    },[servicios, startIndex, endIndex]);
+        return serviciosFilter.slice(startIndex, endIndex); 
+    },[serviciosFilter, startIndex, endIndex]);
 
     // useEffect para re-activar el efecto de desenfoque cuando currentServicios cambia
     useEffect(() => {
         if (!loading && !pageLoading && currentServicios.length > 0) {
             // Un pequeño retraso para asegurar que los spinners se oculten primero
             const timer = setTimeout(() => {
-                setCardsBlurred(false); // Haz las tarjetas nítidas después de la transición de página
+                setCardsBlurred(false); // Tarjetas nítidas después de la transición de página
             }, 500); // 
             return () => clearTimeout(timer);
+        }   else if (!loading && !pageLoading && currentServicios.length === 0) {
+            setCardsBlurred(false); // Si no hay resultados
         }
-    }, [currentServicios, loading, pageLoading]); // Dependencias para re-ejecutar
+    }, [currentServicios, loading, pageLoading]); 
 
     // Función para manejar el cambio de página con loading
     const changePage = useCallback(async (newPage) => {
@@ -75,21 +120,19 @@ const Servicios = () => {
         await new Promise(resolve => setTimeout(resolve, 500)); // Pequeña pausa para ver el spinner
         setCurrentPage(newPage);
         setPageLoading(false); // Desactiva el loading
-    }, []);
+    }, [setPageLoading, setCardsBlurred, setCurrentPage]);
 
-    const handleNextPage = () => {
+    const handleNextPage = useCallback(() => {
         if (currentPage < totalPages) {
             changePage(currentPage + 1);
         }
-    };
+    }, [currentPage, totalPages, changePage]);
 
-    const handlePreviousPage = () => {
+    const handlePreviousPage = useCallback(() => {
         if (currentPage > 1) {
             changePage(currentPage - 1);
         }
-    };
-
-    if (error) return <p className="text-red-500">Error: {error}</p>;
+    },[currentPage, changePage]);
 
     return (
         <div className="flex flex-col items-center p-6 bg-white dark:bg-gray-900 text-black dark:text-white min-h-screen">
@@ -113,12 +156,31 @@ const Servicios = () => {
                 </div>
             ) : (
                 <>
+                    <div className="w-full flex justify-center py-4 px-4 md:px-0">
+                        <div className="w-full max-w-6xl">
+                            <FilterPanel
+                                    citySearch={citySearch}
+                                    setCitySearch={setCitySearch}
+                                    minPrice={minPrice}
+                                    setMinPrice={setMinPrice}
+                                    maxPrice={maxPrice}
+                                    setMaxPrice={setMaxPrice}
+                                    onFilter={handleFilter}
+                                    onClearFilters={handleClearFilters} 
+                            />
+                        </div>
+                </div>
                 {/* Paginación */}
                     <PagButtons
                             info={{ prev: currentPage > 1, next: currentPage < totalPages }}
                             onPrevious={handlePreviousPage}
                             onNext={handleNextPage}
-                        /> 
+                    /> 
+
+                    {/* Muestra mensaje de error en caso de existir */}
+                    {error && (
+                        <p className="mb-6 text-red-500 font-semibold text-center text-sm">{error}</p>
+                    )}
 
                     {/* Contenedor principal de las tarjetas */}
                     <div className={`
@@ -127,7 +189,8 @@ const Servicios = () => {
                             transition-all duration-500 ease-in-out 
                             ${cardsBlurred ? 'blur-md' : 'blur-none'}
                         `}>
-                        {currentServicios.map(serv => (
+                        {currentServicios.length > 0 ? (
+                            currentServicios.map(serv => (
                             <Link 
                             key={serv.id} 
                             to={`/servicios/${serv.id}`}
@@ -140,6 +203,7 @@ const Servicios = () => {
                                         alt={serv.titulo}
                                         className="w-full h-full object-cover transform transition-transform duration-300 group-hover:scale-105"
                                         aria-label={`Tarjeta del servicio ${serv.titulo}`}
+                                        loading='lazy'
 
                                     />
                                     {/* Botón de favorito */}
@@ -176,14 +240,24 @@ const Servicios = () => {
                                     </p>
                                 </div>
                             </Link>
-                        ))}
+                        ))
+                    ):(
+                        // Mensaje para cuando no hay alojamientos que mostrar
+                        !loading && !error && (
+                            <p className="col-span-full text-center text-gray-500 dark:text-gray-400">
+                                    No hay alojamientos disponibles con los filtros actuales.
+                            </p>
+                        )
+                    )}
                     </div>
                     {/* Paginación */}
-                    <PagButtons
+                    {serviciosFilter.length > 0 && !error && (
+                        <PagButtons
                             info={{ prev: currentPage > 1, next: currentPage < totalPages }}
                             onPrevious={handlePreviousPage}
                             onNext={handleNextPage}
-                        />    
+                        />   
+                    )} 
                 </>
             )}       
         </div>

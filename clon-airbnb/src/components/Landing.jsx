@@ -1,8 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Asumiendo que usas react-router-dom para Link
+import { Link } from 'react-router-dom'; 
 
-// Puedes reemplazar esta URL con la ruta a tu propia imagen o una URL de CDN
-const heroImageUrl = 'https://a0.muscache.com/im/pictures/dec2bf99-0d90-48b9-a905-23b8bee08995.jpg?im_w=1200';
+const imageURL = 'https://a0.muscache.com/im/pictures/dec2bf99-0d90-48b9-a905-23b8bee08995.jpg?im_w=1200';
 
 const Landing = () => { 
     return (
@@ -37,7 +36,7 @@ const Landing = () => {
             <div className="flex-1 hidden md:flex items-center justify-center p-4 bg-gray-100">
                 <div className="relative w-full h-full max-h-[80vh] md:max-h-full overflow-hidden rounded-lg shadow-xl">
                     <img
-                        src={heroImageUrl}
+                        src={imageURL}
                         alt="Interior moderno con diseño minimalista"
                         className="w-full h-full object-cover object-center transform transition-transform duration-500 hover:scale-105"
                     />
